@@ -1,1 +1,1 @@
-# realitymediabook.github.io
+# Placeholder Website for Reality Media digital book
