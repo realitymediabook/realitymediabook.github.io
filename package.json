@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/vincentchan"
   },
+  "scripts": {
+    "build": "gulp"
+  },
   "devDependencies": {
     "browser-sync": "~2.9.7",
     "concurrent-transform": "^1.0.0",

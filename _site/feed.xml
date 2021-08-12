@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Reality Media</title>
+		<description>How augmented reality and virtual reality are taking their places in contemporary media culture alongside film and television</description>
+		<link>https://realitymedia.digital</link>
+		<atom:link href="https://realitymedia.digital/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Introduction</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Sun, 14 Dec 2014 20:00:00 -0500</pubDate>
+				<link>https://realitymedia.digital/a-life-of-walt-disney.html</link>
+				<guid isPermaLink="true">https://realitymedia.digital/a-life-of-walt-disney.html</guid>
+			</item>
+		
+			<item>
+				<title>Mickey Mouse</title>
+				
+				
+					<description>Mickey Mouse is a funny animal cartoon character and the official mascot of...</description>
+				
+				<pubDate>Thu, 27 Nov 2014 20:00:00 -0500</pubDate>
+				<link>https://realitymedia.digital/mickey-mouse.html</link>
+				<guid isPermaLink="true">https://realitymedia.digital/mickey-mouse.html</guid>
+			</item>
+		
+			<item>
+				<title>Television and later films</title>
+				
+				
+					<description>Mickey first appeared animated in color in Parade of the Award Nominees in 1932, however the film strip was...</description>
+				
+				<pubDate>Thu, 15 Dec 1983 20:00:00 -0500</pubDate>
+				<link>https://realitymedia.digital/television.html</link>
+				<guid isPermaLink="true">https://realitymedia.digital/television.html</guid>
+			</item>
+		
+			<item>
+				<title>Color films</title>
+				
+				
+					<description>Mickey first appeared animated in color in Parade of the Award Nominees in 1932, however the film strip was...</description>
+				
+				<pubDate>Thu, 17 Nov 1932 20:00:00 -0500</pubDate>
+				<link>https://realitymedia.digital/color-films.html</link>
+				<guid isPermaLink="true">https://realitymedia.digital/color-films.html</guid>
+			</item>
+		
+			<item>
+				<title>Comics</title>
+				
+				
+					<description>Mickey first appeared in comics after he had appeared in 15 commercially successful animated shorts and was easily recognized by ...</description>
+				
+				<pubDate>Sun, 12 Jan 1930 20:00:00 -0500</pubDate>
+				<link>https://realitymedia.digital/comics.html</link>
+				<guid isPermaLink="true">https://realitymedia.digital/comics.html</guid>
+			</item>
+		
+			<item>
+				<title>Black and white films</title>
+				
+				
+					<description>In Mickey's early films he was often characterized not as a hero, but as an ineffective young suitor to Minnie Mouse...</description>
+				
+				<pubDate>Wed, 27 Mar 1929 20:00:00 -0500</pubDate>
+				<link>https://realitymedia.digital/black-and-white-films.html</link>
+				<guid isPermaLink="true">https://realitymedia.digital/black-and-white-films.html</guid>
+			</item>
+		
+			<item>
+				<title>Mickey Mouse's Debut</title>
+				
+				
+					<description>Disney had Ub Iwerks secretly begin animating a new cartoon while still under contract with Universal...</description>
+				
+				<pubDate>Sat, 17 Nov 1928 20:00:00 -0500</pubDate>
+				<link>https://realitymedia.digital/debut.html</link>
+				<guid isPermaLink="true">https://realitymedia.digital/debut.html</guid>
+			</item>
+		
+	</channel>
+</rss>

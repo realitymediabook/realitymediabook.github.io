@@ -27,6 +27,9 @@ layout: default
         <div class="postMeta-wrapper">
           <ul class="postMeta">
             <li class="postMeta-datetime">
+                  {{ page.chapter }}
+              </li>
+              <!-- <li class="postMeta-datetime">
               <time datetime="{{ page.date }}">
                 {{ page.date | date_to_string }}
               </time>
@@ -35,7 +38,7 @@ layout: default
               By {{ site.author.name }}
             </li>
             <li class="postMeta-tags">
-              {{ page.categories }}
+              {{ page.categories }} -->
             </li>
           </ul>
         </div>
@@ -53,12 +56,6 @@ layout: default
     <hr class="u-clearHr"/>
     <hr class="u-clearHr"/>
     <hr/>
-    <div class="container container--content">
-      <div class="content-body">
-        {% include subscribe.html %}
-        {% include comments.html %}
-      </div>
-    </div>
   </section>
   <footer class="postFooter">
     {% if page.previous.url %}
