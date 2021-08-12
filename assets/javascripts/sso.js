@@ -67,7 +67,7 @@ window.SSO = {}
 updateLoginStatus();
 
 window.addEventListener('storage', function(e) {
-    if (e.key === " __ael_hubs_sso") {
+    if (e.key === "__ael_hubs_sso") {
         updateLoginStatus(e.newValue)           
     }
 });
