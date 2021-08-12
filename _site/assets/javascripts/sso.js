@@ -7,6 +7,44 @@ function maskEmail(email) {
     return `${truncatedIdentity}...@${emailDomain}`;
   }
   
+function getUserData(credentials) {
+    let url = "/sso/user/?email=" + encodeURIComponent(credentials.email) + "&token=" + encodeURIComponent(credentials.token);
+    const request = {
+        method: "GET",
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    };
+
+    return fetch(url, request).then(response => {
+        console.log("get user info reply: ", response)
+        if (!response.ok) {
+            switch(response.status) {
+                case 400:  
+                  response.json().then(data => {
+                      console.error("Error calling SSO Server:", data);
+                  });
+                  break;
+
+                case 500:
+                  response.json().then(data => {
+                      console.error("Error calling SSO Server:", data);
+                  });
+                  break;
+            }        
+            return
+        }
+
+        if (response.status == 200) {
+            response.json().then(user => {
+                window.SSO.userInfo = user
+            })
+        }
+    }).catch(e => {
+        console.error("Call to SSO Server failed: ", e)
+        return null
+    })
+}
 
 function updateLoginStatus(newValue) {
     let div = document.querySelector('#login-status');
@@ -17,12 +55,15 @@ function updateLoginStatus(newValue) {
         data = JSON.parse(newValue)
         if (data.email) {
             div.innerHTML = "Signed in as <em>" + maskEmail(data.email) + "</em>"
+            getUserData(data)
             return;
         } 
     }
     div.innerHTML = "Not signed in"
+    window.SSO.userInfo = null
 }
 
+window.SSO = {}
 updateLoginStatus();
 
 window.addEventListener('storage', function(e) {
