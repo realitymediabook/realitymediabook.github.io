@@ -1596,6 +1596,13 @@ body {
   padding: 0;
 }
 
+.menuWrapper ul .menu-login {
+  height: 44px;
+  margin-top: 6px;
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
 .menuWrapper ul a {
   display: block;
   color: #333;
@@ -1619,6 +1626,11 @@ body {
 
 .menuWrapper ul li:hover > ul {
   display: block;
+}
+
+.menuWrapper ul .menu-login:hover {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .list--avatarMenu .list-item {

@@ -278,6 +278,13 @@
     padding: 0;
   }
 
+  .menu-login {
+      height: 44px;
+      margin-top: 6px;
+      margin-left: 15px;
+      color: rgba($white,.8)
+  }
+
   a {
     display: block;
     color: #333;
@@ -302,6 +309,10 @@
   > ul {
     display: block;
   }
+}
+.menuWrapper ul .menu-login:hover {
+    // display: block;
+    opacity: 1;
 }
 
 .list--avatarMenu {
