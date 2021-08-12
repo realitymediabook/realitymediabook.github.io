@@ -15,8 +15,8 @@ function updateLoginStatus(newValue) {
     }
     if (newValue) {
         data = JSON.parse(newValue)
-        if (data.credentials && data.credentials.email) {
-            div.innerHTML = "Signed in as <em>" + maskEmail(data.credentials.email) + "</em>"
+        if (data.email) {
+            div.innerHTML = "Signed in as <em>" + maskEmail(data.email) + "</em>"
             return;
         } 
     }
