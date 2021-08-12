@@ -14,8 +14,7 @@ function updateLoginStatus(newValue) {
         newValue = window.localStorage.getItem("__ael_hubs_sso")
     }
     if (newValue) {
-
-        data = JSON.parse(e.newValue)
+        data = JSON.parse(newValue)
         if (data.credentials && data.credentials.email) {
             div.innerHTML = "Signed in as <em>" + maskEmail(data.credentials.email) + "</em>"
             return;
