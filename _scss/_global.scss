@@ -1,0 +1,81 @@
+//
+// Global
+// --------------------------------------------------
+
+html,
+body {
+  overflow-x: hidden;
+
+  @media (max-width: $screen-xs-max) {
+    padding-right: 0;
+  }
+}
+
+.brandLogo {
+  background-image: url(../images/logo-white.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding: 0;
+  text-indent: -100em;
+  overflow: hidden;
+}
+
+.brandLogo--small {
+  width: 44px;
+  height: 44px;
+}
+
+.brandLogo--black {
+  background-image: url(../images/logo-black.svg);
+}
+
+.textLogo {
+  display: block;
+  background-image: url(../images/logo-text-black.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding: 0;
+  text-indent: -100em;
+  overflow: hidden;
+}
+
+.textLogo--white {
+  background-image: url(../images/logo-text-white.svg);
+}
+
+.textLogo--sidebar {
+  width: 100%;
+  height: auto;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.textLogo--frontpage {
+  position: absolute;
+  top: 100px;//132px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: $zIndex-5--textlogo-frontpage;
+  margin: 0;
+  width: 400px;
+//   width: 276px;
+  height: 100px;
+//   height: 50px;
+  background-size: 100%;
+  background-position: 0;
+  opacity: 0.9;
+  text-shadow: 0px 0px 3px $gray-lighter;
+
+  @media (max-width: $screen-xs-max) {
+    width: 250px; // 182px;
+    height: 50px; //33px;
+    top: 75px; //99px;
+  }
+}
