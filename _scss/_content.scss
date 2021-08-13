@@ -76,7 +76,8 @@
     }
   }
 
-  li:nth-child(1).block {
+  li:nth-child(1).block,
+  li:nth-child(8).block {
     width: 100%;
 
     .postArticle-image {

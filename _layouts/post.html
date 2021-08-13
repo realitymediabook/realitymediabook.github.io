@@ -58,27 +58,27 @@ layout: default
     <hr/> -->
   </section>
   <footer class="postFooter">
-    {% if page.previous.url %}
+    {% if page.next.url %}
       <section class="section--prePost is-darkBackgrounded u-table">
         <div class="section-backgroundImage section-backgroundImage--previousPage">
           <img class="post-featuredImage"
-          {% if page.previous.image.feature %}
-            src="{{ page.previous.image.feature | prepend: site.baseurl_featured_img }}"
+          {% if page.next.image.feature %}
+            src="{{ page.next.image.feature | prepend: site.baseurl_featured_img }}"
           {% endif %}
           style="top:0" alt="">
         </div>
         <div class="section-gradient
-        {% if page.previous.bgGradientOpacity == "darker" %}
+        {% if page.next.bgGradientOpacity == "darker" %}
           section-gradient--darker
-        {% elsif page.previous.bgGradientOpacity == "lighter" %}
+        {% elsif page.next.bgGradientOpacity == "lighter" %}
           section-gradient--lighter
         {% endif %}
         "></div>
         <div class="section-title u-tableCell u-verticalAlignMiddle">
           <div class="container">
-            <h4>Next story:</h4>
-            <a class="prev" href="{{page.previous.url}}">
-              <h2>{{page.previous.title}}</h2>
+            <h4>Next chapter:</h4>
+            <a class="next" href="{{page.next.url}}">
+              <h2>{{page.next.title}}</h2>
             </a>
           </div>
         </div>

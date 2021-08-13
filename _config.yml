@@ -4,7 +4,7 @@ markdown:            redcarpet
 highlighter:         pygments
 
 # Permalinks
-permalink:           /:title.html
+#permalink:           /:title.html
 #relative_permalinks: true
 
 # Setup
@@ -44,3 +44,17 @@ defaults:
       type: "posts"
     values:
       layout: "default"
+
+collections:
+  chapters:
+    output: true
+    sort_by: order
+    order:
+      - chapter0-intro.md
+      - chapter1.md
+      - chapter2.md
+      - chapter3-4.md
+      - chapter5.md
+      - chapter6.md
+      - chapter7-9.md
+      - chapter10.md
