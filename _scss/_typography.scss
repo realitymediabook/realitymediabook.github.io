@@ -3,6 +3,7 @@
 // --------------------------------------------------
 //
 // Credit: Modified based on Typebase.less v0.1.0 | MIT License
+@use "sass:math";
 
 // Typesetting variables.
 $baseFontSize:       22; // in pixels. This would result in 22px on desktop
@@ -32,7 +33,7 @@ $title-secondary-font: 'Roboto', sans-serif;
 html {
   /* Change default typefaces here */
   font-family: $body-primary-font;
-  font-size: $baseFontSize / 16 * 100%; // 14px
+  font-size: math.div($baseFontSize, 16) * 100%; // 14px
   font-weight: 400;
   color: $text-color;
   -webkit-font-smoothing: antialiased;
