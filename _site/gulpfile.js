@@ -24,6 +24,15 @@ gulp.task('jekyll-build', function (done) {
 });
 
 /**
+ * Build the dev Jekyll Site
+ */
+ gulp.task('jekyll-build-dev', function (done) {
+    browserSync.notify(messages.jekyllBuild);
+    return cp.spawn('jekyll', ['build', '--config=_config.yml,_config-dev.yml'], {stdio: 'inherit'})
+        .on('close', done);
+});
+
+/**
  * Wait for jekyll-build, then launch the Server
  */
 gulp.task('browser-sync', ['styles', 'jekyll-build'], function() {
@@ -97,8 +106,13 @@ gulp.task('watch', function() {
   gulp.watch("_site/index.html").on('change', browserSync.reload);
 });
 
+gulp.task('build', ['thumbnails', 'styles', 'jekyll-build-dev', 'jekyll-build']);
+
+gulp.task('dev', ['thumbnails', 'browser-sync', 'jekyll-build-dev', 'watch']);
+
 /**
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['thumbnails', 'browser-sync', 'watch']);
+
+ gulp.task('default', ['dev']);

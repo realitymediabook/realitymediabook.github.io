@@ -9,7 +9,8 @@
     "url": "https://github.com/vincentchan"
   },
   "scripts": {
-    "build": "gulp"
+    "build": "gulp build",
+    "dev": "gulp dev"
   },
   "devDependencies": {
     "browser-sync": "~2.9.7",
