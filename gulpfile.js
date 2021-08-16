@@ -103,7 +103,7 @@ function watch() {
   gulp.watch("_site/index.html").on('change', browserSync.reload);
 }
 
-var build = gulp.series(thumbnails, styles, jekyllbuildgitdocs);
+var build = gulp.series(thumbnails, styles, jekyllbuild);
 
 var builddeps = gulp.series(thumbnails, styles);
 
