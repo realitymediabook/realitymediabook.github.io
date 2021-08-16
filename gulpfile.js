@@ -25,8 +25,7 @@ function jekyllbuild (done) {
 /**
  * Build the dev Jekyll Site
  */
-function jekyllbuilddev (done) {
-    browserSync.notify(messages.jekyllBuild);
+function jekyllbuildgitdocs (done) {
     return cp.spawn('jekyll', ['build', '--config=_config.yml,_config-dev.yml'], {stdio: 'inherit'})
         .on('close', done);
 }
@@ -104,7 +103,7 @@ function watch() {
   gulp.watch("_site/index.html").on('change', browserSync.reload);
 }
 
-var build = gulp.series(thumbnails, styles, jekyllbuilddev,jekyllbuild);
+var build = gulp.series(thumbnails, styles, jekyllbuildgitdocs);
 
 var dev = gulp.series(thumbnails, styles, jekyllbuild, browsersync, watch);
 
@@ -116,7 +115,7 @@ var dev = gulp.series(thumbnails, styles, jekyllbuild, browsersync, watch);
 exports.styles = styles;
 exports.thumbnails = thumbnails;
 exports.jekyllbuild = jekyllbuild;
-exports.jekyllbuilddev = jekyllbuilddev;
+exports.jekyllbuildgitdocs = jekyllbuildgitdocs;
 exports.watch = watch;
 exports.dev = dev;
 exports.build = build;
