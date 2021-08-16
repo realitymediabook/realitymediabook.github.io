@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "The Future"
-chapter: "Chapter 10"
+title:  "The Myths of Total AR and Total VR, and Other Possible Futures"
+chapter: "Chapters 7, 8, and 10"
 order: 10
 image:
   feature: ch10-future.jpg
