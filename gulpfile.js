@@ -105,6 +105,8 @@ function watch() {
 
 var build = gulp.series(thumbnails, styles, jekyllbuildgitdocs);
 
+var builddeps = gulp.series(thumbnails, styles);
+
 var dev = gulp.series(thumbnails, styles, jekyllbuild, browsersync, watch);
 
 /**
@@ -117,6 +119,7 @@ exports.thumbnails = thumbnails;
 exports.jekyllbuild = jekyllbuild;
 exports.jekyllbuildgitdocs = jekyllbuildgitdocs;
 exports.watch = watch;
+exports.builddeps = builddeps;
 exports.dev = dev;
 exports.build = build;
 exports.default = dev;
