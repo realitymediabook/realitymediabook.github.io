@@ -1,3 +1,4 @@
 
 url:                 https://resources.realitymedia.digital
 destination:      	 ./docs
+exclude:          	 [vendor, ".gitignore", "CONTRIBUTING.md", "LICENSE", "gulpfile.js", "package.json", "package-lock.json", "node_modules", "README.md", "sass", "docs", "old", "Gemfile", "Gemfile.lock"]
