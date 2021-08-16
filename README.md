@@ -1,4 +1,17 @@
-# Mickey
+# RealityMedia.Digital 2D website source
+
+This is the source for the website at [realitymedia.digital](https://realitymedia.digital).  It is deployed to that site manually, but the current main branch is available for viewing at [https://resources.realitymedia.digital](https://resources.realitymedia.digital) (hosting in the gh-pages branch)
+
+This site is built using jekyll, and based on the Mickey theme.  The Mickey README.md is appended to this readme.
+
+The site is hosted inside our [top-level-server](https://github.com/realitymediabook/realitymedia-top-level) on AWS.  That server also acts as the user information repository for accounts on our Hubs Cloud service (hosted on [xr.realitymedia.digital](https://xr.realitymedia.digital)).
+
+To build locally, you must have [GraphicsMagick](http://www.graphicsmagick.org/) installed, as it's used by [gulp-gm](https://www.npmjs.com/package/gulp-gm) to resize images.  See the gulp-gm page for easy install commands.
+
+You will also need to have ruby and jekyll installed.
+
+
+# Mickey (original jekyll style README.md)
 
 Mickey is a minimal one-column, responsive theme for [Jekyll](http://jekyllrb.com).
 
