@@ -15,17 +15,40 @@ jobs:
         node-version: [12.x]
     
     steps:
+    # Use GitHub Actions' cache to shorten build times and decrease load on servers
+    - uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+
     - name: Install graphicsmagick
       run: sudo apt install graphicsmagick # Seems to work and already be included with ubuntu-latest...
 
-    - uses: actions/checkout@v2
+    - name: Checkout 🛎️
+      uses: actions/checkout@v2
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Build
+    - name: Build sass and images
       run: |
         npm install
-        gulp build
+        gulp builddeps
+
+    - name: 🔨 install dependencies & build site
+      uses: limjh16/jekyll-action-ts@v2
+      with:
+        enable_cache: true
+
+    - name: 🚀 deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
+        # if the repo you are deploying to is <username>.github.io, uncomment the line below.
+        # if you are including the line below, make sure your source files are NOT in the master branch:
+        # publish_branch: master
