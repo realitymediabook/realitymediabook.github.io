@@ -26,13 +26,13 @@ jobs:
     - name: Install graphicsmagick
       run: sudo apt install graphicsmagick # Seems to work and already be included with ubuntu-latest...
 
-    - name: Checkout 🛎️
-      uses: actions/checkout@v2
-
     - name: 💎 setup ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.1 # can change this to 2.7 or whatever version you prefer
+
+    - name: Checkout 🛎️
+      uses: actions/checkout@v2
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
