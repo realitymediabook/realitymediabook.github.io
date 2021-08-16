@@ -18,7 +18,7 @@ var messages = {
  */
 function jekyllbuild (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn('jekyll', ['build', '--config=_config.yml'], {stdio: 'inherit'})
+    return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--config=_config.yml'], {stdio: 'inherit'})
         .on('close', done);
 }
 
@@ -26,7 +26,7 @@ function jekyllbuild (done) {
  * Build the dev Jekyll Site
  */
 function jekyllbuildgitdocs (done) {
-    return cp.spawn('jekyll', ['build', '--config=_config.yml,_config-dev.yml'], {stdio: 'inherit'})
+    return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--config=_config.yml,_config-dev.yml'], {stdio: 'inherit'})
         .on('close', done);
 }
 

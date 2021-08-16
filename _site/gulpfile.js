@@ -18,16 +18,15 @@ var messages = {
  */
 function jekyllbuild (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn('jekyll', ['build', '--config=_config.yml'], {stdio: 'inherit'})
+    return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--config=_config.yml'], {stdio: 'inherit'})
         .on('close', done);
 }
 
 /**
  * Build the dev Jekyll Site
  */
-function jekyllbuilddev (done) {
-    browserSync.notify(messages.jekyllBuild);
-    return cp.spawn('jekyll', ['build', '--config=_config.yml,_config-dev.yml'], {stdio: 'inherit'})
+function jekyllbuildgitdocs (done) {
+    return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--config=_config.yml,_config-dev.yml'], {stdio: 'inherit'})
         .on('close', done);
 }
 
@@ -104,7 +103,9 @@ function watch() {
   gulp.watch("_site/index.html").on('change', browserSync.reload);
 }
 
-var build = gulp.series(thumbnails, styles, jekyllbuilddev,jekyllbuild);
+var build = gulp.series(thumbnails, styles, jekyllbuildgitdocs);
+
+var builddeps = gulp.series(thumbnails, styles);
 
 var dev = gulp.series(thumbnails, styles, jekyllbuild, browsersync, watch);
 
@@ -116,8 +117,9 @@ var dev = gulp.series(thumbnails, styles, jekyllbuild, browsersync, watch);
 exports.styles = styles;
 exports.thumbnails = thumbnails;
 exports.jekyllbuild = jekyllbuild;
-exports.jekyllbuilddev = jekyllbuilddev;
+exports.jekyllbuildgitdocs = jekyllbuildgitdocs;
 exports.watch = watch;
+exports.builddeps = builddeps;
 exports.dev = dev;
 exports.build = build;
 exports.default = dev;
