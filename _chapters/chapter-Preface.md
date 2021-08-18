@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Three books"
-chapter: "Chapter 0"
+chapter: "Preface"
 order: 0
 image:
-  feature: ch1-minecraft-ar.jpg
+  feature: mccloud.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: darker
