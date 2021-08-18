@@ -50,6 +50,7 @@ collections:
     output: true
     sort_by: order
     order:
+      - preface.md
       - chapter0-intro.md
       - chapter1.md
       - chapter2.md
