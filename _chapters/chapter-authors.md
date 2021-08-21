@@ -2,7 +2,7 @@
 layout: post
 title:  "Authors"
 chapter: "Authors"
-order: 0
+order: 11
 image:
   feature: laciotat_still.png
   topPosition: 0px

@@ -11,6 +11,10 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-_Under construction_
+The concept of reality media. The two words are equally important in describing these media. Everyone gets the reality quality (the aspiration to imitate and ultimately to become reality), but tends to ignore or take the media quality for granted. 
 
-A discussion of what AR and VR are. In the 1990s, when both VR and AR were still laboratory technologies, two researchers, Paul Milgram and Fumio Kishino, diagrammed what they called the <i>virtuality continuum</i>, a spectrum with the real environment (the physical world) at one end and the complete virtual environment (VR) at the other.
+Defining AR and VR. Latest attempts to achieve the real. But not fundamentally different from the others as we see in the history chapter. 
+
+The Milgram Spectrum
+
+<div class="img img--fullContainer img--6xLeading" style="background-image: url({{ site.baseurl_book_img }}milgram.jpg);"></div>
