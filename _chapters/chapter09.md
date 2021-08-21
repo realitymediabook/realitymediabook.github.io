@@ -13,4 +13,6 @@ syntaxHighlighter: no
 
 _Under construction._
 
+RELATED CHAPTERS (in printed book): 9
+
 Discussion about the various privacy concerns of AR and VR, especially in public spaces.

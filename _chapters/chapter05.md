@@ -13,4 +13,6 @@ syntaxHighlighter: no
 
 _Under construction._
 
+RELATED CHAPTERS (in printed book): 5
+
 Discussion of presence and aura.

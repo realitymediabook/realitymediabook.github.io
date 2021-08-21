@@ -13,6 +13,11 @@ syntaxHighlighter: no
 
 _Under construction._
 
+RELATED CHAPTERS (in printed book): 2
+
+
+
+The history of AR, VR, and Reality Media.
 The timeline of the various reality media - can we turn this into a 3d diagram for the room?
 
 <div class="img img--fullContainer img--6xLeading" style="background-image: url({{ site.baseurl_book_img }}timeline.jpg);"></div>

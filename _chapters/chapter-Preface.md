@@ -13,6 +13,9 @@ syntaxHighlighter: no
 
 _Under construction_
 
+RELATED CHAPTER (in printed book): Preface
+
+
 <blockquote>The digital version of Reality Media is a complement to, not a substitute for, the printed version. This digital version allows you to get inside AR and VR, to inhabit these new reality media.</blockquote>
 
 Reality Media is a project encompassing three related writing spaces, three technologies for representing ideas: print, the web, and immersive AR and VR. The printed page is a writing space with a tradition dating back to the fifteenth century. The web has a far shorter tradition, beginning around 1990, but in the thirty year since Tim Berner-Lee launched the first web server, the web has grown to rival and for many kinds of communication to surpass print in importance. The technologies of immersive, three-dimensional spaces of AR and VR are actually as old as the technologies of the web. But AR and VR are not typically understood as writing spaces at all. One goal of this project is to demonstrate the potential of the immersive book. 
