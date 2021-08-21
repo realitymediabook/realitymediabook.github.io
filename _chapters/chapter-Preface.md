@@ -13,6 +13,9 @@ syntaxHighlighter: no
 
 _Under construction_
 
+RELATED CHAPTER (in printed book): Preface
+
+
 <blockquote>The digital version of Reality Media is a complement to, not a substitute for, the printed version. This digital version allows you to get inside AR and VR, to inhabit these new reality media.</blockquote>
 
 These pages are portals into the digital book.  unlike the printed book, the website and the digital rooms belong to the same space -- the digital space. This is particularly true because of WebXR, which emphasizes the continuity, the dialogue between the webpage and the spatial. 

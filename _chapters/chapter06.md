@@ -13,4 +13,6 @@ syntaxHighlighter: no
 
 _Under construction._
 
+RELATED CHAPTERS (in printed book): 6
+
 Discussion of the various genres and AR and VR and the history of genres in reality media.

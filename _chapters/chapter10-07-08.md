@@ -13,6 +13,8 @@ syntaxHighlighter: no
 
 _Under construction._
 
+RELATED CHAPTERS (in printed book):  7, 8 , and 10
+
 Discussion of the future of reality media.
 
 Do we need another chapter, for acknowledgements, etc?

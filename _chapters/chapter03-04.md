@@ -13,4 +13,6 @@ syntaxHighlighter: no
 
 _Under construction._
 
+RELATED CHAPTERS (in printed book): 3 and 4
+
 Discussion of the technology underlying 3D reality media.
