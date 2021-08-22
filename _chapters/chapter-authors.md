@@ -15,10 +15,10 @@ syntaxHighlighter: no
 
 <div class="img img--fullContainer img--10xLeading" style="background-image: url({{ site.baseurl_book_img }}jay.jpg);"></div>
 
-<b>Maria Engberg</b> is an Associate Professor of Media Technology at Malmö University....
+<b>Maria Engberg</b> is Associate Professor in the Department of Computer Science and Media Technology at Malmö University and Affiliate Researcher at the Georgia Institute of Technology.
 
 
-<b>Blair MacIntyre</b> is a Professor in Computer Science at the Georgia Institute of Technology and a pioneer in the development of augmented reality....
+<b>Blair MacIntyre</b> Professor at Georgia Institute of Technology, where he and Jay David Bolter are codirectors of the Augmented Environments Lab. He has been an active researcher in the field of augmented reality in its inception in the 1990s.
 
 
 
