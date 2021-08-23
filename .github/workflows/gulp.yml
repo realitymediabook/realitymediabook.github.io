@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [16.x]
     
     steps:
     # Use GitHub Actions' cache to shorten build times and decrease load on servers
