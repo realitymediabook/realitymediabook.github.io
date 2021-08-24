@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [16.x]
     
     steps:
     # Use GitHub Actions' cache to shorten build times and decrease load on servers
@@ -37,7 +37,7 @@ jobs:
     - name: 💎 setup ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.1 # can change this to 2.7 or whatever version you prefer
+        ruby-version: 2.6 # can change this to 2.7 or whatever version you prefer
 
     - name: Build sass and images
       run: |
