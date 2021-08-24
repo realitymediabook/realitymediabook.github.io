@@ -11,10 +11,14 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-The concept of reality media. The two words are equally important in describing these media. Everyone gets the reality quality (the aspiration to imitate and ultimately to become reality), but tends to ignore or take the media quality for granted. 
+RELATED CHAPTER (in printed book): What are Augmented and Virtual Reality?
 
-Defining AR and VR. Latest attempts to achieve the real. But not fundamentally different from the others as we see in the history chapter. 
+THEME: AR and VR
 
-The Milgram Spectrum
+Defining AR and VR. Latest attempts to achieve the real. But not different in conception from the others as we see in the history chapter (link to that). 
+
+The portal - website as portal, portals realized in the digital version
+
+The Milgram spectrum with our illustrations. 
 
 <div class="img img--fullContainer img--6xLeading" style="background-image: url({{ site.baseurl_book_img }}milgram.jpg);"></div>

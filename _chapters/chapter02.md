@@ -15,6 +15,7 @@ _Under construction._
 
 RELATED CHAPTERS (in printed book): 2
 
+Use the memory theater analogy, which leads to the Hubs version. 
 
 The history of AR, VR, and Reality Media.
 The timeline of the various reality media - can we turn this into a 3d diagram for the room?

@@ -15,4 +15,8 @@ _Under construction._
 
 RELATED CHAPTERS (in printed book): 6
 
-Discussion of the various genres and AR and VR and the history of genres in reality media.
+
+Various genres are illustrated in this double room.
+
+
+Explanation of the 3D diagram: AR-VR, Place-Space; Information-Experience

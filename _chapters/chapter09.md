@@ -15,4 +15,9 @@ _Under construction._
 
 RELATED CHAPTERS (in printed book): 9
 
-Discussion about the various privacy concerns of AR and VR, especially in public spaces.
+Two parts [two galleries]
+1. The history of the redefinition through camera [Kodak], film, CCTV, mobile phones
+
+
+2. AR (much more than VR) and privacy in second gallery 
+    Capture of room using SLAM 

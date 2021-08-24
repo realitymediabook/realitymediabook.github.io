@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "An Immersive Companion to Reality Media"
+title:  "What Are Reality Media"
 chapter: "Introduction"
 order: 0
 image:
@@ -11,7 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-RELATED CHAPTERS (in printed book): Introduction and 1
+RELATED CHAPTERS (in printed book): Introduction
 
 #### The La Ciotat Effect
 
