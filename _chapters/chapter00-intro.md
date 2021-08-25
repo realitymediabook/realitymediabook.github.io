@@ -11,7 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-RELATED CHAPTERS (in printed book): Introduction
+RELATED CHAPTER (in printed book): Introduction
 
 #### The La Ciotat Effect
 
