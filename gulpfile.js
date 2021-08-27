@@ -36,7 +36,7 @@ function jekyllbuildgitdocs (done) {
 function browsersync(cb) {
   browserSync.init({
     server: {
-      baseDir: '_site'
+      baseDir: 'docs'
     },
     startPath: "/index.html"
   });
@@ -83,7 +83,7 @@ function thumbnails () {
 /**
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll
- * Watch _site generation, reload BrowserSync
+ * Watch docs generation, reload BrowserSync
  */
 function watch() {
   gulp.watch('_scss/**/*.scss', styles);
@@ -100,7 +100,7 @@ function watch() {
           'assets/css/**'
         ],
         jekyllbuild);
-  gulp.watch("_site/index.html").on('change', browserSync.reload);
+  gulp.watch("docs/index.html").on('change', browserSync.reload);
 }
 
 var build = gulp.series(thumbnails, styles, jekyllbuild);
