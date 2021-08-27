@@ -2,9 +2,9 @@ name: NodeJS with Gulp
 
 on:
   push:
-    branches: [ jdb-dev ]
+    branches: [ main ]
   pull_request:
-    branches: [ jdb-dev ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -33,8 +33,6 @@ jobs:
 
     - name: Checkout 🛎️
       uses: actions/checkout@v2
-      with:
-        ref: jdb-dev
 
     - name: 💎 setup ruby
       uses: ruby/setup-ruby@v1
