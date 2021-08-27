@@ -33,7 +33,7 @@ author:
   # linkedin:          username
 
 # Server
-destination:      	 ./_site
+destination:      	 ./docs
 exclude:          	 [vendor, ".gitignore", "CONTRIBUTING.md", "CNAME", "LICENSE", "gulpfile.js", "package.json", "package-lock.json", "node_modules", "README.md", "sass", "docs", "old", "Gemfile", "Gemfile.lock"]
 port:             	 9001
 
@@ -48,13 +48,3 @@ defaults:
 collections:
   chapters:
     output: true
-    sort_by: order
-    order:
-      - chapter00-intro.md
-      - chapter01.md
-      - chapter02.md
-      - chapter03-04.md
-      - chapter05.md
-      - chapter06.md
-      - chapter09.md
-      - chapter10-07-08.md
