@@ -50,11 +50,11 @@ collections:
     output: true
     sort_by: order
     order:
-      - chapter0-intro.md
-      - chapter1.md
-      - chapter2.md
-      - chapter3-4.md
-      - chapter5.md
-      - chapter6.md
-      - chapter7-9.md
-      - chapter10.md
+      - chapter00-intro.md
+      - chapter01.md
+      - chapter02.md
+      - chapter03-04.md
+      - chapter05.md
+      - chapter06.md
+      - chapter09.md
+      - chapter10-07-08.md
