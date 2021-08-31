@@ -2,7 +2,7 @@
 layout: post
 title:  "The History of Reality Media"
 chapter:  "Chapter 2"
-order: 2
+order: 4
 image:
   feature: ch2-brunelleschi.jpg
   topPosition: -100px

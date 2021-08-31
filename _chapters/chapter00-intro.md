@@ -2,7 +2,7 @@
 layout: post
 title:  "What Are Reality Media?"
 chapter: "Introduction"
-order: 0
+order: 2
 image:
   feature: laciotat_still.png
   topPosition: 0px

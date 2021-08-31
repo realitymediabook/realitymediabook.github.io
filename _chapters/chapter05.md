@@ -2,7 +2,7 @@
 layout: post
 title:  "Presence and Aura"
 chapter: "Chapter 5"
-order: 5
+order: 6
 image:
   feature: ch5-presence.jpg
   topPosition: -100px

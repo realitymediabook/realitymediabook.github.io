@@ -2,7 +2,7 @@
 layout: post
 title:  "Three books"
 chapter: "Preface"
-order: 10
+order: 1
 image:
   feature: mccloud.jpg
   topPosition: -50px

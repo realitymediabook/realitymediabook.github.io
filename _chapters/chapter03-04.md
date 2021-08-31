@@ -2,7 +2,7 @@
 layout: post
 title:  "3D Graphics, Sensing and Tracking"
 chapter: "Chapters 3 and 4"
-order: 3
+order: 5
 image:
   feature: ch3-zaki-lizard.jpg
   topPosition: -200px

@@ -2,7 +2,7 @@
 layout: post
 title:  "Privacy and Public Space"
 chapter: "Chapter 9"
-order: 7
+order: 8
 image:
   feature: ch9-privacy.jpg
   topPosition: -50px
