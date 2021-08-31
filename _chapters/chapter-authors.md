@@ -11,7 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-<b>Jay David Bolter</b> is the Wesley Chair of New Media and co-Director of the Augmented Environments Lab at the Georgia Institute of Technology.  He is the author of Remediation (1999), with Richard Grusin; Windows and Mirrors (2003), with Diane Gromala; and The Digital Plenitude (2019). <a href=https://jdbolter.net target="_blank">Website</a>
+<b>Jay David Bolter</b> is the Wesley Chair of New Media and co-Director of the Augmented Environments Lab at the Georgia Institute of Technology.  He is the author of <i>Remediation</i> (1999), with Richard Grusin; <i>Windows and Mirrors</i> (2003), with Diane Gromala; and <i>The Digital Plenitude</i> (2019). <a href=https://jdbolter.net target="_blank">Website</a>
 
 <div class="img img--10xLeading" style="background-image: url({{ site.baseurl_book_img }}jay.jpg);"></div>
 
