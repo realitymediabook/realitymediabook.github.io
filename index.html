@@ -34,7 +34,8 @@ title: Reality Media
 <p>The digital version of Reality Media is a complement to, not a substitute for, the printed version. This digital version allows you to get inside AR and VR, to inhabit these new reality media. </p>
     <div class="blockGroup">
         <ul class="blockGroup-list">
-        {% for post in site.chapters %}
+          {% assign chapters = site.chapters | sort: "order" %}
+          {% for post in chapters %}
           <li class="block">
             <div class="postArticle-wrapper">
               <article class="postArticle postArticle--short">
