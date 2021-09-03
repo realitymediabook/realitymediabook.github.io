@@ -2,7 +2,7 @@
 layout: post
 title:  "What Are Augmented Reality and Virtual Reality?"
 chapter: "Chapter 1"
-order: 1
+order: 3
 image:
   feature: ch1-minecraft-ar.jpg
   topPosition: -50px
@@ -11,6 +11,14 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-_Under construction_
+RELATED CHAPTER (in printed book): What are Augmented and Virtual Reality?
 
-A discussion of what AR and VR are.
+THEME: AR and VR
+
+Defining AR and VR. Latest attempts to achieve the real. But not different in conception from the others as we see in the history chapter (link to that). 
+
+The portal - website as portal, portals realized in the digital version
+
+The Milgram spectrum with our illustrations. 
+
+<div class="img img--fullContainer img--6xLeading" style="background-image: url({{ site.baseurl_book_img }}milgram.jpg);"></div>

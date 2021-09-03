@@ -2,7 +2,7 @@
 layout: post
 title:  "Privacy and Public Space"
 chapter: "Chapter 9"
-order: 7
+order: 8
 image:
   feature: ch9-privacy.jpg
   topPosition: -50px
@@ -13,4 +13,11 @@ syntaxHighlighter: no
 
 _Under construction._
 
-Discussion about the various privacy concerns of AR and VR, especially in public spaces.
+RELATED CHAPTERS (in printed book): 9
+
+Two parts [two galleries]
+1. The history of the redefinition through camera [Kodak], film, CCTV, mobile phones
+
+
+2. AR (much more than VR) and privacy in second gallery 
+    Capture of room using SLAM 

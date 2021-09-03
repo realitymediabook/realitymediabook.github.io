@@ -77,8 +77,8 @@
   }
 
   li:nth-child(1).block,
-  li:nth-child(8).block {
-    width: 100%;
+  li:nth-child(2).block {
+    width: 50%;
 
     .postArticle-image {
       padding-top: 30%;
@@ -93,8 +93,8 @@
     }
   }
 
-  li:nth-child(2).block,
-  li:nth-child(3).block {
+  li:nth-child(3).block,
+  li:nth-child(4).block {
     width: 50%;
 
     .postArticle-image {

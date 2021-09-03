@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "An Immersive Companion to Reality Media"
+title:  "What Are Reality Media?"
 chapter: "Introduction"
-order: 0
+order: 2
 image:
   feature: laciotat_still.png
   topPosition: 0px
@@ -11,16 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-<blockquote>The digital version of Reality Media is a complement to, not a substitute for, the printed version. This digital version allows you to get inside AR and VR, to inhabit these new reality media.</blockquote>
-
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_book_img }}Rotunda-layout.png);"></div>
-
-The digital version consists of a set of virtual rooms that correspond to the chapters of the printed book. Within each room are 3D models, videos, images, and text related to the themes and issues raised in the corresponding chapter. In some of the rooms, you will be invited to interact with the models. Other 3D models or videos simply run and invite you to watch. The rooms are organized around a rotunda as you see in the diagram above. 
-
-
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_book_img }}intro-room.png);"></div>
-
-The entry to the digital book is labelled Introduction, which leads into a room that contains a introductory video. The video appears on a giant screen in the minimal graphic environment resembling the Construct in <i>The Matrix</i>. The narrator explains our key concepts: reality media and the La Ciotat effect. You can enter this room by clicking on the image above. You can also view the introductory video in your browser (without entering Hubs) by clicking <a href="https://artnotart.org/jdbolter/RM/VRvideo10.mp4" target="_blank">here.</a></div>
+RELATED CHAPTER (in printed book): Introduction
 
 #### The La Ciotat Effect
 
