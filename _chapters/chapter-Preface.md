@@ -4,7 +4,7 @@ title:  "Three books"
 chapter: "Preface"
 order: 1
 image:
-  feature: mccloud.jpg
+  feature: book-cover.jpg
   topPosition: -50px
 bgContrast: dark
 bgGradientOpacity: darker
