@@ -5,7 +5,7 @@ chapter: "How to read the immersive book"
 order: 1
 image:
   feature: book-cover.jpg
-  topPosition: -50px
+  topPosition: -100px
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
