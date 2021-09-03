@@ -10,11 +10,13 @@ To build locally, you must have [GraphicsMagick](http://www.graphicsmagick.org/)
 
 You will also need to have ruby and jekyll installed.
 
-If everything is installed, you can build the current website in the `_site` directory with `npm run build`.  You should build before checking in the repository.
+If everything is installed, you can build the current website in the `docs` directory with `npm run build`.  You should build before checking in the repository.
 
 To test locally, run `npm run dev`.  This builds the site, and starts a local server for the content.
 
 NOTE: the sign-in information in the upper left will _only_ show up properly on `realitymedia.digital`.  Anywhere else, it will show "Not signed in."
+
+NOTE: using nvm v16.1.0 and rvm 2.6.6
 
 # Mickey (original jekyll style README.md)
 

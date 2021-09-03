@@ -1,3 +1,8 @@
+The site is a digital companion to the Reality Media book from MIT Press.
+
+It's theme is based on Mickey, the "humans.txt" file of which is appended
+here.
+
     __  _______________ __ ________  __
    /  |/  /  _/ ____/ //_// ____/\ \/ /
   / /|_/ // // /   / ,<  / __/    \  /

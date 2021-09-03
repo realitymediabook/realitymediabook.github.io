@@ -16,7 +16,7 @@ tagline:             'Augmented and Virtual Reality'
 description:         'How augmented reality and virtual reality are taking their places in contemporary media culture alongside film and television'
 url:                 https://realitymedia.digital
 #rss:                 rss feed url
-#baseurl:             '/'
+baseurl:             ''
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_book_img:   '/assets/images/book/'
 baseurl_featured_img: '/assets/images/hero/'
@@ -33,7 +33,7 @@ author:
   # linkedin:          username
 
 # Server
-destination:      	 ./_site
+destination:      	 ./docs
 exclude:          	 [vendor, ".gitignore", "CONTRIBUTING.md", "CNAME", "LICENSE", "gulpfile.js", "package.json", "package-lock.json", "node_modules", "README.md", "sass", "docs", "old", "Gemfile", "Gemfile.lock"]
 port:             	 9001
 
@@ -48,13 +48,3 @@ defaults:
 collections:
   chapters:
     output: true
-    sort_by: order
-    order:
-      - chapter0-intro.md
-      - chapter1.md
-      - chapter2.md
-      - chapter3-4.md
-      - chapter5.md
-      - chapter6.md
-      - chapter7-9.md
-      - chapter10.md
