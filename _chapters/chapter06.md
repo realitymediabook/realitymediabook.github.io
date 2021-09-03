@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "The Genres  of AR and VR"
-chapter: "Chapter 6"
-order: 7
+chapter: ""
+order: 9
 image:
   feature: ch6-genres.jpg
   topPosition: -50px

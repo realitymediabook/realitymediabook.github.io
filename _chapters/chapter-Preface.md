@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Three books"
-chapter: "Preface"
-order: 1
+chapter: ""
+order: 2
 image:
   feature: book-cover.jpg
   topPosition: -50px

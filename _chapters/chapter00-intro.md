@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "What Are Reality Media?"
-chapter: "Introduction"
-order: 2
+chapter: ""
+order: 3
 image:
   feature: laciotat_still.png
   topPosition: 0px

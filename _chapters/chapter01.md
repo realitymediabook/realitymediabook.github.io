@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "What Are Augmented Reality and Virtual Reality?"
-chapter: "Chapter 1"
-order: 3
+chapter: ""
+order: 4
 image:
   feature: ch1-minecraft-ar.jpg
   topPosition: -50px
