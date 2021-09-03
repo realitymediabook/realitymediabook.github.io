@@ -15,7 +15,7 @@ RELATED CHAPTER (in printed book): Introduction
 
 Both the printed and the immersive versions of the book are about spelling out the concept of <i>reality media</i>. The two words are equally important in describing these media. Everyone intuitively understands the reality quality of such media (the aspiration to imitate and ultimately to become reality), but tends not to appreciate the importance of mediation or take the media quality for granted. 
 
-The immersive gallery illustrates the concept through two videos. [How about panoramic videos in spheres- the theater twice: once with la Ciotat playing and one with the engine broken through the walls? ]
+The immersive gallery illustrates the concept through two videos. [How about panoramic videos in spheres- the theater twice: once with la Ciotat playing and one with the engine broken through the walls? Could use audio kiosks for the sound or just play the sound in this case.]
 
 
 #### The La Ciotat Effect
