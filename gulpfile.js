@@ -31,6 +31,14 @@ function jekyllbuildgitdocs (done) {
 }
 
 /**
+ * Build the dev Jekyll Site for Jay
+ */
+ function jekyllbuildjdb (done) {
+    return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--config=_config.yml,_config-dev-jdb.yml'], {stdio: 'inherit'})
+        .on('close', done);
+}
+
+/**
  * Wait for jekyll-build, then launch the Server
  */
 function browsersync(cb) {
@@ -105,9 +113,13 @@ function watch() {
 
 var build = gulp.series(thumbnails, styles, jekyllbuild);
 
+var buildjdb = gulp.series(thumbnails, styles, jekyllbuildjdb);
+
 var builddeps = gulp.series(thumbnails, styles);
 
 var dev = gulp.series(thumbnails, styles, jekyllbuild, browsersync, watch);
+
+var devjdb = gulp.series(thumbnails, styles, jekyllbuildjdb, browsersync, watch);
 
 /**
  * Default task, running just `gulp` will compile the sass,
@@ -118,8 +130,11 @@ exports.styles = styles;
 exports.thumbnails = thumbnails;
 exports.jekyllbuild = jekyllbuild;
 exports.jekyllbuildgitdocs = jekyllbuildgitdocs;
+exports.jekyllbuildjdb = jekyllbuildjdb;
 exports.watch = watch;
 exports.builddeps = builddeps;
 exports.dev = dev;
 exports.build = build;
+exports.devjdb = devjdb;
+exports.buildjdb = buildjdb;
 exports.default = dev;

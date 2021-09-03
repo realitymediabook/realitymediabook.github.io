@@ -10,7 +10,8 @@
   },
   "scripts": {
     "build": "gulp build",
-    "dev": "gulp dev"
+    "dev": "gulp dev",
+    "buildjdb": "gulp buildjdb"
   },
   "devDependencies": {
     "browser-sync": "^2.27.5",

@@ -16,6 +16,8 @@ To test locally, run `npm run dev`.  This builds the site, and starts a local se
 
 NOTE: the sign-in information in the upper left will _only_ show up properly on `realitymedia.digital`.  Anywhere else, it will show "Not signed in."
 
+NOTE: using nvm v16.1.0 and rvm 2.6.6
+
 # Mickey (original jekyll style README.md)
 
 Mickey is a minimal one-column, responsive theme for [Jekyll](http://jekyllrb.com).
