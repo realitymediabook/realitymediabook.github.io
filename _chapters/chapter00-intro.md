@@ -22,10 +22,10 @@ The immersive gallery seeks to capture the double nature of reality media: the s
 We take the term from a legend that grew up around one of the first films shown by the Lumière brothers in Paris in January, 1896: "The Arrival of a Train at La Ciotat station." The legend is that, having never seen a film before, the audience was terrified, thinking that the train on the screen was going to burst into the room. The film historian, Tom Gunning, has argued that an audience of sophisticated Parisiens wouldn't be so foolish. They were astonished, not terrified, and their astonishment arose from the fact that they had never before seen a medium as lifelike as motion pictures, even the grainy, high-contrast moving images of those first films. Film soon became one of the two most important reality media of the twentieth century, and it is a forerunner of Virtual Reality.
 
 
-<img src="./assets/images/book/laciotat_still.png">
+<img class="img img--fullContainer img--10xLeading" src="{{ site.baseurl_book_img }}laciotat_still.png"> 
 
-There is the La Ciotat myth and the La Ciotat effect. The myth is the belief that a medium can perfectly imitate reality, and that myth is still with us. The La Ciotat effect describes the more ambivalent reaction that allows us to appreciate the representatinal power of a medium (film, VR) while realizing that it is still a medium. We explain the La Ciotat effect in <i>Reality Media</i>, and we illustrate it in <i>RealityMedia</i>. 
+There is the La Ciotat myth and the La Ciotat effect. The myth is the belief that a medium can perfectly imitate reality, and that myth is still with us. The La Ciotat effect describes the more ambivalent reaction that allows us to appreciate the representatinal power of a medium (film, VR) while realizing that it is still a medium. We explore the La Ciotat effect in <i>Reality Media</i>, and we illustrate it in <i>RealityMedia</i>. 
 
- If you click on the image above, you enter the gallery. 
+ To enter the gallery, click on the image above. 
 
 
