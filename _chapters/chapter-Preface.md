@@ -39,7 +39,7 @@ The room portal are passages are the way you navigate from the central rotunda t
 
 <div class="img img--fullContainer img--16xLeading" style="background-image: url({{ site.baseurl_book_img }}Rotunda-layout.png);"></div>
 
-The immersive book consists of a set of galleries that correspond to subjects of the printed book. In addition to the rotunda and introductory area, there are seven galleries that corespond to ten chapters of the printed book. Within each gallery are 3D models, videos, images, and text related to the themes and issues raised in the corresponding chapters. In some of the rooms, you will be invited to interact with the models. Other 3D models or videos simply run and invite you to watch. The rooms are organized around a rotunda as you see in the diagram above. 
+The immersive book consists of a set of galleries that correspond to topics in the printed book. In addition to the rotunda and introductory area, there are seven galleries that encompass the ten chapters of the printed book. Within each gallery are 3D models, videos, images, and text. In some of the galleries, you will be invited to interact with the models. Other 3D models or videos simply run and invite you to watch. The rooms are organized around a rotunda as you see in the diagram above. 
 
 Now click on the image below and enter the immersive book.
 

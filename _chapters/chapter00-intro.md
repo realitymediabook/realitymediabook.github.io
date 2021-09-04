@@ -13,9 +13,10 @@ syntaxHighlighter: no
 
 RELATED CHAPTER (in printed book): Introduction
 
-Both the printed and the immersive versions of the book are about spelling out the concept of <i>reality media</i>. The two words are equally important in describing these media. Everyone intuitively understands the reality quality of such media (the aspiration to imitate and ultimately to become reality), but tends not to appreciate the importance of mediation or take the media quality for granted. 
+The printed book aims to define the concept of <i>reality media</i> and show how augmented and virtual reality fit into that definition. The two words are equally important in describing all such media, including film and television in additon to AR and VR. They all aspire to imitate or even to supplant our experience of everyday reality). But they never fully succeed in this aspiration, and eventually we are always reminded that they are technologies mediating reality rather than supplantig it.
 
-This room attempt to capture the double-sided nature of reality media: the way film, television, VR and AR all aim at representing the real and in so doing disappear as media. Yet the same time they impress us with their technology, their careful mediation of reality. 
+This room seeks to capture the double-sided nature of reality media: the strategies film, television, VR and AR use to disappear as media and the ways in which the technologies and techniques of mediation reassert themselves for us as viewers. We watch a film and engaged in the story and the world depicted. But we never entirely forget the fact that we are in a theater watching the screen or sitting on an airplane with a laptop.
+@@@å
 The immersive gallery illustrates the concept through two videos. [How about panoramic videos in spheres- the theater twice: once with la Ciotat playing and one with the engine broken through the walls? Could use audio kiosks for the sound or just play the sound in this case.]
 
 
