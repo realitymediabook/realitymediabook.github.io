@@ -40,7 +40,7 @@ The portal is a metaphor in the printed book, but it is an operating feature of 
 
 [Image of portal from the Hubs rooms]
 
-The room portal are passages are the way you navigate from the central rotunda to the individual rooms and sometimes from room to room. 
+The room portals allow you to navigate from the central rotunda to the individual rooms and sometimes from room to room. 
 
 <div class="img img--fullContainer img--16xLeading" style="background-image: url({{ site.baseurl_book_img }}Rotunda-layout.png);"></div>
 
