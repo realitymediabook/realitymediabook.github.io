@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Start here"
-chapter: "How to read the immersive book"
+title:  "How to read this immersive book"
+chapter: ""
 order: 1
 image:
   feature: book-cover.jpg

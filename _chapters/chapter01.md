@@ -11,9 +11,9 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-AR and VR have a history that dates back at least to the 1960s (and in some sense much earlier). They are the latest in a lineage of <a href="chapter02.html"> reality media</a>. But they spent decades in the labs of computer scientists or were used for specialized and expensive applications by the military. As widely available consumer technologies, both are a little more than a decade old. Smart phones and inexpensive headsets such as the Oculus Quest are turning them into platforms for a variety of media genres. 
+The history of AR and VR dates back at least to the 1960s (and in some sense much earlier). AR and VR are the latest in a lineage of <a href="chapter02.html"> reality media</a>. They spent decades in the labs of computer scientists or were used for specialized and expensive applications by the military. It was only about a decade ago that they became widely available consumer technologies. Smart phones brought a kind of AR to millions of user, and inexpensive headsets such as the Oculus Quest introduced gamers and others to VR. 
 
-As we argue in the printed book, AR and VR, like all reality media, enter into our media culture through the process of remediation. 
+As we argue in <i>Reality Media</i>, AR and VR, like all reality media, enter into our media culture through the process of remediation. 
 
 
 

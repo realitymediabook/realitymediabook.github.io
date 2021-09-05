@@ -25,9 +25,5 @@ There is the La Ciotat myth and the La Ciotat effect. The myth is the belief tha
 
  To enter the gallery, click on the image above. 
 
-
-
-
-
 RELATED CHAPTER (in printed book): Introduction
 
