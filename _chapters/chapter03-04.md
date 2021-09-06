@@ -47,4 +47,4 @@ They fashion a space in which digital materials (text, 2-D and 3-D graphic objec
 In the second gallery ...
 
 
-/[RELATED CHAPTERS (in printed book): 3 and 4/]
+\[RELATED CHAPTERS (in printed book): 3 and 4\]
