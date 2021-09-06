@@ -44,7 +44,7 @@ Chapter 4 describes how the computer tracks the user's place in the mediated wor
 
 They fashion a space in which digital materials (text, 2-D and 3-D graphic objects, and video and other media) become dynamic and responsive to the user. This responsiveness contributes to the La Ciotat effect of these new media. Makes the space uncanny, as we explore in Presence and Privacy chapters. 
 
-In tehe second gallery ...
+In the second gallery ...
 
 
 /[RELATED CHAPTERS (in printed book): 3 and 4/]
