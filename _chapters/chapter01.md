@@ -28,5 +28,5 @@ The Milgram spectrum with our illustrations.
 
 [In the room we will have our actual first portal]
 
-
+\[LINK TO WHAT ARE AR AND VR GALLERY\]
 RELATED CHAPTERS (in printed book): Introduction and What are Augmented and Virtual Reality?

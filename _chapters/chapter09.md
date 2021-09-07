@@ -21,3 +21,6 @@ Two parts [two galleries]
 
 2. AR (much more than VR) and privacy in second gallery 
     Capture of room using SLAM 
+
+\[LINK TO PRIVACY GALLERY\]
+\[RELATED CHAPTERS (in printed book): 9\]

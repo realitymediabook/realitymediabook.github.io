@@ -20,3 +20,8 @@ Various genres are illustrated in this double room.
 
 
 Explanation of the 3D diagram: AR-VR, Place-Space; Information-Experience
+
+
+
+\[LINK TO GENRES GALLERY\]
+\[RELATED CHAPTERS (in printed book): 6\]

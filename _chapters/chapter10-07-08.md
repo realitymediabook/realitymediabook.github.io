@@ -24,3 +24,6 @@ We spell out the three-fold division of probable, plausible and possible are ste
 The myths of total VR and AR are not in fact the fulfillment of the LaCiotat myth. We could say instead that they would constitute a full acceptance of the LaCiotat effect. 
 
 [Three galleries connected by portals: the probable gallery, the plausible gallery and then the possible which is where the myths of AR and VR are expressed - perhaps the galleries get larger.]
+
+\[LINK TO FUTURES GALLERY\]
+\[RELATED CHAPTERS (in printed book): 7,8,10\]

@@ -51,7 +51,8 @@ Tracking the user's hand movements or eye movements can permit her to interact w
 
 For AR, sensing technologies are becoming increasingly sophisticated and enabling the applications not only to determine where the user is in the world; they are also beginning to construct 3D maps for the world around the user, buildings and potentially rooms and their contents. They may also send this information back up to servers controlled by companies who made the application. With such applications potentially running on millions of phones, the environment, especially the urban environments with so many phones, becomes uncannily alive. We explore the social and cultural implications in a chapter on privacy and public space in *Reality Media* and in the gallery <a href="{{site.baseurl}}/chapters/chapter09.html">Privacy and Public Space</a>.
 
-In the second room of this current gallery, we demonstrate tracking in six DOF. We also try to suggest the uncanny quality the 3D reproduction of the world enabled by LIDAR and other photographic techniques on the latest smart phones. 
+In the second room of this current gallery, we demonstrate what tracking in six DOF means. We also illustrate the uncanny quality of the 3D reproduction of the world enabled by LIDAR and digital techniques on the latest smart phones. 
 
 
+\[LINK TO CG AND TRACKING GALLERY\]
 \[RELATED CHAPTERS (in printed book): 3 and 4\]
