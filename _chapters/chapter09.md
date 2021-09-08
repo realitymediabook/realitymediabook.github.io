@@ -12,13 +12,13 @@ syntaxHighlighter: no
 ---
 
 
-TThis is another double gallery. The first room illustrates the history up to our two reality media; the second illustrates how AR (or more interest here than VR) redefines public space yet again and increases the risk to our predigital notion of privacy. 
+This is another double gallery. The first room illustrates the history up to our two reality media; the second illustrates how AR (or more interest here than VR) redefines public space yet again and increases the risk to our predigital notion of privacy. 
 
 ####Media technologies and the reconfiguring of public and private space.
 
-####The redefinition of public and private through AR
-AR (much more than VR) and privacy in second gallery 
-    Capture of room using SLAM 
+####AR redefine public and private space
+Using the example of LIDAR from the iphone
+
 
 \[LINK TO PRIVACY GALLERY\]
 
