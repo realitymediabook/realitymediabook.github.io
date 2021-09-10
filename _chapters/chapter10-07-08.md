@@ -25,11 +25,15 @@ In the room of the Plausible, VR conferencing takes its place along video-confer
 
 In the third room, the room of the possible, AR and VR are taken to their limits. The film critic André Breton wrote an essay in 194x entitiled "The Myth of Total Cinema," in which he imagined the ultimate goal of cinema as the perfected representation of the real. In *Reality Media* we take his phrase and apply it to AR and VR. We can appreciate the meaning of AR and VR as media through the myths that they generate. 
 
-The realization of the myth of total VR would be hardware and software that presents a seamless digital world, in which the user feels perfectly present, their sense of sight, sound, and touch, and perhaps smell and taste perfectly engaged. It might be a game world like the Oasis in *Ready Player One*, where as the narrator says, people come for all the things they can do and stay for all the things they can be. 
+The realization of the myth of total VR would be hardware and software that presents a seamless digital world, in which the user feels perfectly present, their sense of sight, sound, and touch, and perhaps smell and taste perfectly engaged. It would house millions, potentially billions of human users. It would be what science ficiton writer Neal Stephenson called the metaverse. This metaverse might be an almost endless collecion of game worlds, like the Oasis in *Ready Player One*. 
 
-The realization of myth of AR would be the Cloud that contains a complete and constantly updated 3D replica of our world, together with all the location-based information about that world that the Internet can provide&mdash;all the data about the businesses, organizations, and individual occupying the buildings, all the dynamic data about the planes, busses, and cars that travel over and through the city, all the films being shown and concerts taking place, and so on. 
+The realization of myth of AR would be the Cloud that contains a complete and constantly updated 3D mirror of our world, together with all the location-based information about that world that the Internet can provide&mdash;all the data about the businesses, organizations, and individual occupying the buildings, all the dynamic data about the planes, busses, and cars that travel over and through the city, all the films being shown and concerts taking place, and so on. 
 
-The myths of total VR and AR are not in fact the fulfillment of the LaCiotat myth. We could say instead that they would constitute a full acceptance of the LaCiotat effect. 
+In one sense VR metaverse and the AR Cloud are extrapolations of today's Internet. VR turns the Internet into the artifical immersive world, completely separate from daily life. The AR Cloud further anchors the Internet in our daily life by bringng all the information on the Internet into contact with us as users and with our location.
+
+The myths of total VR and AR are at the very edge of the possible, if not beyond it altogether. The AR Cloud could never be a complete mirrror of our complex world. For one thing, large portions of the developing world will probably always be inadequately convered. As for VR, we argue in *Reality Media* several companiest have created today's 3Dgames worlds and social VR platforms, and they are not likely to pool their resources. So instead we are likely to have several metaverses rather than just one. None of them complete.
+
+Users of the AR Cloud or the various VR metaverses will remain aware that all these are limited applications, not the ultimate encompassing digital environment.
 
 [Three galleries connected by portals: the probable gallery, the plausible gallery and then the possible which is where the myths of AR and VR are expressed - perhaps the galleries get larger.]
 
