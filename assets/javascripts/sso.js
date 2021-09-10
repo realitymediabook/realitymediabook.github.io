@@ -18,6 +18,9 @@ function updatePageLinks() {
         roomList = window.SSO.userInfo.rooms
     }
 
+    // if (!roomList) {
+    //     roomList = ["DGY2n3k", "aSCkfag"]
+    // }
     for (var i=0; i < linkEls.length; i++)  {
         let l = linkEls[i]
         let room = l.getAttribute("room")
@@ -33,7 +36,7 @@ function updatePageLinks() {
             if (waypoint) {
                 t += "#" + waypoint
             }
-            t += ">" + text + "</a>"
+            t += "'>" + text + "</a>"
             l.innerHTML = t
         } else {
             let t = "<a href='/notloggedin'>" + text + "</a>"

@@ -18,4 +18,4 @@ syntaxHighlighter: no
 <h3>Navigating in Hubs</h3>
 material goes here...
 
-When you are ready to enter the rotunda, click on this portal
+When you are ready to enter the rotunda, click on {% include hubslink.html room="0" waypoint="start" text="this portal" %}
