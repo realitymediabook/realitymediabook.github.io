@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Privacy and Public Space"
-chapter: "Chapter 9"
-order: 7
+chapter: ""
+order: 10
 image:
   feature: ch9-privacy.jpg
   topPosition: -50px
@@ -11,6 +11,28 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-_Under construction._
 
-Discussion about the various privacy concerns of AR and VR, especially in public spaces.
+This page introduces another double gallery, in this case illlustrating how technologies have participated in the redefinition of public space in the last two hundred years. The first room covers media from photography to the smartphone; the second illustrates how AR and (to a lesser extent) VR offer new opportunities for redefining public and private and at the same time place increasing strain on our predigital notions of privacy. 
+
+####Surveillance media and public space
+
+Photography was the first medium of "mechanical reproduction" that came into widespread use. When it was popularized in the late 19th century by Eastman's portable and inexpensive Kodak camera, middle-class families had the opportunity to appropriate public space for their personal photo albums. They could take pictures of strangers in public, sparking a legal debate over the right to privacy. With film and television in the 20th century, the distinction between public and private space were further elided. Television news, for example, brought the world into the living rooms of millions of viwers. CCTV, deployed in a significant scale in the 1960s, had the potential to turn almost any space into a site for surveillance. Today we have to accept that as we walk around the city or enter a convenience or office building, the space itself may be watching us. 
+
+These media were joined in the 2000s by digital technologies&mdash;search engines, websites, social media, and mobile devices, all of which vastly increased the scope of surveillance and meant that no space is reliably private, especially not cyberspace.
+
+
+####AR, VR, and public and private space
+
+The latest smartphones used for AR have the capacity to create digitized models of their environment and the potential to send that information to a database owned by a company (e.g. Google) with a financial interest in mapping the world in three dimensions. Even a phone's conventional cameras can identify locations and other information. AR hardware and software such as LIDAR and SLAM can do much more. Pervasive, always-on AR applications could provide companies or government authorities even more information and with more precision than our current mobile applications do, both by aggregating our habits as consumers and by identifying us as individuals.
+
+VR has less scope for this kind of public surveillance, because we cannot walk freely in the world wearing VR headsets. But VR headsets are beginning to be equipped with another form of tracking. Eye-tracking can determine where in the VR scene the user is looking&mdash;useful for games and other VR experiences. The VR space acquires a new level of responsive when it can be programmed to react to our gaze. But eye-tracking can also be used to determine what products we fixate on in a virtual mall. 
+
+The rationale for these technologies is that they can provide users with new services, such as new or enhanced versions of VR games or location-based AR games, AR and VR journalism (the NYTimes has a series of articles that feature both), precise navigation (Google has a version of Maps called Live View that provides put AR cues), advertising for shoppers displayed just as they pass the appropriate store, and so on. But these technologies also support what Shoshana Zuboff has identified as <a href="https://www.youtube.com/watch?v=hIXhnWUmMvw" target="_blank">surveillance capitalism</a>, which Google pioneered in the early 2000s targetted advertising through its search engine. 
+
+Together with the other tracking applications on our phones, this new generation of AR technologies look out at the world, back at us as users. They can make the entire urban public space (and potentially even our homes) uncanny, because in a sense the space itself now observes us as we observe it and navigate through it. This gallery attempts to convey the uncanny,living quality of this new public space. 
+
+
+
+\[LINK TO PRIVACY GALLERY\]
+
+\[RELATED CHAPTERS (in printed book): 9\]
