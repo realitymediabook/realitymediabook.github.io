@@ -39,7 +39,7 @@ function updatePageLinks() {
             t += "'>" + text + "</a>"
             l.innerHTML = t
         } else {
-            let t = "<a href='/notloggedin'>" + text + "</a>"
+            let t = "<a href='/notLoggedIn'>" + text + "</a>"
             l.innerHTML = t
         }
         
