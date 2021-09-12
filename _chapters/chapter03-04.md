@@ -55,4 +55,5 @@ In the second room of this current gallery, we demonstrate what tracking in six 
 
 
 \[LINK TO CG AND TRACKING GALLERY\]
+
 \[RELATED CHAPTERS (in printed book): 3 and 4\]

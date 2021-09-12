@@ -15,7 +15,7 @@ The history of AR and VR dates back at least to the 1960s (and in some sense muc
 
 As we argue in <i>Reality Media</i>, AR and VR, like all reality media, enter into our media culture through the process of remediation. 
 
-
+NEEDS WORK 
 
 Defining AR and VR. Latest attempts to achieve the real. But not different in conception from the others as we see in the history chapter (link to that). 
 
@@ -26,7 +26,8 @@ The Milgram spectrum with our illustrations.
 
 <div class="img img--fullContainer img--6xLeading" style="background-image: url({{ site.baseurl_book_img }}milgram.jpg);"></div>
 
-[In the room we will have our actual first portal]
+(In the room we will have our first portal)
 
 \[LINK TO WHAT ARE AR AND VR GALLERY\]
-RELATED CHAPTERS (in printed book): Introduction and What are Augmented and Virtual Reality?
+
+\[RELATED CHAPTERS (in printed book): Introduction and What are Augmented and Virtual Reality?\]
