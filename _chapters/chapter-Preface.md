@@ -11,18 +11,18 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-If you want to enter the immersive book immediately, click on the image below. If you would like some context, read the following preface first. 
+If you want to enter the immersive book immediately, click on the image below.
 
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_book_img }}intro-room.png);"></div>
+\[portal image into Onboarding room\]
+
+ If you would like some context, read the following preface first. 
 
 
 This is a project encompassing three related writing spaces, three technologies for representing ideas: print, the web, and immersive VR and AR. 
 
-The printed book, published by MIT Press, is <i>Reality Media: Augmented and Virtual Reality</i>.
-
-The immersive space is <i>RealityMedia</i>. (The computer application has no space in its name.)
-
-The web site that you are now reading is realitymediabook.digital.
+* The web site that you are now reading is <a href="https://realitymedia.digital">realitymedia.digital</a>.
+* The printed book is <a href="https://mitpress.mit.edu/books/reality-media">*Reality Media: Augmented and Virtual Reality* (MIT Press)</a>.
+* The immersive space is *RealityMedia*. (The computer application has no space in its name.)
 
 The printed page is a writing space with a tradition dating back to the fifteenth century. The web has a far shorter tradition, beginning around 1990, but in the thirty year since Tim Berner-Lee launched the first web server, the web has grown to rival and for many kinds of communication to surpass print in importance. The technologies of immersive, three-dimensional spaces of AR and VR are actually as old as the technologies of the web. But AR and VR are not typically understood as writing spaces at all. One goal of this project is to demonstrate the potential of the immersive book. 
 
@@ -33,7 +33,7 @@ In the Preface to the printed book, we said that we drew inspiration for this pr
 
 The website sits between the printed book and the immersive book. It belongs to the digital medium, but as a 2D digital text, it shares with the printed book many of the same means of verbal and visual expression. It is designed to point the visitor in two directions: directly into the immersive book through hypertext links and indirectly through chapter references back into the printed book. The printed book describes, analyzes and contextualizes the subject of AR, VR and earlier reality media. The website indicates how the immersive experiences relate to the printed book's argument. 
 
-<h2>Portals</h2>
+#### Portals
 The web pages constitute a set of portals into the immersive book. Unlike the printed book, the website and the immersive book share the same underlying platform, the computer. The connection between them is almost seamless because of WebXR (described in Chapter 2 of the printed book): passing from a page and its related 3D virtual space and back is just a matter of following a link. 
 
 The portal is a metaphor in the printed book, but it is an operating feature of the web pages and the immersive rooms. There are links on these pages, and there are visual portals in the rooms. 

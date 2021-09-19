@@ -27,4 +27,9 @@ The three of us wrote the printed book *Reality Media* and conceived of the web 
 <div class="img img--16xLeading" style="background-image: url({{ site.baseurl_book_img }}blair_macintyre.png);"></div>
 <h2>The Designers</h2>
 The following professionals and students have contributed to the design and implementation of the immersive book...
+Alex LaBarre
+Colin Freeman
+Matthew Rossman
+....
+
 
