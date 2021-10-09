@@ -12,7 +12,7 @@ syntaxHighlighter: no
 ---
 
 
-In *Speculative Everything* Anthony Dunne and Fiona Raby suggest three categories for imagining the future, ranging the most likely to the least: the probable, the plausible, and the possible. (For Dunne and Raby, a fourth categpry, the preferable, is a subset of what is probable and plausible.)
+In *Speculative Everything* Anthony Dunne and Fiona Raby suggest three categories for imagining the future, ranging the most likely to the least: the probable, the plausible, and the possible. (For Dunne and Raby, a fourth category, the preferable, is a subset of what is probable and plausible.)
 
 <img class="img img--fullContainer img--16xLeading" src="{{ site.baseurl_book_img }}future.jpg">
 
