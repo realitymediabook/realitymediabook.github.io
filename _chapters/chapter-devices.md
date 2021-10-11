@@ -4,7 +4,7 @@ title:  "Devices"
 chapter: ""
 order: 14
 image:
-  feature: laciotat_still.png
+  feature: oculus.png
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker

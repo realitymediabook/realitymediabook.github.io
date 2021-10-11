@@ -4,7 +4,7 @@ title:  "Credits"
 chapter: ""
 order: 13
 image:
-  feature: laciotat_still.png
+  feature: copyright.jpeg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker

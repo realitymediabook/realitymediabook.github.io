@@ -29,7 +29,7 @@ The term *uncanny valley* is used to describe CG images, particularly of humans,
 They seem eerie. The assumption is that it is better to be a cartoon character than an eerie almost-human image in 2D or 3D. 
 
 <div style="float:right; padding:1em;">
-<img class="img img--fullContainer img--10xLeading" src="{{ site.baseurl_book_img }}uncanny.jpg"> 
+<img class="img img--fullContainer img--10xLeading" src="{{ site.baseurl_book_img }}ch3-4-cg/uncanny.jpg"> 
 <div style="font-size:.8rem";>(Do we have permission to use this?) </div>
 </div>
 
@@ -43,8 +43,8 @@ Chapter 4 describes how the computer tracks itself and the user's place in the w
 Tracking the user is essential for both AR and VR in order to position graphics and other data in her environment. In our three-dimensional world, a user can orient her head through three kinds of movmements (up and down, side to side, and tilting right and left), and she can move her body in three ways (up and down, right to left, and forward and back). A user has six so-called *degrees of freedom* (DOF). Some VR and AR applications can make do with just know the orientation of the user (where she is looking). But if the user can move around while using the application, then the system must track all six DOF.  
 
 
-<img class="img img--fullContainer img--6xLeading" src="{{ site.baseurl_book_img }}DOF1.jpg"> 
-<img class="img img--fullContainer img--6xLeading" src="{{ site.baseurl_book_img }}DOF2.jpg"> 
+<img class="img img--fullContainer img--6xLeading" src="{{ site.baseurl_book_img }}ch3-4-cg/DOF1.jpg"> 
+<img class="img img--fullContainer img--6xLeading" src="{{ site.baseurl_book_img }}ch3-4-cg/DOF2.jpg"> 
 
 
 Tracking the user's hand movements or eye movements can permit her to interact with digital materials: text and especially 2-D and 3-D graphic objects can become dynamic and responsive. The user can press virtual buttons to start a video or animation or pick up virtual objects. This responsiveness can contribute to an uncanny quality in the spaces of AR and VR, although in different ways. Responsiveness together with photorealism can contribute to the sense that a VR experience is more than simply watching a 360° video, but rather that the user is inhabiting a virtual world. We discuss presence in a chapter of *Reality Media* and illustrate it in the gallery <a href="{{site.baseurl}}/chapters/chapter05.html">Presence and Aura</a>. 

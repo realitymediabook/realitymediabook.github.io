@@ -15,7 +15,7 @@ syntaxHighlighter: no
 
 <blockquote> To learn how to visit and move through the 3D version of RealityMedia, click on the image. </blockquote>
 
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_book_img }}intro-room.png);"></div>
+<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_book_img }}ch-onboarding/intro-room.png);"></div>
 
 (also need poster of instructions on how to use Hubs)
 
