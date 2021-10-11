@@ -11,7 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-Our printed book aims to define the concept of reality media and show how augmented and virtual reality fit into that definition. The two words are equally important in describing all reality media (see the <a href="chapter02.html"> History of Reality Media </a>). They all aspire to imitate or even to supplant our experience of everyday reality. But they never fully succeed in this aspiration, and eventually we are always reminded that they are technologies mediating reality rather than supplanting it. 
+Our printed book aims to define *reality media* and show how augmented and virtual reality fit into that definition. The two words are equally important in describing all reality media (see the <a href="chapter02.html"> History of Reality Media </a>). They all aspire to imitate or even to supplant our experience of everyday reality. But they never fully succeed in this aspiration, and eventually we are always reminded that they are technologies mediating reality rather than supplanting it. 
 
 The immersive gallery seeks to capture the double nature of reality media: the strategies film, television, VR and AR use to disappear as media and the ways in which the technologies and techniques of mediation reassert themselves for us as viewers. We watch a film and engaged in the story and the world depicted. But we never entirely forget the fact that we are in a theater watching the screen or sitting on an airplane with a laptop. The gallery illustrates the concept through two videos. To understand understanding the ambilavent nature of reality media, we appeal to what we call the "La Ciotat Effect."
 

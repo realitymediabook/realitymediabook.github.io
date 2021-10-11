@@ -48,23 +48,7 @@ The immersive book consists of a set of galleries that correspond to topics in t
 
 Now click on the image below and enter the immersive book.
 
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_book_img }}intro-room.png);"></div>
+<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_book_img }}ch-preface/Rotunda-layout.png);"></div>
 
 
 RELATED CHAPTER (in printed book): Preface
-
-<h2>Platforms</h2>
-
-RealityMedia can be visited using a range of different hardware and software: on desktops and laptops, on mobiles devices, and on VR (and ultimately AR) headsets. 
-
-
-1. Browsers that work on PCs and Macs.
-
-2. Phones and Tablets that work
-
-3. Headsets that work
-
-
-
-
-<i> NOTE: List of platforms/interfaces is promised in print version: “You will find a list of devices and browsers with which the book can currently be used at https://realitymedia.digital/devices”. So we need that link to work. And point to the text above. </i>
