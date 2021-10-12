@@ -11,6 +11,9 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
+Enter the gallery through this portal:
+<div>{% include hubslink.html room="0" waypoint="start" text="portal to Public and Private Space" %} </div> 
+
 
 This page introduces another double gallery, in this case illlustrating how technologies have participated in the redefinition of public space in the last two hundred years. The first room covers media from photography to the smartphone; the second illustrates how AR and (to a lesser extent) VR offer new opportunities for redefining public and private and at the same time place increasing strain on our predigital notions of privacy. 
 
@@ -32,7 +35,7 @@ The rationale for these technologies is that they can provide users with new ser
 Together with the other tracking applications on our phones, this new generation of AR technologies look out at the world, back at us as users. They can make the entire urban public space (and potentially even our homes) uncanny, because in a sense the space itself now observes us as we observe it and navigate through it. This gallery attempts to convey the uncanny,living quality of this new public space. 
 
 
-
-\[LINK TO PRIVACY GALLERY\]
+Enter the gallery through this portal:
+<div>{% include hubslink.html room="0" waypoint="start" text="portal to Public and Private Space" %} </div> 
 
 \[RELATED CHAPTERS (in printed book): 9\]

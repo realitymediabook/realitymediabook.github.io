@@ -36,19 +36,60 @@ The website sits between the printed book and the immersive book. It belongs to 
 #### Portals
 The web pages constitute a set of portals into the immersive book. Unlike the printed book, the website and the immersive book share the same underlying platform, the computer. The connection between them is almost seamless because of WebXR (described in Chapter 2 of the printed book): passing from a page and its related 3D virtual space and back is just a matter of following a link. 
 
-The portal is a metaphor in the printed book, but it is an operating feature of the web pages and the immersive rooms. There are links on these pages, and there are visual portals in the rooms. 
+The portal is a metaphor in the printed book, but it is an operating feature of the web pages and the immersive rooms. There are portal icons on these pages, and there are full-scale 3D portals in the rooms. These portals allow you to navigate from the central rotunda to the individual rooms and sometimes from room to room. 
 
-[Image of portal from the Hubs rooms]
-
-The room portals allow you to navigate from the central rotunda to the individual rooms and sometimes from room to room. 
+#### The Galleries
 
 <div class="img img--fullContainer img--16xLeading" style="background-image: url({{ site.baseurl_book_img }}Rotunda-layout.png);"></div>
 
-The immersive book consists of a set of galleries that correspond to topics in the printed book. In addition to the rotunda and introductory area, there are seven galleries that encompass the ten chapters of the printed book. Within each gallery are 3D models, videos, images, and text. In some of the galleries, you will be invited to interact with the models. Other 3D models or videos simply run and invite you to watch. The rooms are organized around a rotunda as you see in the diagram above. 
+*RealityMedia* consists of a set of galleries organized around a rotunda as you see in the diagram above. The eight galleries correspond to the ten chapters of the printed book as follows:
 
-Now click on the image below and enter the immersive book.
+<table style="width:100%">
+  <tr>
+    <td><b>Gallery</b></td>
+    <td><b>Chapter(s)</b></td>
+  </tr>
+  <tr>
+    <td>What Are Reality Media?</td>
+    <td>Introduction</td>
+  </tr>
+  <tr>
+    <td>What Are AR and VR?</td>
+    <td>Chapter 1</td>
+  </tr>
+  <tr>
+    <td>History</td>
+    <td>Chapter 2</td>
+  </tr>
+  <tr>
+    <td>Computer Graphics, Sensing and Tracking</td>
+    <td>Chapter 3 & 4</td>
+  </tr>
+  <tr>
+    <td>Presence and Aura</td>
+    <td>Chapter 5</td>
+  </tr>
+  <tr>
+    <td>The Genres of AR and VR</td>
+    <td>Chapter 6</td>
+  </tr>
+  <tr>
+    <td>Privacy and Public Space</td>
+    <td>Chapter 9</td>
+  </tr>
+  <tr>
+    <td>The Futures of AR and VR</td>
+    <td>Chapters 7, 8, & 10</td>
+  </tr>
+</table>
 
-<div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_book_img }}ch-preface/Rotunda-layout.png);"></div>
 
 
-RELATED CHAPTER (in printed book): Preface
+Within each gallery are 3D models, videos, images, and text. In some of the galleries, you will be invited to interact with the models. Other 3D models or videos simply run and invite you to watch. 
+
+Enter the rotunda here
+
+<div>{% include hubslink.html room="0" waypoint="start" text="portal to rotunda" %} </div> 
+
+
+RELATED CHAPTER (in printed book *Reality Media*): Preface

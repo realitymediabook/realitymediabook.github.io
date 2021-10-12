@@ -11,11 +11,13 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-This webpage introduces you to the Hubs environment that is the platform for *RealityMedia*. You can experience this introduction immersively in the environment itself by following this portal: 
+This webpage introduces you to the Hubs environment that is the platform for *RealityMedia*. You can experience this introduction immersively in the environment itself by following: 
 
- {% include hubslink.html room="0" waypoint="start" text="this portal" %}
+<div><img src="{{ site.baseurl_book_img }}portal-small.jpg)">
 
-Or you can read this page and then enter the portal (at the bottom of the page). A guide to using Mozilla Hubs is available on their <a href="https://hubs.mozilla.com/docs/intro-hubs.html" target="blank">site</a>. Here are the highlights:
+ {% include hubslink.html room="0" waypoint="start" text="this portal" %} </div>
+
+Or you can read this page and then enter the portal (at the bottom of the page). A guide to using Mozilla Hubs is available at <a href="https://hubs.mozilla.com/docs/intro-hubs.html" target="blank">https://hubs.mozilla.com/docs/intro-hubs.html</a>. Here are the highlights:
 
 ##### Entering a Hubs room
 
@@ -32,7 +34,7 @@ Or you can read this page and then enter the portal (at the bottom of the page).
 
 ##### Features and controls
 
-*The key below indicates how to mute your microphone, take photos, share your screen, create media objects, and so on:*
+*The figure below indicates how to mute your microphone, take photos, share your screen, create media objects, and so on:*
 
 <div class="img img--fullContainer img--14xLeading" style="background-image: url({{ site.baseurl_book_img }}ch-onboarding/hubs-features.png);"></div>
 
@@ -48,5 +50,7 @@ This immersive book is a suite Hubs rooms divided into  galleries and linked by 
 
 ####Enter the Rotunda
 
-You can enter the rotunda of *RealityMedia*, which leads to all the galleries, through this portal:  {% include hubslink.html room="0" waypoint="start" text="this portal" %}
+You can enter the rotunda of *RealityMedia*, which leads to all the galleries, through this portal: 
+<div><img src="{{ site.baseurl_book_img }}portal-small.jpg)">
+{% include hubslink.html room="0" waypoint="start" text="this portal" %} </div> 
 
