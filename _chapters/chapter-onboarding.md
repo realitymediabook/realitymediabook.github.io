@@ -11,7 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-This webpage introduces you to the Hubs environment that is the platform for *RealityMedia*. You can experience this introduction immersively in the environment itself by following: 
+This webpage introduces you to the 3D Hubs environment that is the platform for *RealityMedia*. You can go directly into the 3D site (and learn how to navigate the platform) by following: 
 
 <div><img src="{{ site.baseurl_book_img }}portal-small.jpg)">
 
