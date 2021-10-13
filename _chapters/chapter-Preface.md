@@ -11,7 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-If you want to enter the immersive book immediately, click on the image below.
+If you wish to enter the immersive book immediately, click on the image below.
 
 \[portal image into Onboarding room\]
 

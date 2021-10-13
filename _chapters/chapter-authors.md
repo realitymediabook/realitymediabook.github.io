@@ -29,10 +29,15 @@ The three of us wrote the printed book *Reality Media* and conceived of the web 
 <hr>
 <h3>The Designers</h3>
 
-The following professionals and students have contributed to the design and implementation of the immersive book...
-Alex LaBarre
+The following professionals and students have contributed to the design and implementation of *RealityMedia*...
 Colin Freeman
+Alex LaBarre
 Matthew Rossman
+Jisu Park
+Nirui Kang
+Zack...
+
+the dozens of students who participated in our Augmented reality design studio at Georgia Tech 2019-2021.
 ....
 
 

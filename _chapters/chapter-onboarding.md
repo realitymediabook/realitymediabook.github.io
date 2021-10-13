@@ -4,7 +4,7 @@ title:  "How to read this immersive book"
 chapter: ""
 order: 1
 image:
-  feature: book-cover.jpg
+  feature: empty-room.png
   topPosition: -100px
 bgContrast: dark
 bgGradientOpacity: darker
@@ -15,7 +15,7 @@ This webpage introduces you to the 3D Hubs environment that is the platform for 
 
 <div><img src="{{ site.baseurl_book_img }}portal-small.jpg)">
 
- {% include hubslink.html room="0" waypoint="start" text="this portal" %} </div>
+ {% include hubslink.html room="0" waypoint="start" text="Onboarding Area" %} </div>
 
 Or you can read this page and then enter the portal (at the bottom of the page). A guide to using Mozilla Hubs is available at <a href="https://hubs.mozilla.com/docs/intro-hubs.html" target="blank">https://hubs.mozilla.com/docs/intro-hubs.html</a>. Here are the highlights:
 
@@ -50,7 +50,7 @@ This immersive book is a suite Hubs rooms divided into  galleries and linked by 
 
 ####Enter the Rotunda
 
-You can enter the rotunda of *RealityMedia*, which leads to all the galleries, through this portal: 
+You can enter the rotunda, which leads to all the galleries, through this portal: 
 <div><img src="{{ site.baseurl_book_img }}portal-small.jpg)">
-{% include hubslink.html room="0" waypoint="start" text="this portal" %} </div> 
+{% include hubslink.html room="0" waypoint="start" text="Rotunda" %} </div> 
 
