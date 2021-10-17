@@ -89,7 +89,6 @@ Within each gallery are 3D models, videos, images, and text. In some of the gall
 
 Enter the rotunda here
 
-<div>{% include hubslink.html room="0" waypoint="start" text="portal to rotunda" %} </div> 
-
+<a class="xrlink" room="0" waypoint="start">Portal to Rotunda</a>
 
 RELATED CHAPTER (in printed book *Reality Media*): Preface

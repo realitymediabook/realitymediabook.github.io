@@ -18,17 +18,17 @@ var windowObjectReference = null; // global variable
 var windowObjectPreviousUrl = null;
 var windowName = "XRHubsWindow"
 
-window.XRopenRequestedPopup = function(url) {
+window.XRopenRequested = function(url) {
     console.log("followed link " + url)
-    if(windowObjectReference == null || windowObjectReference.closed) {
-        windowObjectReference = window.open(url, windowName);
-    } else if (windowObjectPreviousUrl != url) {
-        windowObjectReference = window.open(url, windowName);
-        windowObjectReference.focus();
-    } else {
-        windowObjectReference.focus();
-    }
-    windowObjectPreviousUrl = url
+    // if(windowObjectReference == null || windowObjectReference.closed) {
+    //     windowObjectReference = window.open(url, windowName);
+    // } else if (windowObjectPreviousUrl != url) {
+    //     windowObjectReference = window.open(url, windowName);
+    //     windowObjectReference.focus();
+    // } else {
+    //     windowObjectReference.focus();
+    // }
+    // windowObjectPreviousUrl = url
 }
 
 function updatePageLinks() {
@@ -41,7 +41,7 @@ function updatePageLinks() {
         loginStyleSheet.innerHTML = notLoggedInCSS;
     }
 
-    let linkEls = document.getElementsByClassName("xrlink")
+    let linkEls = document.getElementsByClassName("oldxrlink")
     //if (linkEls.length == 0) { return }
     for (var i=0; i < linkEls.length; i++)  {
         let l = linkEls[i]
@@ -58,7 +58,7 @@ function updatePageLinks() {
             if (waypoint) {
                 t += "#" + waypoint
             }
-            t += "' onclick='XRopenRequestedPopup(this.href); return false;'>" + text + "</a>"
+            t += "' onclick='XRopenRequested(this.href)'>" + text + "</a>"
             l.innerHTML = t
         } else {
             let t = "<a href='/notLoggedIn'>" + text + "</a>"
@@ -66,17 +66,29 @@ function updatePageLinks() {
         }
         
     }
-    
-    linkEls = document.getElementsByClassName("exlink")
+
+    linkEls = document.getElementsByClassName("xrlink")
     //if (linkEls.length == 0) { return }
     for (var i=0; i < linkEls.length; i++)  {
         let l = linkEls[i]
+        let room = l.getAttribute("room")
+        if (!room) { continue; }
+        room = parseInt(room)
+        if (isNaN(room)) { continue;}
 
-        let link = l.getAttribute("link")
+        let waypoint = l.getAttribute("waypoint")
         var text = l.getAttribute("linkText")
 
-        let t = "<a href='" + link + "' onclick='XRopenRequestedPopup(this.href); return false;'>" + text + "</a>"
-        l.innerHTML = t
+        if (roomList && room >=0 && room < roomList.length) {
+            let t = "https://xr.realitymedia.digital/" + roomList[room] 
+            if (waypoint) {
+                t += "#" + waypoint
+            }
+            l.setAttribute("href", t) 
+        } else {
+            l.setAttribute("href", "/notLoggedIn")
+        }
+        
     }
 }
 
@@ -143,10 +155,38 @@ function updateLoginStatus(newValue) {
 }
 
 window.SSO = {}
-updateLoginStatus();
 
 window.addEventListener('storage', function(e) {
     if (e.key === "__ael_hubs_sso") {
         updateLoginStatus(e.newValue)           
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var linkEls = document.getElementsByClassName("xrlink")
+    for (var i=0; i < linkEls.length; i++)  {
+        let l = linkEls[i]
+        let t = "<i class='fas fa-vr-cardboard'></i> " + l.innerHTML
+        l.setAttribute("linkText", l.innerHTML)
+        l.innerHTML = t
+        l.setAttribute('onclick','XRopenRequested(this.href)')
+    }
+
+    // fix up exlinks
+    linkEls = document.getElementsByClassName("exlink")
+    //if (linkEls.length == 0) { return }
+    for (var i=0; i < linkEls.length; i++)  {
+        let l = linkEls[i]
+
+        //let link = l.getAttribute("link")
+        // var text = l.getAttribute("linkText")
+
+        //let t = "<a href='" + link + "' onclick='XRopenRequested(this.href)'>" + text + "</a>"
+        l.setAttribute('onclick','XRopenRequested(this.href)')
+
+        // l.innerHTML = t
+    }
+
+    updateLoginStatus();
+});
+

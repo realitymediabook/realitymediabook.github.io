@@ -12,7 +12,7 @@ syntaxHighlighter: no
 ---
 
 Enter the gallery through this portal:
-<div>{% include hubslink.html room="0" waypoint="start" text="portal to Public and Private Space" %} </div> 
+<a class="xrlink" room="6" waypoint="privacy">Portal to Public and Private Space</a>
 
 
 This page introduces another double gallery, in this case illlustrating how technologies have participated in the redefinition of public space in the last two hundred years. The first room covers media from photography to the smartphone; the second illustrates how AR and (to a lesser extent) VR offer new opportunities for redefining public and private and at the same time place increasing strain on our predigital notions of privacy. 
@@ -36,6 +36,6 @@ Together with the other tracking applications on our phones, this new generation
 
 
 Enter the gallery through this portal:
-<div>{% include hubslink.html room="0" waypoint="start" text="portal to Public and Private Space" %} </div> 
+<a class="xrlink" room="6" waypoint="privacy">Portal to Public and Private Space</a>
 
 \[RELATED CHAPTERS (in printed book): 9\]

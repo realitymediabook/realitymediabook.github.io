@@ -15,7 +15,7 @@ This webpage introduces you to the 3D platform for *RealityMedia*, built on top 
 
 You can go directly into the 3D site by following links with the "VR Display" (<i class="fas fa-vr-cardboard"></i>) symbol before them. 
 
-For example, to learn how to navigate and use the 3D platform, you can visit the  <i class="fas fa-vr-cardboard"></i> {% include hubslink.html room="0" waypoint="start" text="Onboarding Area" %}.  Whether you visit the onboarding area or not, we encourage you to read this page and then enter the starting portal (the link is at the bottom of the page). 
+For example, to learn how to navigate and use the 3D platform, you can visit the  <a class="xrlink" room=0 waypoint="onboarding">Onboarding Area</a>.  Whether you visit the onboarding area or not, we encourage you to read this page and then enter the starting portal (the link is at the bottom of the page). 
 
 <!-- <div><img src="{{ site.baseurl_book_img }}portal-small.jpg)">   </div> -->
 
@@ -53,6 +53,5 @@ This immersive book is a suite Hubs rooms divided into  galleries and linked by 
 ####Enter the Rotunda
 
 You can enter the rotunda, which leads to all the galleries, through this portal:
- <i class="fas fa-vr-cardboard"></i> {% include hubslink.html room="0" waypoint="start" text="Rotunda" %} </div> 
+<a class="xrlink" room="0" waypoint="start">Rotunda</a>
 
-<!-- <div><img src="{{ site.baseurl_book_img }}portal-small.jpg)"> -->

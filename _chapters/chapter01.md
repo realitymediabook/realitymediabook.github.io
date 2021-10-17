@@ -10,7 +10,7 @@ bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
-<div>{% include hubslink.html room="0" waypoint="start" text="portal to What Are AR and VR?" %} </div> 
+<a class="xrlink" room="0" waypoint="arvr">Portal to What Are AR and VR?</a>
 
 The history of AR and VR dates back at least to the 1960s (and in some sense much earlier). AR and VR are the latest in a lineage of <a href="chapter02.html"> reality media</a>. These two technologies spent decades in the labs of computer scientists or were used exclusively for specialized and expensive applications, e.g. by the military. It was in the 2010s that they became widely available consumer technologies. Smart phones brought a kind of AR to millions of user, and inexpensive headsets such as the Oculus Rift and later Quest introduced gamers and others to VR. 
 
@@ -25,6 +25,6 @@ As early as 1995, Paul Milgram and Fumio Kishino proposed what they called the "
 The spectrum illustrates the princiapl difference between AR and VR: while VR displays create at complete visual world, AR combines computer generated objects with our view of the world. VR and AR pursue different strategies to repesent reality. VR promises <a href="chapter05.html"> *presence*</a>; at least some AR experiences promise to enhance the  <a href="chapter05.html">*aura*</a> of special places, such cultural heritage sites. 
 
 Enter the gallery through this portal:
-<div>{% include hubslink.html room="0" waypoint="start" text="portal to What Are AR and VR?" %} </div> 
+<a class="xrlink" room="0" waypoint="arvr">Portal to What Are AR and VR?</a>
 
 \[RELATED CHAPTER (in printed book): What are Augmented and Virtual Reality?\]

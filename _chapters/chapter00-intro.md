@@ -11,7 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
- <div>{% include hubslink.html room="0" waypoint="start" text="portal to What Are Reality Media?" %} </div> 
+<a class="xrlink" room="0" waypoint="start">Portal to What Are Reality Media?</a>
 
 Our printed book defines *reality media* and shows how augmented and virtual reality fall under that definition. The two words are equally important in describing all reality media (see the <a href="chapter02.html"> History of Reality Media </a>). They all aspire to imitate or even to supplant our experience of everyday reality. They never fully succeed in this aspiration, however, and eventually we are reminded that they are technologies mediating reality rather than supplanting it. 
 
@@ -27,8 +27,7 @@ There is the La Ciotat myth and the La Ciotat effect. The myth is the belief tha
 
  To enter the gallery through the portal. 
 
- <div><img src="{{ site.baseurl_book_img }}portal-small.jpg)"> {% include hubslink.html room="0" waypoint="start" text="portal to What Are Reality Media?" %} </div> 
-
+<a class="xrlink" room="0" waypoint="start">Portal to What Are Reality Media?</a>
 
 \[RELATED CHAPTER (in printed book): Introduction\]
 

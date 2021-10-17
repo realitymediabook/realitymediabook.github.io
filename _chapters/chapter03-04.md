@@ -11,7 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 Enter the gallery through this portal:
-<div>{% include hubslink.html room="0" waypoint="start" text="portal to 3D Graphics" %} </div> 
+<a class="xrlink" room="2" waypoint="start">Portal to 3D Graphics</a>
 
 This gallery corresponds to two chapters in the printed *Reality Media*:
 
@@ -56,6 +56,6 @@ For AR, sensing technologies are becoming increasingly sophisticated and enablin
 In the second room of this current gallery, we demonstrate what tracking in six DOF means. We also illustrate the uncanny quality of the 3D reproduction of the world enabled by LIDAR and digital techniques on the latest smart phones. 
 
 Enter the gallery through this portal:
-<div>{% include hubslink.html room="0" waypoint="start" text="portal to 3D Graphics" %} </div> 
+<a class="xrlink" room="2" waypoint="start">Portal to 3D Graphics</a>
 
 \[RELATED CHAPTERS (in printed book): 3 and 4\]

@@ -11,7 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 Enter the gallery through this portal:
-<div>{% include hubslink.html room="0" waypoint="start" text="portal to Presence and Aura" %} </div> 
+<a class="xrlink" room="3" waypoint="start">Portal to Presence and Aura</a>
 
 Like other galleries in our immersive book, the Presence and Aura gallery is divided into two rooms, one devoted to each topic. 
 
@@ -33,6 +33,6 @@ The physiological responses that VR can evoke can in fact confirm a feeling of p
 Aura is a special kind of presence. The term in this sense comes from the media scholar Walter Benjamin, writing in the 1930s, long before digital media. Benjamin argued that the media technologies of his day, film and photography, diminished the aura of earlier artistic media, such as painting. You can only expierence da Vinci's Mona Lisa in the Louvre in Paris. There is only one authentic painting. But you can experience what is essentially the same movie anywhere by watching any good copy. We can bring Benjamin’s concept into the present and ask about the status of VR and AR. It seems clear that VR generally lacks aura,in Benjamin's sense. VR worlds are generally detached from the unique experience of this world. You can have the same VR experience anywhere. But at least some AR experiences are geolocated, linked directly to the places in this world&mdash;for example, a 3D recreation of the Parthenon that you can only see if you visit the Acropolis in Athens. AR cultural heritage applications for historic sites can be said to appropriate and perhap even enhance the aura of the site. We provide examples in the second room of the gallery. 
 
 Enter the gallery through this portal:
-<div>{% include hubslink.html room="0" waypoint="start" text="portal to Presence and Aura" %} </div> 
+<a class="xrlink" room="3" waypoint="start">Portal to Presence and Aura</a>
 
 \[RELATED CHAPTERS (in printed book): 5\]
