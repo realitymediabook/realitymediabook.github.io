@@ -1,4 +1,9 @@
 //const { update } = require("tar");
+var loggedInCSS = ".logged-in {} .not-logged-in {display:none}"
+var notLoggedInCSS = ".not-logged-in {} .logged-in {display:none}"
+var loginStyleSheet = document.createElement('style')
+loginStyleSheet.innerHTML = notLoggedInCSS;
+document.head.appendChild(loginStyleSheet);
 
 function maskEmail(email) {
     if (!email) return "";
@@ -7,20 +12,37 @@ function maskEmail(email) {
     const emailDomain = emailParts[1];
     const truncatedIdentity = emailIdentity.substring(0, Math.min(emailIdentity.length, 3));
     return `${truncatedIdentity}...@${emailDomain}`;
-  }
+}
   
-function updatePageLinks() {
-    let linkEls = document.getElementsByClassName("xrlink")
-    if (linkEls.length == 0) { return }
+var windowObjectReference = null; // global variable
+var windowObjectPreviousUrl = null;
+var windowName = "XRHubsWindow"
 
+window.XRopenRequestedPopup = function(url) {
+    console.log("followed link " + url)
+    if(windowObjectReference == null || windowObjectReference.closed) {
+        windowObjectReference = window.open(url, windowName);
+    } else if (windowObjectPreviousUrl != url) {
+        windowObjectReference = window.open(url, windowName);
+        windowObjectReference.focus();
+    } else {
+        windowObjectReference.focus();
+    }
+    windowObjectPreviousUrl = url
+}
+
+function updatePageLinks() {
     var roomList = null
     if (window.SSO && window.SSO.userInfo) {
         roomList = window.SSO.userInfo.rooms
+        loginStyleSheet.innerHTML = loggedInCSS;
+
+    } else {
+        loginStyleSheet.innerHTML = notLoggedInCSS;
     }
 
-    // if (!roomList) {
-    //     roomList = ["DGY2n3k", "aSCkfag"]
-    // }
+    let linkEls = document.getElementsByClassName("xrlink")
+    //if (linkEls.length == 0) { return }
     for (var i=0; i < linkEls.length; i++)  {
         let l = linkEls[i]
         let room = l.getAttribute("room")
@@ -36,13 +58,25 @@ function updatePageLinks() {
             if (waypoint) {
                 t += "#" + waypoint
             }
-            t += "'>" + text + "</a>"
+            t += "' onclick='XRopenRequestedPopup(this.href); return false;'>" + text + "</a>"
             l.innerHTML = t
         } else {
             let t = "<a href='/notLoggedIn'>" + text + "</a>"
             l.innerHTML = t
         }
         
+    }
+    
+    linkEls = document.getElementsByClassName("exlink")
+    //if (linkEls.length == 0) { return }
+    for (var i=0; i < linkEls.length; i++)  {
+        let l = linkEls[i]
+
+        let link = l.getAttribute("link")
+        var text = l.getAttribute("linkText")
+
+        let t = "<a href='" + link + "' onclick='XRopenRequestedPopup(this.href); return false;'>" + text + "</a>"
+        l.innerHTML = t
     }
 }
 
@@ -98,12 +132,12 @@ function updateLoginStatus(newValue) {
     if (newValue) {
         data = JSON.parse(newValue)
         if (data.email) {
-            div.innerHTML = "Signed in as <em>" + maskEmail(data.email) + "</em>"
+            div.innerHTML = '<a href="/loggedIn">Signed in as <em>' + maskEmail(data.email) + "</em></a>"
             getUserData(data)
             return;
         } 
     } 
-    div.innerHTML = "Not signed in"
+    div.innerHTML = '<a href="/notLoggedIn">Not signed in</a>'
     window.SSO.userInfo = null
     updatePageLinks()
 }

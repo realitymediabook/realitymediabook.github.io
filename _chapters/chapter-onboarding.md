@@ -11,13 +11,15 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-This webpage introduces you to the 3D Hubs environment that is the platform for *RealityMedia*. You can go directly into the 3D site (and learn how to navigate the platform) by following: 
+This webpage introduces you to the 3D platform for *RealityMedia*, built on top of Mozilla's open-source <a href="https://hubs.mozilla.com/cloud" target="blank">Hubs Cloud</a> platform. 
 
-<div><img src="{{ site.baseurl_book_img }}portal-small.jpg)">
+You can go directly into the 3D site by following links with the "VR Display" (<i class="fas fa-vr-cardboard"></i>) symbol before them. 
 
- {% include hubslink.html room="0" waypoint="start" text="Onboarding Area" %} </div>
+For example, to learn how to navigate and use the 3D platform, you can visit the  <i class="fas fa-vr-cardboard"></i> {% include hubslink.html room="0" waypoint="start" text="Onboarding Area" %}.  Whether you visit the onboarding area or not, we encourage you to read this page and then enter the starting portal (the link is at the bottom of the page). 
 
-Or you can read this page and then enter the portal (at the bottom of the page). A guide to using Mozilla Hubs is available at <a href="https://hubs.mozilla.com/docs/intro-hubs.html" target="blank">https://hubs.mozilla.com/docs/intro-hubs.html</a>. Here are the highlights:
+<!-- <div><img src="{{ site.baseurl_book_img }}portal-small.jpg)">   </div> -->
+
+A guide to using Mozilla Hubs is available at <a href="https://hubs.mozilla.com/docs/intro-hubs.html" target="blank">in the Hubs user documentation</a>. Here are the highlights:
 
 ##### Entering a Hubs room
 
@@ -50,7 +52,7 @@ This immersive book is a suite Hubs rooms divided into  galleries and linked by 
 
 ####Enter the Rotunda
 
-You can enter the rotunda, which leads to all the galleries, through this portal: 
-<div><img src="{{ site.baseurl_book_img }}portal-small.jpg)">
-{% include hubslink.html room="0" waypoint="start" text="Rotunda" %} </div> 
+You can enter the rotunda, which leads to all the galleries, through this portal:
+ <i class="fas fa-vr-cardboard"></i> {% include hubslink.html room="0" waypoint="start" text="Rotunda" %} </div> 
 
+<!-- <div><img src="{{ site.baseurl_book_img }}portal-small.jpg)"> -->

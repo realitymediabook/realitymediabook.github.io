@@ -278,6 +278,11 @@
     padding: 0;
   }
 
+  .menu-login-icon {
+      text-decoration: none;
+      padding: 0;
+  }
+  
   .menu-login {
       height: 44px;
       margin-top: 6px;
@@ -285,6 +290,13 @@
       color: rgba($white,.8)
   }
 
+  .menu-login a {
+    display: block;
+    text-decoration: underline;
+    padding: 0;
+    color: rgba($white,.8)
+  }
+  
   a {
     display: block;
     color: #333;
