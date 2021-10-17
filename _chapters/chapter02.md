@@ -10,6 +10,8 @@ bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
+Enter the gallery through this portal:
+<div>{% include hubslink.html room="0" waypoint="start" text="portal to History of Reality Media" %} </div> 
 
 As we argue in the printed <i>Reality Media</i>, AR and VR need to be understood not only as new technologies with new capacities for blending into the world or offering us new worlds, new apparent realities, for us to explore. They are that, but they are also the latest in a tradition of such media. AR and VR make the same appeal that perspective painting, the panorama, film, and television (among others) have made in the past. All such media purport to capture the real, and all of them do so in relation to earlier media. All remediate. Often they pretend to bypass earlier media and finally offer us the real. But they all depend for their effect on an implicit or explicit comparison with other media. The work of Renaissance artists was a demonstration that they had mastered techniques that surpassed medieval painting and could make images that closely resembled what we "really" saw in the world. Centuries later enthusiasts for photography claimed that this "natural" techniques surpassed perspective in capturing the real. Film set photography in motion. And today VR strives for a computer-generated **photo**realistic world that we can inhabit and interact with. 
 
@@ -27,5 +29,7 @@ To display the evolving relationships among reality media, our gallery is patter
 <div style="margin-top:40px"> </div>
 According to Frances Yates in *The Art of Memory* (1966), Camillo's theater was a pseudo-magical structure for organizing all knowledge. We are not that ambitious; we borrow his metaphor of an amphitheater to arrange and present reality media artifacts, beginnging trompe l'oiel painting and proceeding in tiers up to the highest row, which displays contemporary VR and AR.
 
-\[LINK TO HISTORY GALLERY\]
+Enter the gallery through this portal:
+<div>{% include hubslink.html room="0" waypoint="start" text="portal to History of Reality Media" %} </div> 
+
 \[RELATED CHAPTERS (in printed book): 2\]
