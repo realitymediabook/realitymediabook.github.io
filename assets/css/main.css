@@ -1672,10 +1672,20 @@ body {
   margin: 0;
   padding: 0;
 }
+.menuWrapper ul .menu-login-icon {
+  text-decoration: none;
+  padding: 0;
+}
 .menuWrapper ul .menu-login {
   height: 44px;
   margin-top: 6px;
   margin-left: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.menuWrapper ul .menu-login a {
+  display: block;
+  text-decoration: underline;
+  padding: 0;
   color: rgba(255, 255, 255, 0.8);
 }
 .menuWrapper ul a {
