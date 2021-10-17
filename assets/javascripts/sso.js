@@ -18,17 +18,17 @@ var windowObjectReference = null; // global variable
 var windowObjectPreviousUrl = null;
 var windowName = "XRHubsWindow"
 
-window.XRopenRequestedPopup = function(url) {
+window.XRopenRequested = function(url) {
     console.log("followed link " + url)
-    if(windowObjectReference == null || windowObjectReference.closed) {
-        windowObjectReference = window.open(url, windowName);
-    } else if (windowObjectPreviousUrl != url) {
-        windowObjectReference = window.open(url, windowName);
-        windowObjectReference.focus();
-    } else {
-        windowObjectReference.focus();
-    }
-    windowObjectPreviousUrl = url
+    // if(windowObjectReference == null || windowObjectReference.closed) {
+    //     windowObjectReference = window.open(url, windowName);
+    // } else if (windowObjectPreviousUrl != url) {
+    //     windowObjectReference = window.open(url, windowName);
+    //     windowObjectReference.focus();
+    // } else {
+    //     windowObjectReference.focus();
+    // }
+    // windowObjectPreviousUrl = url
 }
 
 function updatePageLinks() {
@@ -58,7 +58,7 @@ function updatePageLinks() {
             if (waypoint) {
                 t += "#" + waypoint
             }
-            t += "' onclick='XRopenRequestedPopup(this.href); return false;'>" + text + "</a>"
+            t += "' onclick='XRopenRequested(this.href)'>" + text + "</a>"
             l.innerHTML = t
         } else {
             let t = "<a href='/notLoggedIn'>" + text + "</a>"
@@ -75,7 +75,7 @@ function updatePageLinks() {
         let link = l.getAttribute("link")
         var text = l.getAttribute("linkText")
 
-        let t = "<a href='" + link + "' onclick='XRopenRequestedPopup(this.href); return false;'>" + text + "</a>"
+        let t = "<a href='" + link + "' onclick='XRopenRequested(this.href)'>" + text + "</a>"
         l.innerHTML = t
     }
 }
