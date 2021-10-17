@@ -27,7 +27,7 @@ To display the evolving relationships among reality media, our gallery is patter
 <div style="font-size:.8rem";>(Image taken from https://socks-studio.com/2019/03/03/spatializing-knowledge-giulio-camillos-theatre-of-memory-1519-1544/) </div>
 
 <div style="margin-top:40px"> </div>
-According to Frances Yates in *The Art of Memory* (1966), Camillo's theater was a pseudo-magical structure for organizing all knowledge. We are not that ambitious; we borrow his metaphor of an amphitheater to arrange and present reality media artifacts, beginnging trompe l'oiel painting and proceeding in tiers up to the highest row, which displays contemporary VR and AR.
+According to Frances Yates in *The Art of Memory* (1966), Camillo's theater was a pseudo-magical structure for organizing all knowledge. We are not that ambitious; we borrow his metaphor of an amphitheater to arrange and present reality media artifacts, beginning trompe l'oiel painting and proceeding in tiers up to the highest row, which displays contemporary VR and AR.
 
 Enter the gallery through this portal:
 <a class="xrlink" room="1" waypoint="start">Portal to History of Reality Media</a>

@@ -22,7 +22,7 @@ As early as 1995, Paul Milgram and Fumio Kishino proposed what they called the "
 
 <div class="img img--fullContainer img--6xLeading" style="background-image: url({{ site.baseurl_book_img }}milgram.jpg);"></div>
 
-The spectrum illustrates the princiapl difference between AR and VR: while VR displays create at complete visual world, AR combines computer generated objects with our view of the world. VR and AR pursue different strategies to repesent reality. VR promises <a href="chapter05.html"> *presence*</a>; at least some AR experiences promise to enhance the  <a href="chapter05.html">*aura*</a> of special places, such cultural heritage sites. 
+The spectrum illustrates the principal difference between AR and VR: while VR displays create at complete visual world, AR combines computer generated objects with our view of the world. VR and AR pursue different strategies to represent reality. VR promises <a href="chapter05.html"> *presence*</a>; at least some AR experiences promise to enhance the  <a href="chapter05.html">*aura*</a> of special places, such cultural heritage sites. 
 
 Enter the gallery through this portal:
 <a class="xrlink" room="0" waypoint="arvr">Portal to What Are AR and VR?</a>

@@ -19,9 +19,9 @@ This gallery corresponds to two chapters in the printed *Reality Media*:
 Chapter 3 introduces principles of computer graphics (CG) that both AR and VR depend on to construct their version of visual reality for the viewer. 
 In 3D CG, computer hardware and software must explicitly create all the elements of the scene that analog and even digital photography get "for free" when they focus 
 and record the light from the world. The form and shape of the objects, the lighting and shading of the scene, and (for moving objects in a CG world) the physical behavior 
-must all be calculated and recalulated each time the user moves their head and changes perspective. 
+must all be calculated and recalculated each time the user moves their head and changes perspective. 
 Photorealism, the holy grail of computer graphics for decades, is often understood as making a CG scene that is indistinguishable from reality. 
-But, as the name suggests, it measures reality in terms of photography (and film). A photorealistic image would be indistinguihable from a photograph. 
+But, as the name suggests, it measures reality in terms of photography (and film). A photorealistic image would be indistinguishable from a photograph. 
 A photorealistic animation would seem to be a live action film. 
 So a perfect photorealistic graphic would achieve for the digital medium what the <a href="{{site.baseurl}}/chapters/chapter00-intro.html">LaCiotat myth</a> promised for film.
 
@@ -42,7 +42,7 @@ In the first room of the gallery, we illustrate principles of computer graphics.
 ####Spatial tracking and Sensing
 Chapter 4 describes how the computer tracks itself and the user's place in the world (AR) and the imagined worlds of VR.
 
-Tracking the user is essential for both AR and VR in order to position graphics and other data in her environment. In our three-dimensional world, a user can orient her head through three kinds of movmements (up and down, side to side, and tilting right and left), and she can move her body in three ways (up and down, right to left, and forward and back). A user has six so-called *degrees of freedom* (DOF). Some VR and AR applications can make do with just know the orientation of the user (where she is looking). But if the user can move around while using the application, then the system must track all six DOF.  
+Tracking the user is essential for both AR and VR in order to position graphics and other data in her environment. In our three-dimensional world, a user can orient her head through three kinds of movements (up and down, side to side, and tilting right and left), and she can move her body in three ways (up and down, right to left, and forward and back). A user has six so-called *degrees of freedom* (DOF). Some VR and AR applications can make do with just know the orientation of the user (where she is looking). But if the user can move around while using the application, then the system must track all six DOF.  
 
 
 <img class="img img--fullContainer img--6xLeading" src="{{ site.baseurl_book_img }}ch3-4-cg/DOF1.jpg"> 

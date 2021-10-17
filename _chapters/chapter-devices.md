@@ -10,7 +10,7 @@ bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
-The 3D digital version of RealityMedia has been realized using Mozilla's  virtual environment <a href="https://hubs.mozilla.com">Hubs</a> and can be experienced on a variety of desktop and laptop computers; smartphones and tablets; and VR headsets. There are minimum requirements for devices in each class. Devices that just meet these requirements will deliver the experience, but the responsivness and navigation may be sluggish or otherwise unsatisfactory. 
+The 3D digital version of RealityMedia has been realized using Mozilla's  virtual environment <a href="https://hubs.mozilla.com">Hubs</a> and can be experienced on a variety of desktop and laptop computers; smartphones and tablets; and VR headsets. There are minimum requirements for devices in each class. Devices that just meet these requirements will deliver the experience, but the responsiveness and navigation may be sluggish or otherwise unsatisfactory. 
 
 <h3>Desktops and laptops</h3>
 
