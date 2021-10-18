@@ -40,7 +40,7 @@ The portal is a metaphor in the printed book, but it is an operating feature of 
 
 #### The Galleries
 
-<div class="img img--fullContainer img--16xLeading" style="background-image: url({{ site.baseurl_book_img }}Rotunda-layout.png);"></div>
+<div class="img img--fullContainer img--20xLeading" style="background-image: url({{ site.baseurl_book_img }}realitymediamap.jpg);"></div>
 
 *RealityMedia* consists of a set of galleries organized around a rotunda as you see in the diagram above. The eight galleries correspond to the ten chapters of the printed book as follows:
 

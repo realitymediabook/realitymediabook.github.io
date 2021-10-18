@@ -472,6 +472,10 @@ hr {
   height: 24rem;
 }
 
+.img--20xLeading {
+  height: 30rem;
+}
+
 html,
 body {
   overflow-x: hidden;
