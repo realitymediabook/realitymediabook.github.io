@@ -139,7 +139,7 @@ async function getUserData(credentials) {
     })
 }
 
-function updateLoginStatus(newValue) {
+async function updateLoginStatus(newValue) {
     let div = document.querySelector('#login-status');
     if (!newValue) {
         newValue = window.localStorage.getItem("__ael_hubs_sso")
@@ -152,7 +152,7 @@ function updateLoginStatus(newValue) {
             return;
         } 
     } else {
-        getUserData()  // see if it's in a cookie
+        await getUserData()  // see if it's in a cookie
         if (window.SSO.userInfo) {
             div.innerHTML = '<a href="/loggedIn">Signed in as <em>' + maskEmail(window.SSO.userInfo.user.email) + "</em></a>"
             return;
