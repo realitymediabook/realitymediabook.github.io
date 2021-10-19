@@ -93,7 +93,10 @@ function updatePageLinks() {
 }
 
 function getUserData(credentials) {
-    let url = "/sso/user/?email=" + encodeURIComponent(credentials.email) + "&token=" + encodeURIComponent(credentials.token);
+    let url = "/sso/user/"
+    if (credentials) {
+        url += "?email=" + encodeURIComponent(credentials.email) + "&token=" + encodeURIComponent(credentials.token);
+    }
     const request = {
         method: "GET",
         headers: {
@@ -148,7 +151,13 @@ function updateLoginStatus(newValue) {
             getUserData(data)
             return;
         } 
-    } 
+    } else {
+        getUserData()  // see if it's in a cookie
+        if (window.SSO.userInfo) {
+            div.innerHTML = '<a href="/loggedIn">Signed in as <em>' + maskEmail(window.SSO.userInfo.user.email) + "</em></a>"
+            return;
+        }
+    }
     div.innerHTML = '<a href="/notLoggedIn">Not signed in</a>'
     window.SSO.userInfo = null
     updatePageLinks()
