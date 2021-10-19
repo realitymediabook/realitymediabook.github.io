@@ -92,7 +92,7 @@ function updatePageLinks() {
     }
 }
 
-function getUserData(credentials) {
+async function getUserData(credentials) {
     let url = "/sso/user/"
     if (credentials) {
         url += "?email=" + encodeURIComponent(credentials.email) + "&token=" + encodeURIComponent(credentials.token);
@@ -104,7 +104,7 @@ function getUserData(credentials) {
         }
     };
 
-    return fetch(url, request).then(response => {
+    return await fetch(url, request).then(response => {
         console.log("get user info reply: ", response)
         if (!response.ok) {
             switch(response.status) {
