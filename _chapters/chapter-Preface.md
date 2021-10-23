@@ -17,7 +17,6 @@ If you wish to enter the immersive book immediately, click on the image below.
 
  If you would like some context, read the following preface first. 
 
-
 This is a project encompassing three related writing spaces, three technologies for representing ideas: print, the web, and immersive VR and AR. 
 
 * The web site that you are now reading is <a href="https://realitymedia.digital">realitymedia.digital</a>.
@@ -27,7 +26,6 @@ This is a project encompassing three related writing spaces, three technologies 
 The printed page is a writing space with a tradition dating back to the fifteenth century. The web has a far shorter tradition, beginning around 1990, but in the thirty year since Tim Berner-Lee launched the first web server, the web has grown to rival and for many kinds of communication to surpass print in importance. The technologies of immersive, three-dimensional spaces of AR and VR are actually as old as the technologies of the web. But AR and VR are not typically understood as writing spaces at all. One goal of this project is to demonstrate the potential of the immersive book. 
 
 Each of these three writing spaces has a different ratio between word and image. In most (though not all) printed books, the word is the primary mode of communication. Images serve as illustrations of the ideas and examples expressed in the verbal text. The web space too has a tradition, much shorter but already established, as an extension of the space of print. The ratio and relationship of word and image are more equal or at least open to various ratios of word and image but still 2D, still a page. The immersive book literally adds another dimension. It is a 3D space that you can enter and move through. It invites a different kinds of participation, an extension of the concept of reading. Words, when they appear, function as captions or explanations in relation to the 3D space that you inhabit.  participatory rather than just discursive. inviting a different kind of participation, a metaphorical extension of the concept of reading, (which is why the museum is a good analog. wall copy etc. function as subsidiary to the visual and embodied space of the exhibition. ) 
-
 
 In the Preface to the printed book, we said that we drew inspiration for this project from Scott McCloud’s <i>Understanding Comics</i>. McCloud’s brilliant book was both an essay on the nature of comics and a comic itself. McCloud was able to insert himself as a character in panels of the comic. But we said that we could not do the same thing for our project because the printed book and the computer belong to different spaces, supported by very different underlying technologies. So our printed book is necessarily separate in form from our two digital format.  Our two digital formats can come closer to what McCloud achieved, if not quite there. Our web pages can perform a function similar to McCloud's own character in <i>Understanding Comics</i>: they can comment on and explain what the immersive spaces illustrate or enact. 
 

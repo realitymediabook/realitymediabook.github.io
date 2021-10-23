@@ -11,13 +11,8 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-This webpage introduces you to the 3D experience of *RealityMedia*.
-
-
-##### Creating an account and logging in
- Before you can enter the site you need to create a free account. (The account only keeps your email so that you can review a magic link to login. The login process is a bit complicated, but once you do it, your browser on the current computer should remember your status. If you attempt to login on another platform, you will need to login again.)
-
-[\need to explain the process of going back and forth between the web pages and the 3D Hubs server \]
+This webpage introduces you to the 3D experience of *RealityMedia*. 
+This immersive book is a suite of Hubs rooms divided into galleries and linked by portals.
 
 
 ##### Using the Hubs platform
@@ -53,16 +48,14 @@ A guide to using Mozilla Hubs is available at <a href="https://hubs.mozilla.com/
 
 ##### *RealityMedia* in Hubs
 
-This immersive book is a suite Hubs rooms divided into  galleries and linked by portals. Here is a map, which you will also find posted through the galleries. 
+ Here is a map, which you will also find posted through the galleries. 
 
 <br>
 <div class="img img--fullContainer img--20xLeading" style="background-image: url({{ site.baseurl_book_img }}realitymediamap.jpg);"></div>
 <br>
 
-\[First draft of new map-Maria will supply another soon.\]
+#### Enter the Rotunda
 
-####Enter the Rotunda
-
-You can enter the rotunda, which leads to all the galleries, through this portal:
+You can now enter the rotunda, which leads to all the galleries, through this portal:
 <a class="xrlink" room="0" waypoint="start">Rotunda</a>
 
