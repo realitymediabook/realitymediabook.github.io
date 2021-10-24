@@ -11,15 +11,15 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-This webpage introduces you to the 3D experience of *RealityMedia*. 
-This immersive book is a suite of Hubs rooms divided into galleries and linked by portals.
+*Reality Media*, the immersive book, is realized a suite of Hubs rooms divided into galleries and linked by portals.
+The features of 
 
 
 ##### Using the Hubs platform
 
 *Realitymedia* is built on top of Mozilla's open-source <a href="https://hubs.mozilla.com/cloud" target="blank">Hubs Cloud</a> platform. 
 
-You can go directly into the 3D site by following links with the "VR Display" (<i class="fas fa-vr-cardboard"></i>) symbol before them. 
+You enter into one of the 3D galleries by clicking on the portal (<i class="fas fa-vr-cardboard"></i>) symbol. 
 
 For example, to learn how to navigate and use the 3D platform, you can visit the  <a class="xrlink" room=0 waypoint="onboarding">Onboarding Area</a>.  Whether you visit the onboarding area or not, we encourage you to read this page and then enter the starting portal (the link is at the bottom of the page). 
 

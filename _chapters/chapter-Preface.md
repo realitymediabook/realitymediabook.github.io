@@ -17,7 +17,7 @@ If you wish to enter the immersive book immediately, click on the image below.
 
  If you would like some context, read the following preface first. 
 
-This is a project encompassing three related writing spaces, three technologies for representing ideas: print, the web, and immersive VR and AR. 
+*Reality Media* is a project encompassing three related writing spaces, three technologies for representing ideas: print, the web, and immersive VR and AR. 
 
 * The web site that you are now reading is <a href="https://realitymedia.digital">realitymedia.digital</a>.
 * The printed book is <a href="https://mitpress.mit.edu/books/reality-media">*Reality Media: Augmented and Virtual Reality* (MIT Press)</a>.
