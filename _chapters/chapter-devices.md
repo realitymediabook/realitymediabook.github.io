@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Devices"
+title:  "Devices you can use"
 chapter: ""
 order: 14
 image:

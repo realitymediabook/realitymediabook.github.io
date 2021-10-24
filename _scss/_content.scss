@@ -76,9 +76,9 @@
     }
   }
 
-  li:nth-child(1).block,
-  li:nth-child(2).block {
-    width: 50%;
+  li:nth-child(1).block
+   {
+    width: 100%;
 
     .postArticle-image {
       padding-top: 30%;
@@ -93,9 +93,10 @@
     }
   }
 
+  li:nth-child(2).block,
   li:nth-child(3).block,
   li:nth-child(4).block {
-    width: 50%;
+    width: 25%;
 
     .postArticle-image {
       padding-top: 50%;

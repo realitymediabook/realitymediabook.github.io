@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Three books"
+title:  "Preface: Why Three Books?"
 chapter: ""
 order: 2
 image:
@@ -11,11 +11,6 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-If you wish to enter the immersive book immediately, click on the image below.
-
-\[portal image into Onboarding room\]
-
- If you would like some context, read the following preface first. 
 
 *Reality Media* is a project encompassing three related writing spaces, three technologies for representing ideas: print, the web, and immersive VR and AR. 
 
@@ -38,9 +33,11 @@ The portal is a metaphor in the printed book, but it is an operating feature of 
 
 #### The Galleries
 
+*RealityMedia* consists of a set of galleries organized around a rotunda as you see in the diagram below. 
+
 <div class="img img--fullContainer img--20xLeading" style="background-image: url({{ site.baseurl_book_img }}realitymediamap.jpg);"></div>
 
-*RealityMedia* consists of a set of galleries organized around a rotunda as you see in the diagram above. The eight galleries correspond to the ten chapters of the printed book as follows:
+The eight galleries correspond to the ten chapters of the printed book as follows:
 
 <table style="width:100%">
   <tr>
@@ -85,8 +82,4 @@ The portal is a metaphor in the printed book, but it is an operating feature of 
 
 Within each gallery are 3D models, videos, images, and text. In some of the galleries, you will be invited to interact with the models. Other 3D models or videos simply run and invite you to watch. 
 
-Enter the rotunda here
-
-<a class="xrlink" room="0" waypoint="start">Portal to Rotunda</a>
-
-RELATED CHAPTER (in printed book *Reality Media*): Preface
+Enter the rotunda here: Portal to Rotunda <a class="xrlink" room="0" waypoint="start"> </a>
