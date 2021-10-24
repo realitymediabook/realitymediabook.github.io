@@ -37,7 +37,7 @@ Jisu Park
 Nirui Kang
 Zack...
 
-the dozens of students who participated in our Augmented reality design studio at Georgia Tech 2019-2021.
+the dozens of students who participated in our augmented reality design studio at Georgia Tech 2019-2021.
 ....
 
 
