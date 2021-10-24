@@ -2,7 +2,7 @@
 layout: post
 title:  "How to read this immersive book"
 chapter: ""
-order: 1
+order: 15
 image:
   feature: empty-room.png
   topPosition: -100px
