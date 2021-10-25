@@ -9,6 +9,8 @@ image:
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
+sidebar: false
+frontpagegroup: 2
 ---
 
 *Reality Media*, the immersive book, is realized a suite of Hubs rooms divided into galleries and linked by portals.

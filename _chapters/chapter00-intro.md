@@ -9,6 +9,8 @@ image:
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
+sidebar: true
+frontpagegroup: 1
 ---
 
 <a class="xrlink" room="0" waypoint="start">Portal to What Are Reality Media?</a>

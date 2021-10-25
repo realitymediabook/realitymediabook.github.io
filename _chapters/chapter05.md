@@ -9,6 +9,8 @@ image:
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
+sidebar: true
+frontpagegroup: 1
 ---
 Enter the gallery through this portal:
 <a class="xrlink" room="3" waypoint="start">Portal to Presence and Aura</a>

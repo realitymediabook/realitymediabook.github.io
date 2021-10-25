@@ -9,6 +9,8 @@ image:
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
+sidebar: false
+frontpagegroup: 2
 ---
 <h2>The following images/videos/audio are used in this digital version</h2>
 <h2>Genres</h2>

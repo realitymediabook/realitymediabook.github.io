@@ -14,7 +14,7 @@ If everything is installed, you can build the current website in the `docs` dire
 
 To test locally, run `npm run dev`.  This builds the site, and starts a local server for the content.
 
-NOTE: the sign-in information in the upper left will _only_ show up properly on `realitymedia.digital`.  Anywhere else, it will show "Not signed in."
+NOTE: the sign-in information in the upper left will _only_ show up properly on `realitymedia.digital`.  Anywhere else, it will show "Sign in."
 
 NOTE: using nvm v16.1.0 and rvm 2.6.6
 
