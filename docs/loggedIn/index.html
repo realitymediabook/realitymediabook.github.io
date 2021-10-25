@@ -95,6 +95,7 @@
     
     
       
+      
       <li>
         
           <a href="/chapters/chapter-Preface.html" class="sidebar-recentPosts-image-wrapper">
@@ -105,7 +106,9 @@
         <div class="postMeta"></div>
       </li>
       
+      
     
+      
       
       <li>
         
@@ -117,7 +120,9 @@
         <div class="postMeta"></div>
       </li>
       
+      
     
+      
       
       <li>
         
@@ -129,7 +134,9 @@
         <div class="postMeta"></div>
       </li>
       
+      
     
+      
       
       <li>
         
@@ -141,7 +148,9 @@
         <div class="postMeta"></div>
       </li>
       
+      
     
+      
       
       <li>
         
@@ -153,7 +162,9 @@
         <div class="postMeta"></div>
       </li>
       
+      
     
+      
       
       <li>
         
@@ -165,7 +176,9 @@
         <div class="postMeta"></div>
       </li>
       
+      
     
+      
       
       <li>
         
@@ -177,7 +190,9 @@
         <div class="postMeta"></div>
       </li>
       
+      
     
+      
       
       <li>
         
@@ -189,7 +204,9 @@
         <div class="postMeta"></div>
       </li>
       
+      
     
+      
       
       <li>
         
@@ -201,53 +218,22 @@
         <div class="postMeta"></div>
       </li>
       
-    
-      
-      <li>
-        
-          <a href="/chapters/chapter-authors.html" class="sidebar-recentPosts-image-wrapper">
-            <img src="/assets/images/thumbnail/authors-chat.png" style="" alt="">
-          </a>
-        
-        <a href="/chapters/chapter-authors.html">Authors and Designers</a>
-        <div class="postMeta"></div>
-      </li>
       
     
       
-      <li>
-        
-          <a href="/chapters/chapter-credits.html" class="sidebar-recentPosts-image-wrapper">
-            <img src="/assets/images/thumbnail/copyright.jpeg" style="" alt="">
-          </a>
-        
-        <a href="/chapters/chapter-credits.html">Credits</a>
-        <div class="postMeta"></div>
-      </li>
+      
       
     
       
-      <li>
-        
-          <a href="/chapters/chapter-devices.html" class="sidebar-recentPosts-image-wrapper">
-            <img src="/assets/images/thumbnail/oculus.png" style="" alt="">
-          </a>
-        
-        <a href="/chapters/chapter-devices.html">Devices you can use</a>
-        <div class="postMeta"></div>
-      </li>
+      
       
     
       
-      <li>
-        
-          <a href="/chapters/chapter-onboarding.html" class="sidebar-recentPosts-image-wrapper">
-            <img src="/assets/images/thumbnail/empty-room.png" style="" alt="">
-          </a>
-        
-        <a href="/chapters/chapter-onboarding.html">Technological details</a>
-        <div class="postMeta"></div>
-      </li>
+      
+      
+    
+      
+      
       
     
   </ul>
@@ -265,7 +251,7 @@
         <li class="list-item"><a href="">Kiva</a></li>
       </ul> -->
     </li>
-    <li id="login-status" class="menu-login">Not logged in</li>
+    <li id="login-status" class="menu-login"><a href="/notLoggedIn">Sign in</a></li>
   </ul>
 </nav>
 
@@ -323,6 +309,12 @@
 <p class="logged-in">You can see your login email address in the upper left corner of the screen. The realitymedia.digital system does not save your email address on our servers, it is only stored in your browser. A anonymous identifier is also stored in the browser, and used to retrieve your information (such as the list of immersive rooms in your copy of the book) from our servers.</p>
 <p class="logged-in">To log out, please visit <a class="exlink" href="https://xr.realitymedia.digital">xr.realitymedia.digital</a> and log out there.</p>
 
+        <div class="content-comments">
+    <h4 class="page__comments-title">Comments</h4>
+    <section id="utterances-comments"></section>
+ </div>
+
+
       </div>
     </div>
     <!-- <hr class="u-clearHr"/>
@@ -333,6 +325,7 @@
     
   </footer>
 </article>
+
 
 <div class="modal-toggle-group animate scaleIn">
   <div class="modal-toggle-bubbleShadow"></div>
@@ -345,7 +338,7 @@
 
 <div class="fullscreenModal u-table">
   <div class="u-tableCell u-verticalAlignMiddle">
-    <h2 class="h2--shareTitle">Share this story</h2>
+    <h2 class="h2--shareTitle">Share this page</h2>
     <ul class="shareWrapper">
       <li><a class="shareButton shareButton--twitter" href="https://twitter.com/intent/tweet?text=Login Information by @blairmacintyre @jaybolter @MariaAnnaME&url=https%3A%2F%2Frealitymedia.digital%2FloggedIn%2F" target="_blank"></a></li>
       <li><a class="shareButton shareButton--facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frealitymedia.digital%2FloggedIn%2F" target="_blank"></a></li>
@@ -418,6 +411,27 @@
     $('.modal-toggle-group').toggleClass('active', $(document).scrollTop() >= 300);
   });
 </script>
+
+<script>
+    'use strict';
+  
+    (function() {
+      var commentContainer = document.querySelector('#utterances-comments');
+  
+      if (!commentContainer) {
+        return;
+      }
+  
+      var script = document.createElement('script');
+      script.setAttribute('src', 'https://utteranc.es/client.js');
+      script.setAttribute('repo', '');
+      script.setAttribute('issue-term', 'realitymediabook/realitymediabook.github.io');
+      script.setAttribute('theme', 'github-dark');
+      script.setAttribute('crossorigin', 'anonymous');
+  
+      commentContainer.appendChild(script);
+    })();
+  </script>
 
   </body>
 </html>

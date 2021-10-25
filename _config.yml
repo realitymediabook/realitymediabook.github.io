@@ -25,6 +25,10 @@ baseurl_javascripts: '/assets/javascripts/'
 #icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
 #disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
+utterances:
+  theme: "github-dark"
+  issue_term: "realitymediabook/realitymediabook.github.io"
+
 author:
   name:           	 Jay Bolter, Maria Engberg and Blair MacIntyre
   url:            	 https://mitpress.mit.edu/books/reality-media

@@ -76,7 +76,7 @@
     }
   }
 
-  li:nth-child(1).block
+  .w100
    {
     width: 100%;
 
@@ -93,9 +93,23 @@
     }
   }
 
-  li:nth-child(2).block,
-  li:nth-child(3).block,
-  li:nth-child(4).block {
+  .w33 {
+    width: 33%;
+
+    .postArticle-image {
+      padding-top: 40%;
+    }
+
+    .postArticle-title {
+      font-size: $font-S;
+    }
+
+    @media (max-width: $screen-xs-max) {
+      width: 100%;
+    }
+  }
+
+  .w25 {
     width: 25%;
 
     .postArticle-image {

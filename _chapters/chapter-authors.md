@@ -9,6 +9,8 @@ image:
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
+sidebar: false
+frontpagegroup: 2
 ---
 <h3>The Authors</h3>
 The three of us wrote the printed book *Reality Media* and conceived of the web site and immersive book *RealityMedia*. We also worked with the designers listed below to realize *RealityMedia.*

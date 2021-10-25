@@ -6,6 +6,7 @@
       {% if post.title == page.title %}
         <!-- exclude current post -->
       {% else %}
+      {% if post.sidebar == true %}
       <li>
         {% if post.image.feature %}
           <a href="{{site.baseurl}}{{ post.url }}" class="sidebar-recentPosts-image-wrapper">
@@ -15,6 +16,7 @@
         <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
         <div class="postMeta">{{ post.chapter }}</div>
       </li>
+      {% endif %}
       {% endif %}
     {% endfor %}
   </ul>

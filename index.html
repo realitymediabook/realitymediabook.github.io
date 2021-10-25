@@ -70,7 +70,8 @@ title: Reality Media
         <ul class="blockGroup-list">
           {% assign chapters = site.chapters | sort: "order" %}
           {% for post in chapters %}
-          <li class="block">
+          {% if post.frontpagegroup == 0 %}
+          <li class="block w100">
             <div class="postArticle-wrapper">
               <article class="postArticle postArticle--short">
                 {% if post.image.feature %}
@@ -89,8 +90,73 @@ title: Reality Media
               <div class="block-postMeta">{{ post.chapter }}</div>
             </div>
           </li>
+          {% endif %}
         {% endfor %}
-      </ul>
+    </ul>
+</div>
+
+And here's some mumble about the immersive book chapters
+<div class="blockGroup">
+    <ul class="blockGroup-list">
+
+        {% assign chapters = site.chapters | sort: "order" %}
+        {% for post in chapters %}
+        {% if post.frontpagegroup == 1 %}
+        <li class="block">
+          <div class="postArticle-wrapper">
+            <article class="postArticle postArticle--short">
+              {% if post.image.feature %}
+                <a class="exlink" href="{{site.baseurl}}{{ post.url }}">
+                  <div class="postArticle-image desaturate" style="background-image:url('{{ post.image.feature | prepend: site.baseurl_featured_img }}')">
+                  </div>
+                </a>
+              {% else %}
+              <a href="{{site.baseurl}}{{ post.url }}">
+                <div class="postArticle-image" style="background-image:url('{{site.baseurl}}/assets/images/logo-black.svg')">
+                </div>
+              </a>
+              {% endif %}
+              <a class="postArticle-title" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+            </article>
+            <div class="block-postMeta">{{ post.chapter }}</div>
+          </div>
+        </li>
+        {% endif %}
+      {% endfor %}
+  </ul>
     </div>
-  </div>
+
+    And here's some mumble about the closing chapters
+    <div class="blockGroup">
+        <ul class="blockGroup-list">
+    
+            {% assign chapters = site.chapters | sort: "order" %}
+            {% for post in chapters %}
+            {% if post.frontpagegroup == 2 %}
+            <li class="block w25">
+              <div class="postArticle-wrapper">
+                <article class="postArticle postArticle--short">
+                  {% if post.image.feature %}
+                    <a class="exlink" href="{{site.baseurl}}{{ post.url }}">
+                      <div class="postArticle-image desaturate" style="background-image:url('{{ post.image.feature | prepend: site.baseurl_featured_img }}')">
+                      </div>
+                    </a>
+                  {% else %}
+                  <a href="{{site.baseurl}}{{ post.url }}">
+                    <div class="postArticle-image" style="background-image:url('{{site.baseurl}}/assets/images/logo-black.svg')">
+                    </div>
+                  </a>
+                  {% endif %}
+                  <a class="postArticle-title" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+                </article>
+                <div class="block-postMeta">{{ post.chapter }}</div>
+              </div>
+            </li>
+            {% endif %}
+          {% endfor %}
+      </ul>
+        </div>
+</div>
 </section>
+
+{% include modal.html %}
