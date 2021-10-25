@@ -158,7 +158,7 @@ async function updateLoginStatus(newValue) {
             return;
         }
     }
-    div.innerHTML = '<a href="/notLoggedIn">Not signed in</a>'
+    div.innerHTML = '<a href="/notLoggedIn">Sign in</a>'
     window.SSO.userInfo = null
     updatePageLinks()
 }
