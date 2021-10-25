@@ -37,8 +37,12 @@ Alex LaBarre
 Matthew Rossman
 Jisu Park
 Nirui Kang
-Zack...
+Zach Phillips-Gary
 
+Design and Usability
+Lucy Chen
+Stephanie Lee
+Soy Soyee
 the dozens of students who participated in our augmented reality design studio at Georgia Tech 2019-2021.
 ....
 
