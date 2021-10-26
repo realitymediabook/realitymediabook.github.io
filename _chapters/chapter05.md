@@ -4,7 +4,7 @@ title:  "Presence and Aura"
 chapter: ""
 order: 8
 image:
-  feature: ch5-presence.jpg
+  feature: ch5-promachos.png
   topPosition: -100px
 bgContrast: dark
 bgGradientOpacity: darker
