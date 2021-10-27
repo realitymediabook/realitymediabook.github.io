@@ -15,9 +15,9 @@ frontpagegroup: 2
 
 *Reality Media*, the immersive book, is realized a suite of Hubs rooms divided into galleries and linked by portals.
 
-Here is an example galllery:
+Here is an example gallery:
 <div> 
-<iframe src="https://artnotart.org/jdbolter/pano/" height=300px width=500px title="Genres Gallery"></iframe>
+<iframe src="https://artnotart.org/jdbolter/pano/" height="300" width="500" title="Genres Gallery"></iframe>
 </div>
 
 
