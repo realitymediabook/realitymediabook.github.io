@@ -11,6 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 sidebar: true
 frontpagegroup: 1
+permalink: /presence/
 ---
 Enter the gallery through this portal:
 <a class="xrlink" room="3" waypoint="start">Portal to Presence and Aura</a>

@@ -11,6 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 sidebar: true
 frontpagegroup: 1
+permalink: /future/
 ---
 
 Enter the gallery through this portal:

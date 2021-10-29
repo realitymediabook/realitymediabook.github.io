@@ -11,6 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 sidebar: true
 frontpagegroup: 1
+permalink: /what-are-reality-media/
 ---
 
 <a class="xrlink" room="0" waypoint="start">Portal to What Are Reality Media?</a>

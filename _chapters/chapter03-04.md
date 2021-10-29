@@ -11,6 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 sidebar: true
 frontpagegroup: 1
+permalink: /graphics-tracking/
 ---
 Enter the gallery through this portal:
 <a class="xrlink" room="2" waypoint="start">Portal to 3D Graphics</a>

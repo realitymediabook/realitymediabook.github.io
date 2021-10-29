@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Devices you can use"
+title:  "Devices for reading RealityMedia"
 chapter: ""
 order: 14
 image:
@@ -11,8 +11,9 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 sidebar: false
 frontpagegroup: 2
+permalink: /devices/
 ---
-The 3D digital version of RealityMedia has been realized using Mozilla's  virtual environment <a href="https://hubs.mozilla.com">Hubs</a> and can be experienced on a variety of desktop and laptop computers; smartphones and tablets; and VR headsets. There are minimum requirements for devices in each class. Devices that just meet these requirements will deliver the experience, but the responsiveness and navigation may be sluggish or otherwise unsatisfactory. 
+The 3D digital version of *RealityMedia* has been realized using Mozilla's  virtual environment <a href="https://hubs.mozilla.com">Hubs</a> and can be experienced on a variety of desktop and laptop computers; smartphones and tablets; and VR headsets. There are minimum requirements for devices in each class. Devices that just meet these requirements will deliver the experience, but the responsiveness and navigation may be sluggish or otherwise unsatisfactory. 
 
 <h3>Desktops and laptops</h3>
 
@@ -28,9 +29,9 @@ Mac Mini (201x and later)
 For best results:
 
 - MacBook Pro (201x and later)
-- Mac Pro (2019)
-- MacBook Air (M1 2020)
-- Mac Mini (M1 2020)
+- Mac Pro (2019 and later)
+- MacBook Air (M1 2020 and later)
+- Mac Mini (M1 2020 and later)
 
 <h4>Windows PCs</h4>
 

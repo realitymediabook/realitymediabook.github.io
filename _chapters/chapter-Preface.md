@@ -11,6 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 sidebar: true
 frontpagegroup: 0
+permalink: /preface/
 ---
 
 
