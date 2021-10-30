@@ -13,10 +13,6 @@ sidebar: true
 frontpagegroup: 1
 permalink: /future/
 ---
-
-Enter the gallery through this portal:
-<a class="xrlink" room="6" waypoint="future">Portal to The Futures of AR and VR</a>
-
 In *Speculative Everything* Anthony Dunne and Fiona Raby suggest three categories for imagining the future, ranging the most likely to the least: the probable, the plausible, and the possible. (For Dunne and Raby, a fourth category, the preferable, is a subset of what is probable and plausible.)
 
 <img class="img img--fullContainer img--16xLeading" src="{{ site.baseurl_book_img }}ch8-futures/future.jpg">
@@ -42,7 +38,4 @@ Users of the AR Cloud or the various VR metaverses will remain aware that all th
 
 [Three galleries connected by portals: the probable gallery, the plausible gallery and then the possible which is where the myths of AR and VR are expressed - perhaps the galleries get larger.]
 
-Enter the gallery through this portal:
-<a class="xrlink" room="6" waypoint="future">Portal to The Futures of AR and VR</a>
-
-\[RELATED CHAPTERS (in printed book): 7,8,10\]
+Enter the Futures Gallery through this portal <a class="xrlink" room="6" waypoint="future"></a>.

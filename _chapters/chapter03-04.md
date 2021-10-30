@@ -58,7 +58,4 @@ For AR, sensing technologies are becoming increasingly sophisticated and enablin
 
 In the second room of this current gallery, we demonstrate what tracking in six DOF means. We also illustrate the uncanny quality of the 3D reproduction of the world enabled by LIDAR and digital techniques on the latest smart phones. 
 
-Enter the gallery through this portal:
-<a class="xrlink" room="2" waypoint="start">Portal to 3D Graphics</a>
-
-\[RELATED CHAPTERS (in printed book): 3 and 4\]
+Enter the Graphics and Sensing Gallery through this portal <a class="xrlink" room="2" waypoint="start"> </a>.
