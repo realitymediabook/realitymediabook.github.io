@@ -7,7 +7,7 @@ image:
   feature: book-cover.jpg
   topPosition: -50px
 bgContrast: dark
-bgGradientOpacity: darker
+bgGradientOpacity: da                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     rker
 syntaxHighlighter: no
 sidebar: true
 frontpagegroup: 0
@@ -19,7 +19,7 @@ permalink: /preface/
 * The printed book is <a href="https://mitpress.mit.edu/books/reality-media">*Reality Media: Augmented and Virtual Reality* (MIT Press)</a>.
 * The immersive book is *RealityMedia*. (The computer application has no space in its name.)
 
-The printed page is a writing space with a tradition dating back to the fifteenth century (in Europe, much earlier in China). Obviously the web has a far shorter tradition, beginning around 1990. But in the thirty year since Tim Berner-Lee launched the first web server, the web has grown to rival and for many kinds of communication to surpass print in importance. The technologies of immersive, three-dimensional spaces of AR and VR are actually as old as the technologies of the web. But AR and VR are not typically understood as writing spaces at all. One goal of this project is to demonstrate the potential of the immersive book. 
+The printed page is a writing space with a tradition dating back to the fifteenth century (in Europe, much earlier in China). Obviously the web has a far shorter tradition, beginning around 1990. But in the thirty year since Tim Berners-Lee launched the first web server, the web has grown to rival and for many kinds of communication to surpass print in importance. The technologies of immersive, three-dimensional spaces of AR and VR are actually as old as the technologies of the web. But AR and VR are not typically understood as writing spaces at all. One goal of this project is to demonstrate the potential of the immersive book. 
 
 Each of these three writing spaces has a different ratio between word and image. In most printed books, the word is the primary mode of communication. Images serve as illustrations of the ideas and examples expressed in the verbal text. The web space too has a tradition, much shorter but already established, as an extension of the space of print. The relationship between word and image are open to various ratios of word and image, but still only in two dimensions. The immersive book literally adds another dimension, a 3D space that you can enter and move through. It extend the concept of reading and invites a different kind of participation. Text, when it appears, functions as a caption or explanation in relation to the 3D space that you inhabit.  Text in a physical museum, wall copy and labels, functions in a similar way.  
 
