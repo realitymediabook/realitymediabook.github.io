@@ -13,7 +13,7 @@ sidebar: true
 frontpagegroup: 1
 permalink: /privacy/
 ---
-This double gallery illustrates how "new" media technologies have participated in the redefinition of public space in the last two hundred years. The first room covers media from photography to the smartphone; the second illustrates how AR and (to a lesser extent) VR offer new opportunities for redefining public and private and at the same time place increasing strain on our pre-digital notions of privacy. 
+This double gallery illustrates how "new" media technologies have participated in the redefinition of public space in the last two hundred years. The first room covers media from photography to the smartphone; the second illustrates how AR and (to a lesser extent) VR offer new opportunities for redefining public and private and at the same time place increasing strain on our pre-digital notions of privacy. (It corresponds to Chapter 9. "Privacy, Public Space, and Reality Media" in the printed *Reality Media*.)
 
 ####Surveillance media and public space
 

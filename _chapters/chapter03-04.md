@@ -13,7 +13,7 @@ sidebar: true
 frontpagegroup: 1
 permalink: /graphics-tracking/
 ---
-This gallery corresponds to two chapters (3 and 4) of the printed *Reality Media*.
+This gallery corresponds to chapters 3 ("3-D Graphics and the Construction of Visual Reality") and 4 ("Degrees of Freedom: Spatial Tracking and Sensing") of the printed *Reality Media*.
 
 ####Constructing visual reality
 Both AR and VR depend on principles of computer graphics (CG) to construct their version of visual reality for the viewer. 

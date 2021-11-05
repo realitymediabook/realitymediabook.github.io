@@ -13,6 +13,8 @@ sidebar: true
 frontpagegroup: 1
 permalink: /future/
 ---
+This gallery on the future(s) of AR and VR corresponds to three chapters in the printed book: 7. The Myth of Total AR: Mirror Worlds and the AR Cloud; 8. The Myth of Total VR: The Metaverse; and 10. The Future. 
+
 In *Speculative Everything* Anthony Dunne and Fiona Raby suggest three categories for imagining the future, ranging the most likely to the least: the probable, the plausible, and the possible. (For Dunne and Raby, the preferable, is a subset of what is probable and plausible.)
 
 <img class="img img--fullContainer img--16xLeading" src="{{ site.baseurl_book_img }}ch8-futures/future.jpg">
