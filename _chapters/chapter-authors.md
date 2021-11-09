@@ -30,21 +30,36 @@ The three of us wrote the printed book *Reality Media* and conceived of the web 
 <div class="img img--16xLeading" style="background-image: url({{ site.baseurl_book_img }}ch-authors/blair_macintyre.png);"></div>
 
 <hr>
-<h3>The Designers</h3>
+
+##### The Designers
 
 The following professionals and students have contributed to the design and implementation of *RealityMedia*...
-Colin Freeman
-Alex LaBarre
-Matthew Rossman
-Jisu Park
-Nirui Kang
-Zach Phillips-Gary
 
-Design and Usability
-Lucy Chen
-Stephanie Lee
-Soy Soyee
-the dozens of students who participated in our augmented reality design studio at Georgia Tech 2019-2021.
+<div class="img img--16xLeading" style="background-image: url({{ site.baseurl_book_img }}ch-authors/jisu.png);"></div>
+
+* Jisu Park is a third-year doctoral student in the Digital Media Program. In her research, Jisu examines how emerging technologies like Augmented Reality and Virtual Reality can make complex concepts and processes more approachable especially in informal educational settings, such as museums. 
+
+* Colin Freeman
+* Alex LaBarre
+* Matthew Rossman
+* Nirui Kang
+* Zach Phillips-Gary
+
+##### Design and Usability
+
+<div class="img img--16xLeading" style="background-image: url({{ site.baseurl_book_img }}ch-authors/lucy.png);"></div>
+
+* Lucy Chen
+
+<div class="img img--16xLeading" style="background-image: url({{ site.baseurl_book_img }}ch-authors/stephanie.png);"></div>
+
+* Stephanie Lee
+
+<div class="img img--16xLeading" style="background-image: url({{ site.baseurl_book_img }}ch-authors/soy.png);"></div>
+
+* Soy Soyee
+
+We would also like to thank the dozens of students who participated in our augmented reality design studio at Georgia Tech 2019-2021.
 ....
 
 
