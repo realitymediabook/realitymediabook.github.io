@@ -403,7 +403,7 @@ hr {
 }
 
 .container--content {
-  max-width: 700px;
+  max-width: 900px;
 }
 
 .is-darkBackgrounded,
@@ -1735,12 +1735,12 @@ body {
 
 .section--first,
 .section-backgroundImage {
-  height: 28.5rem;
+  height: 18rem;
 }
 @media (max-width: 767px) {
   .section--first,
 .section-backgroundImage {
-    height: 21rem;
+    height: 15rem;
   }
 }
 
@@ -1758,13 +1758,13 @@ body {
 .section--about,
 .section-backgroundImage,
 .section--about ~ .post-featuredImage {
-  height: 36rem;
+  height: 18rem;
 }
 @media (max-width: 767px) {
   .section--about,
 .section-backgroundImage,
 .section--about ~ .post-featuredImage {
-    height: 30rem;
+    height: 15rem;
   }
 }
 
@@ -2149,7 +2149,7 @@ body {
   float: left;
   margin: 0;
   padding: 0 15px;
-  width: 14.2%;
+  width: 20%;
   height: 25px;
   text-decoration: none;
   background-repeat: no-repeat;
@@ -2189,10 +2189,18 @@ body {
   background-image: url(../images/rss--black.svg);
 }
 
+.socialAccount--hackernews {
+  background-image: url(../images/ycombinator--black.svg);
+}
+
+.socialAccount--pocket {
+  background-image: url(../images/pocket--black.svg);
+}
+
 .section--last {
   position: relative;
   clear: both;
-  padding: 1.5rem 0 6rem;
+  padding: 1.5rem 0 3rem;
   background: #fff;
 }
 
