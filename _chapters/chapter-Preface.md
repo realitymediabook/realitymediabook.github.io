@@ -7,7 +7,7 @@ image:
   feature: book-cover.jpg
   topPosition: -50px
 bgContrast: dark
-bgGradientOpacity: da                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     rker
+bgGradientOpacity: darker
 syntaxHighlighter: no
 sidebar: true
 frontpagegroup: 0
@@ -15,7 +15,7 @@ permalink: /preface/
 ---
 *Reality Media* is a project encompassing three related writing spaces, three technologies for representing ideas: print, the web, and immersive VR and AR. 
  
-* The web site that you are now reading is <a href="https://realitymedia.digital">realitymedia.digital</a>.
+* The web site that you are now reading is <a href="{{site.baseurl}}">realitymedia.digital</a>.
 * The printed book is <a href="https://mitpress.mit.edu/books/reality-media">*Reality Media: Augmented and Virtual Reality* (MIT Press)</a>.
 * The immersive book is *RealityMedia*. (The computer application has no space in its name.)
 

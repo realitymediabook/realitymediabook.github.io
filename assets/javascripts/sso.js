@@ -18,6 +18,10 @@ var windowObjectReference = null; // global variable
 var windowObjectPreviousUrl = null;
 var windowName = "XRHubsWindow"
 
+window.EXopenRequested = function(url) {
+    console.log("followed link " + url)
+}
+
 window.XRopenRequested = function(url) {
     console.log("followed link " + url)
     // if(windowObjectReference == null || windowObjectReference.closed) {
@@ -50,6 +54,7 @@ function updatePageLinks() {
         room = parseInt(room)
         if (isNaN(room)) { continue;}
 
+        let target = l.getAttribute("target")
         let waypoint = l.getAttribute("waypoint")
         var text = l.getAttribute("linkText")
 
@@ -60,6 +65,9 @@ function updatePageLinks() {
             }
             t += "' onclick='XRopenRequested(this.href)'>" + text + "</a>"
             l.innerHTML = t
+            if (!target) {
+                l.setAttribute("target", "_blank")
+            }
         } else {
             let t = "<a href='/notLoggedIn'>" + text + "</a>"
             l.innerHTML = t
@@ -171,11 +179,13 @@ window.addEventListener('storage', function(e) {
     }
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+function setupLoginStatus() {
     var linkEls = document.getElementsByClassName("xrlink")
     for (var i=0; i < linkEls.length; i++)  {
         let l = linkEls[i]
-        let t = "<i class='fas fa-vr-cardboard'></i> " + l.innerHTML
+        let t = "<i class='fas fa-vr-cardboard'></i> " 
+        let i = l.innerHTML
+        if (i != "") { t = i + " " + t }
         l.setAttribute("linkText", l.innerHTML)
         l.innerHTML = t
         l.setAttribute('onclick','XRopenRequested(this.href)')
@@ -190,12 +200,17 @@ document.addEventListener('DOMContentLoaded', function() {
         //let link = l.getAttribute("link")
         // var text = l.getAttribute("linkText")
 
-        //let t = "<a href='" + link + "' onclick='XRopenRequested(this.href)'>" + text + "</a>"
-        l.setAttribute('onclick','XRopenRequested(this.href)')
+        //let t = "<a href='" + link + "' onclick='EXopenRequested(this.href)'>" + text + "</a>"
+        l.setAttribute('onclick','EXopenRequested(this.href)')
 
         // l.innerHTML = t
     }
 
     updateLoginStatus();
-});
+}
 
+if (document.readyState === 'complete') {
+    setupLoginStatus();
+} else {
+    document.addEventListener('DOMContentLoaded', setupLoginStatus);
+}

@@ -11,10 +11,10 @@
 
 .section--first,
 .section-backgroundImage {
-  height: 19 * $leading;
+  height: 12 * $leading;
 
   @media (max-width: $screen-xs-max) {
-    height: 14 * $leading;
+    height: 10 * $leading;
   }
 }
 
@@ -30,10 +30,10 @@
 .section--about,
 .section-backgroundImage,
 .section--about ~ .post-featuredImage {
-  height: 24 * $leading;
+  height: 12 * $leading;
 
   @media (max-width: $screen-xs-max) {
-    height: 20 * $leading;
+    height: 10 * $leading;
   }
 }
 

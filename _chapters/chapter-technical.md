@@ -18,7 +18,7 @@ permalink: /technical/
 
 This 360&#176; image offers a glimpse into one of the galleries (the Genres gallery).  
 <div style="margin-top: 20px"> 
-<iframe src="https://artnotart.org/jdbolter/pano/" height="400" width="600" title="Genres Gallery"></iframe>
+<iframe src="https://artnotart.org/jdbolter/pano/" height="400px" width="100%" title="Genres Gallery"></iframe>
 </div>
 
 You can scroll around with your mouse. But you cannot enter this space until you follow a portal in gallery.

@@ -4,25 +4,25 @@ layout: default
 <article class="postWrapper">
   <section class="section--first is-darkBackgrounded u-table">
     <div class="section-backgroundImage" style="background-size: cover; background-image: url('{{ page.image.feature | prepend: site.baseurl_featured_img }}');">
-<!-- 
-      {% if page.image.feature %}
+
+      <!-- {% if page.image.feature %}
         <img class="post-featuredImage" src="{{ page.image.feature | prepend: site.baseurl_featured_img }}" style="
         {% if page.image.topPosition %}
           top:{{ page.image.topPosition }};
         {% endif %}
         " alt="">
-      {% endif %}
--->
+      {% endif %} -->
+
         <div class="section-gradient
         {% if page.bgGradientOpacity == "darker" %}
           section-gradient--darker
         {% elsif page.bgGradientOpacity == "lighter" %}
           section-gradient--lighter
         {% endif %}
-        "></div> 
+        "></div>
     </div>
-    <div class="section-title is-darkBackgrounded u-tableCell u-verticalAlignMiddle" >
-      <div class="container" >
+    <div class="section-title is-darkBackgrounded u-tableCell u-verticalAlignMiddle">
+      <div class="container">
         <h2>{{ page.title }}</h2>
         <div class="postMeta-wrapper">
           <ul class="postMeta">
@@ -48,7 +48,9 @@ layout: default
   <section class="section--last">
     <div class="container container--content">
       <div class="content-body">
+
         {{ content }}
+
       </div>
     </div>
     <!-- <hr class="u-clearHr"/>
@@ -57,34 +59,6 @@ layout: default
   </section>
   <footer class="postFooter">
     {% include social.html %}
-
-    {% if page.next.url %}
-      <section class="section--prePost is-darkBackgrounded u-table">
-        <div class="section-backgroundImage section-backgroundImage--previousPage">
-          <img class="post-featuredImage"
-          {% if page.next.image.feature %}
-            src="{{ page.next.image.feature | prepend: site.baseurl_featured_img }}"
-          {% endif %}
-          style="top:0" alt="">
-        <div class="section-gradient
-        {% if page.next.bgGradientOpacity == "darker" %}
-          section-gradient--darker
-        {% elsif page.next.bgGradientOpacity == "lighter" %}
-          section-gradient--lighter
-        {% endif %}
-        "></div>
-    </div>
-    <div class="section-title u-tableCell is-darkBackgrounded u-verticalAlignMiddle">
-          <div class="container">
-            <h4>Next chapter:</h4>
-            <a class="next" href="{{ site.baseurl }}{{page.next.url}}">
-              <h2>{{page.next.title}}</h2>
-            </a>
-          </div>
-        </div>
-      </section>
-    {% endif %}
-
     <div> 
         <a href="{{ site.baseurl }}/authors-designers">Authors</a> | 
         <a href="{{ site.baseurl }}/credits">Credits</a> | 

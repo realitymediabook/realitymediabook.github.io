@@ -13,11 +13,11 @@ sidebar: false
 frontpagegroup: 2
 permalink: /devices/
 ---
-The 3D digital version of *RealityMedia* has been realized using Mozilla's  virtual environment <a href="https://hubs.mozilla.com">Hubs</a> and can be experienced on a variety of desktop and laptop computers; smartphones and tablets; and VR headsets. There are minimum requirements for devices in each class. Devices that just meet these requirements will deliver the experience, but the responsiveness and navigation may be sluggish or otherwise unsatisfactory. 
+The 3D digital version of *RealityMedia* has been realized using Mozilla's virtual environment <a href="https://hubs.mozilla.com">Hubs</a> and can be experienced on a variety of desktop and laptop computers; smartphones and tablets; and VR headsets. There are minimum requirements for devices in each class. Devices that just meet these requirements will deliver the experience, but the responsiveness and navigation may be sluggish or otherwise unsatisfactory. 
 
 <h3>Desktops and laptops</h3>
 
-RealityMedia should function well in modern browsers that support WebXR (such as Chrome, Safari, and Firefox). This website provides a chart of the current capabilities of <a href="https://caniuse.com/?search=webxr" target="blank">various browsers</a>.
+RealityMedia should function well in modern browsers that support WebGL (such as Chrome, Safari, and Firefox). To use VR on the immersive components of the site you need to use a browser that supports WebXR. You can check <a href="https://caniuse.com/?search=webxr" target="blank">this website</a> to see a chart of which browsers support WebXR.
 
 The hardware requirements are
 

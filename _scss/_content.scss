@@ -259,7 +259,7 @@
   float: left;
   margin: 0;
   padding: 0 15px;
-  width: 14.2%;
+  width: 20%;
   height: 25px;
   text-decoration: none;
   background-repeat: no-repeat;
@@ -300,13 +300,20 @@
   background-image: url(../images/rss--black.svg);
 }
 
+.socialAccount--hackernews {
+    background-image: url(../images/ycombinator--black.svg);
+}
+
+.socialAccount--pocket {
+    background-image: url(../images/pocket--black.svg);
+}
 // Sections
 
 //// Post content area
 .section--last {
   position: relative;
   clear: both;
-  padding: 1*$leading 0 4*$leading;
+  padding: 1*$leading 0 2*$leading;
   background: $white;
 }
 
