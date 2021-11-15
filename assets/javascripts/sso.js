@@ -46,57 +46,57 @@ function updatePageLinks() {
     }
 
     let linkEls = document.getElementsByClassName("oldxrlink")
-    //if (linkEls.length == 0) { return }
-    for (var i=0; i < linkEls.length; i++)  {
-        let l = linkEls[i]
-        let room = l.getAttribute("room")
-        if (!room) { continue; }
-        room = parseInt(room)
-        if (isNaN(room)) { continue;}
+    if (linkEls.length > 0) { 
+        for (var i=0; i < linkEls.length; i++)  {
+            let l = linkEls[i]
+            let room = l.getAttribute("room")
+            if (!room) { continue; }
+            room = parseInt(room)
+            if (isNaN(room)) { continue;}
 
-        let target = l.getAttribute("target")
-        let waypoint = l.getAttribute("waypoint")
-        var text = l.getAttribute("linkText")
+            let target = l.getAttribute("target")
+            let waypoint = l.getAttribute("waypoint")
+            var text = l.getAttribute("linkText")
 
-        if (roomList && room >=0 && room < roomList.length) {
-            let t = "<a href='https://xr.realitymedia.digital/" + roomList[room] 
-            if (waypoint) {
-                t += "#" + waypoint
+            if (roomList && room >=0 && room < roomList.length) {
+                let t = "<a href='https://xr.realitymedia.digital/" + roomList[room] 
+                if (waypoint) {
+                    t += "#" + waypoint
+                }
+                t += "' onclick='XRopenRequested(this.href)'>" + text + "</a>"
+                l.innerHTML = t
+                if (!target) {
+                    l.setAttribute("target", "_blank")
+                }
+            } else {
+                let t = "<a href='/notLoggedIn'>" + text + "</a>"
+                l.innerHTML = t
             }
-            t += "' onclick='XRopenRequested(this.href)'>" + text + "</a>"
-            l.innerHTML = t
-            if (!target) {
-                l.setAttribute("target", "_blank")
-            }
-        } else {
-            let t = "<a href='/notLoggedIn'>" + text + "</a>"
-            l.innerHTML = t
-        }
-        
+        }        
     }
 
     linkEls = document.getElementsByClassName("xrlink")
-    //if (linkEls.length == 0) { return }
-    for (var i=0; i < linkEls.length; i++)  {
-        let l = linkEls[i]
-        let room = l.getAttribute("room")
-        if (!room) { continue; }
-        room = parseInt(room)
-        if (isNaN(room)) { continue;}
+    if (linkEls.length > 0) { 
+        for (var i=0; i < linkEls.length; i++)  {
+            let l = linkEls[i]
+            let room = l.getAttribute("room")
+            if (!room) { continue; }
+            room = parseInt(room)
+            if (isNaN(room)) { continue;}
 
-        let waypoint = l.getAttribute("waypoint")
-        var text = l.getAttribute("linkText")
+            let waypoint = l.getAttribute("waypoint")
+            var text = l.getAttribute("linkText")
 
-        if (roomList && room >=0 && room < roomList.length) {
-            let t = "https://xr.realitymedia.digital/" + roomList[room] 
-            if (waypoint) {
-                t += "#" + waypoint
+            if (roomList && room >=0 && room < roomList.length) {
+                let t = "https://xr.realitymedia.digital/" + roomList[room] 
+                if (waypoint) {
+                    t += "#" + waypoint
+                }
+                l.setAttribute("href", t) 
+            } else {
+                l.setAttribute("href", "/notLoggedIn")
             }
-            l.setAttribute("href", t) 
-        } else {
-            l.setAttribute("href", "/notLoggedIn")
-        }
-        
+        }   
     }
 }
 
@@ -182,31 +182,33 @@ window.addEventListener('storage', function(e) {
 function setupLoginStatus() {
     var linkEls = document.getElementsByClassName("xrlink")
     var i;
-    for (i=0; i < linkEls.length; i++)  {
-        let l = linkEls[i]
-        let t = "<i class='fas fa-vr-cardboard'></i> " 
-        let i = l.innerHTML
-        if (i != "") { t = i + " " + t }
-        l.setAttribute("linkText", l.innerHTML)
-        l.innerHTML = t
-        l.setAttribute('onclick','XRopenRequested(this.href)')
+    if (linkEls.length > 0) { 
+        for (i=0; i < linkEls.length; i++)  {
+            let l = linkEls[i]
+            let t = "<i class='fas fa-vr-cardboard'></i> " 
+            let i = l.innerHTML
+            if (i != "") { t = i + " " + t }
+            l.setAttribute("linkText", l.innerHTML)
+            l.innerHTML = t
+            l.setAttribute('onclick','XRopenRequested(this.href)')
+        }
     }
-
     // fix up exlinks
     linkEls = document.getElementsByClassName("exlink")
     //if (linkEls.length == 0) { return }
-    for (i=0; i < linkEls.length; i++)  {
-        let l = linkEls[i]
+    if (linkEls.length > 0) { 
+        for (i=0; i < linkEls.length; i++)  {
+            let l = linkEls[i]
 
-        //let link = l.getAttribute("link")
-        // var text = l.getAttribute("linkText")
+            //let link = l.getAttribute("link")
+            // var text = l.getAttribute("linkText")
 
-        //let t = "<a href='" + link + "' onclick='EXopenRequested(this.href)'>" + text + "</a>"
-        l.setAttribute('onclick','EXopenRequested(this.href)')
+            //let t = "<a href='" + link + "' onclick='EXopenRequested(this.href)'>" + text + "</a>"
+            l.setAttribute('onclick','EXopenRequested(this.href)')
 
-        // l.innerHTML = t
+            // l.innerHTML = t
+        }
     }
-
     updateLoginStatus();
 }
 
