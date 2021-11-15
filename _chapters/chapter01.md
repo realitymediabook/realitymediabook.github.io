@@ -11,7 +11,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 sidebar: true
 frontpagegroup: 1
-permalink: /what-are-ar&vr/
+permalink: /what-are-ar-and-vr/
 ---
 The history of AR and VR dates back at least to the 1960s (and in some sense much earlier). AR and VR are the latest in a lineage of <a href="{{site.baseurl}}/history"> reality media</a>. These two technologies spent decades in the labs of computer scientists or were used exclusively for specialized and expensive applications, e.g. by the military. It was in the 2010s that they became widely available consumer technologies. Smart phones brought a kind of AR to millions of user, and inexpensive headsets such as the Oculus Rift and later Quest introduced gamers and others to VR. 
 
