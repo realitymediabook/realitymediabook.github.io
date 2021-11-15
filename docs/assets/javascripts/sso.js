@@ -181,7 +181,8 @@ window.addEventListener('storage', function(e) {
 
 function setupLoginStatus() {
     var linkEls = document.getElementsByClassName("xrlink")
-    for (var i=0; i < linkEls.length; i++)  {
+    var i;
+    for (i=0; i < linkEls.length; i++)  {
         let l = linkEls[i]
         let t = "<i class='fas fa-vr-cardboard'></i> " 
         let i = l.innerHTML
@@ -194,7 +195,7 @@ function setupLoginStatus() {
     // fix up exlinks
     linkEls = document.getElementsByClassName("exlink")
     //if (linkEls.length == 0) { return }
-    for (var i=0; i < linkEls.length; i++)  {
+    for (i=0; i < linkEls.length; i++)  {
         let l = linkEls[i]
 
         //let link = l.getAttribute("link")
