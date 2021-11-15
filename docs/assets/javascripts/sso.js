@@ -186,8 +186,8 @@ function setupLoginStatus() {
         for (i=0; i < linkEls.length; i++)  {
             let l = linkEls[i]
             let t = "<i class='fas fa-vr-cardboard'></i> " 
-            let i = l.innerHTML
-            if (i != "") { t = i + " " + t }
+            let inner = l.innerHTML
+            if (inner != "") { t = inner + " " + t }
             l.setAttribute("linkText", l.innerHTML)
             l.innerHTML = t
             l.setAttribute('onclick','XRopenRequested(this.href)')
