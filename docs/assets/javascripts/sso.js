@@ -96,7 +96,6 @@ function updatePageLinks() {
                 if (waypoint) {
                     t += "#" + waypoint
                 }
-                l.innerHTML = t
                 l.setAttribute("href", t) 
 
                 if (!target) {
