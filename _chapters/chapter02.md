@@ -22,7 +22,7 @@ In Chapter 2 of the printed book ("The History of Reality Media"), we stop just 
 
 <div class="img img--fullContainer img--10xLeading" style="background-image: url({{ site.baseurl_book_img }}memory-theater-02.jpg);"></div>
 
-<div style="font-size:.8rem";>(Image taken from https://socks-studio.com/2019/03/03/spatializing-knowledge-giulio-camillos-theatre-of-memory-1519-1544/) </div>
+<div style="font-size:.8rem;">(Image taken from https://socks-studio.com/2019/03/03/spatializing-knowledge-giulio-camillos-theatre-of-memory-1519-1544/) </div>
 
 <div style="margin-top:40px"> </div>
 According to Frances Yates in *The Art of Memory* (1966), Camillo's theater was a pseudo-magical structure for organizing all knowledge. We are not that ambitious, but we borrow his metaphor of an amphitheater to arrange and present reality media artifacts, beginning trompe l'oiel painting and proceeding in tiers up to the highest row, which displays contemporary VR and AR.
