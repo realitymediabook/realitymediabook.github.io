@@ -71,6 +71,9 @@ function updatePageLinks() {
             } else {
                 let t = "<a href='/notLoggedIn'>" + text + "</a>"
                 l.innerHTML = t
+                if (target) {
+                    l.removeAttribute("target")
+                }
             }
         }        
     }
@@ -84,6 +87,7 @@ function updatePageLinks() {
             room = parseInt(room)
             if (isNaN(room)) { continue;}
 
+            let target = l.getAttribute("target")
             let waypoint = l.getAttribute("waypoint")
             var text = l.getAttribute("linkText")
 
@@ -92,9 +96,17 @@ function updatePageLinks() {
                 if (waypoint) {
                     t += "#" + waypoint
                 }
+                l.innerHTML = t
                 l.setAttribute("href", t) 
+
+                if (!target) {
+                    l.setAttribute("target", "_blank")
+                }
             } else {
                 l.setAttribute("href", "/notLoggedIn")
+                if (target) {
+                    l.removeAttribute("target")
+                }
             }
         }   
     }
