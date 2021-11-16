@@ -26,4 +26,4 @@ Various genres are discussed in the printed book in Chapter 6 and illustrated in
 
 Our list is necessarily somewhat arbitrary, because with AR and VR as with other media, you can delineate the categories in a variety of ways. But we challenge you to come up with an AR or VR experience that cannot plausibly fit in one or more such genre categories&mdash;an application that is completely unlike anything we have seen or experienced elsewhere throughout our media culture. 
 
-Enter the Genres Gallery through this portal <a class="xrlink" room="0" waypoint="genres"></a>.
+Enter the Genres Gallery through <a class="xrlink" room="0" waypoint="genres">this portal</a>.

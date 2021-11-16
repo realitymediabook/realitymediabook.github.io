@@ -27,4 +27,4 @@ In one sense VR metaverse and the AR Mirror World and Cloud are just extrapolati
 
 The myths of total VR and AR are at the very edge of the possible, if not beyond it altogether. The AR Cloud could never be a complete mirror of our complex world. For one thing, large portions of the developing world will probably always be inadequately converted. As for VR, we argue in *Reality Media* several companies have created today's 3D games worlds and social VR platforms, and they are not likely to pool their resources. So instead we are likely to have several metaverses rather than just one. None of them complete. Users of the AR Cloud or the various VR metaverses will remain aware that all these are limited applications, not the ultimate encompassing digital environment.
 
-Enter the Futures Gallery through this portal <a class="xrlink" room="6" waypoint="future"></a>.
+Enter the Futures Gallery through <a class="xrlink" room="6" waypoint="future">this portal</a>.

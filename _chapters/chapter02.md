@@ -27,4 +27,4 @@ In Chapter 2 of the printed book ("The History of Reality Media"), we stop just 
 <div style="margin-top:40px"> </div>
 According to Frances Yates in *The Art of Memory* (1966), Camillo's theater was a pseudo-magical structure for organizing all knowledge. We are not that ambitious, but we borrow his metaphor of an amphitheater to arrange and present reality media artifacts, beginning trompe l'oiel painting and proceeding in tiers up to the highest row, which displays contemporary VR and AR.
 
-Enter the History Gallery through this portal <a class="xrlink" room="1" waypoint="start"></a>.
+Enter the History Gallery through <a class="xrlink" room="1" waypoint="start">this portal</a>.

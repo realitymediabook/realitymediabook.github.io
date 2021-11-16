@@ -83,4 +83,4 @@ The eight galleries correspond to the ten chapters of the printed book as follow
 
 Within each gallery are 3D models, videos, images, and text. In some of the galleries, you will be invited to interact with the models. Other 3D models or videos simply run and invite you to watch. 
 
-Enter the Rotunda here: <a class="xrlink" room="0" waypoint="start"> </a>
+Enter the Rotunda <a class="xrlink" room="0" waypoint="start">here</a>.

@@ -98,8 +98,8 @@ function watch() {
   gulp.watch('assets/images/hero/*.{jpg,png}', thumbnails);
   gulp.watch(['*.html',
           '*.txt',
-          'about/**',
           '_chapters/*.md',
+          '_appendices/*.md',
           'assets/javascripts/**/**.js',
           'assets/images/**',
           'assets/fonts/**',

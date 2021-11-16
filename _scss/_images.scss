@@ -13,6 +13,21 @@
   width: 100%;
 }
 
+.img--container25 {
+  width: 25%;
+  float: left;
+}
+
+.img--container50 {
+  width: 50%;
+  float: left;
+}
+
+.img--container33 {
+  width: 33.33%;
+  float: left;
+}
+
 .img--5xLeading {
   height: 5*$leading;
 }

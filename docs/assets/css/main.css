@@ -325,7 +325,6 @@ h1 {
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
   font-size: 2.666rem;
   line-height: 3rem;
   margin-top: 3rem;
@@ -354,15 +353,15 @@ h6 {
 }
 
 a {
-  color: rgba(0, 0, 0, 0.8);
+  color: #d3a200;
   text-decoration: none;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.8) 75%);
+  background-image: linear-gradient(to bottom, rgba(211, 162, 0, 0) 75%, rgba(211, 162, 0, 0.8) 75%);
   background-repeat: repeat-x;
   background-position: 0 22px;
   background-size: 2px 2px;
 }
 a:hover {
-  color: rgba(0, 0, 0, 0.8);
+  color: #876700;
 }
 
 /* Tables */
@@ -422,6 +421,21 @@ hr {
 
 .img--fullContainer img {
   width: 100%;
+}
+
+.img--container25 {
+  width: 25%;
+  float: left;
+}
+
+.img--container50 {
+  width: 50%;
+  float: left;
+}
+
+.img--container33 {
+  width: 33.33%;
+  float: left;
 }
 
 .img--5xLeading {
@@ -1898,7 +1912,7 @@ body {
   float: left;
   margin: 0;
   padding: 0 0 0 10px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Serif Pro", serif;
   font-weight: 700;
   font-size: 1rem;
   text-transform: uppercase;
@@ -1974,7 +1988,7 @@ body {
   display: block;
   width: 25%;
   margin-bottom: 1.5rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Serif Pro", serif;
   display: flex;
 }
 @media (max-width: 767px) {
@@ -2000,7 +2014,7 @@ body {
   width: 33%;
 }
 .blockGroup-list .w33 .postArticle-image {
-  padding-top: 40%;
+  padding-top: 90%;
 }
 .blockGroup-list .w33 .postArticle-title {
   font-size: 1rem;
@@ -2014,7 +2028,7 @@ body {
   width: 25%;
 }
 .blockGroup-list .w25 .postArticle-image {
-  padding-top: 50%;
+  padding-top: 100%;
 }
 .blockGroup-list .w25 .postArticle-title {
   font-size: 1rem;
@@ -2038,6 +2052,9 @@ body {
 .blockGroup-list .postArticle-wrapper:hover {
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.blockGroup-list .postArticle-wrapper.flexible {
+  padding-bottom: 0;
 }
 .blockGroup-list .postArticle a {
   color: #222;
@@ -2087,6 +2104,15 @@ body {
 }
 .blockGroup-list .postArticle-title,
 .blockGroup-list .block-postMeta {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.blockGroup-list .block-postDetails {
+  padding-bottom: 10px;
+  font-size: 0.8rem;
+}
+.blockGroup-list .postArticle-title,
+.blockGroup-list .block-postDetails {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -2240,6 +2266,7 @@ body {
 .section--prePost,
 .section--prePost .section-backgroundImage {
   height: 16.5rem;
+  margin-bottom: 1rem;
 }
 
 .section--prePost .section-backgroundImage img {

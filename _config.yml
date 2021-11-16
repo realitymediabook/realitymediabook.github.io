@@ -53,3 +53,5 @@ defaults:
 collections:
   chapters:
     output: true
+  appendices:
+    output: true
