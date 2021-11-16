@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Authors and Designers"
 chapter: ""
 order: 12
@@ -14,7 +14,7 @@ frontpagegroup: 2
 permalink: /authors-designers/
 ---
 <h3>The Authors</h3>
-The three of us wrote the printed book *Reality Media* and conceived of the web site and immersive book *RealityMedia*. We also worked with the designers listed below to realize *RealityMedia.*
+The three of us wrote the printed book *Reality Media* and conceived of the web site and immersive book *RealityMedia*. We did not do this alone, collaborating with the designers and developers below to realize *RealityMedia.*  We would also like to thank the dozens of students who participated in our augmented reality design studio at Georgia Tech from 2019-2021.
 
 <div class="blockGroup">
     <ul class="blockGroup-list">
@@ -84,7 +84,6 @@ The following professionals and students have contributed to the design and impl
 
 * Soy Soyee
 
-We would also like to thank the dozens of students who participated in our augmented reality design studio at Georgia Tech 2019-2021.
-....
+
 
 

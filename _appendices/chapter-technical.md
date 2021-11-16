@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Technological details"
 chapter: ""
 order: 15
