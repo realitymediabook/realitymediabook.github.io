@@ -4,7 +4,7 @@ title:  "Devices for reading RealityMedia"
 chapter: ""
 order: 14
 image:
-  feature: oculus.png
+  feature: three-vr-devices.png
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker

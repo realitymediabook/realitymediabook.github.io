@@ -30,6 +30,19 @@ permalink: /index.html
       appropriate image. These pages provide context for your visit as well as links into the corresponding 3D galleries; 
       the portal symbol(<i class="fas fa-vr-cardboard"></i>)indicates a link. </p>
 
+      <div class="blockGroup">
+        <ul class="blockGroup-list">
+          {% assign chapters = site.chapters | sort: "order" %}
+          {% for post in chapters %}
+              {% if post.frontpagegroup == 0 %}
+              <li class="block w100">
+                {% include postbox.html post=post %}
+              </li>
+              {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+
     <div class="not-logged-in">
         <h4>Creating an account and signing in</h4>
         <p>
@@ -49,7 +62,7 @@ permalink: /index.html
     <div class="logged-in">
     <h4> The gallery pages and the immersive book</h4>
     <p> 
-    You are invited to explore the gallery web pages below. Or you can visit one of two open immersive galleries:
+    You are invited to explore the gallery web pages below as the immersive site is continuing to be developed. Or you can visit one of two open immersive galleries:
     <ul>
       <li>the <a class="xrlink" room="0" waypoint="onboarding">arrival hall</a>, which explains 
           features of the immersive space. </li>
@@ -72,18 +85,6 @@ permalink: /index.html
     <hr>
     <!--Below is the group of image blocks (3 rows/4colums) that link into the gallery web pages and another group below that for 
     extra information e.g. authors and credits-->
-    <div class="blockGroup">
-        <ul class="blockGroup-list">
-          {% assign chapters = site.chapters | sort: "order" %}
-          {% for post in chapters %}
-              {% if post.frontpagegroup == 0 %}
-              <li class="block w100">
-                {% include postbox.html post=post %}
-              </li>
-              {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
     <h4>The galleries</h4>
     <div class="blockGroup">
         <ul class="blockGroup-list">

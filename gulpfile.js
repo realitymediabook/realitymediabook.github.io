@@ -100,6 +100,7 @@ function watch() {
           '*.txt',
           '_chapters/*.md',
           '_appendices/*.md',
+          '_pages/*.md',
           'assets/javascripts/**/**.js',
           'assets/images/**',
           'assets/fonts/**',
