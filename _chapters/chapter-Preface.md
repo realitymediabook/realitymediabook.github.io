@@ -38,7 +38,7 @@ The portal is a metaphor in the printed book, but it is an operating feature of 
 
 <div class="img img--fullcontainer img--24xLeading" style="background-image: url({{ site.baseurl_book_img }}realitymediamap.png);"></div>
 
-The eight galleries correspond to the ten chapters of the printed book as follows:
+The seven galleries correspond to the ten chapters of the printed book as follows:
 
 <table style="width:100%">
   <tr>
@@ -46,15 +46,11 @@ The eight galleries correspond to the ten chapters of the printed book as follow
     <td><b>Chapter(s)</b></td>
   </tr>
   <tr>
-    <td>What Are Reality Media?</td>
-    <td>Introduction</td>
+    <td>What Are Reality Media; AR and VR?</td>
+    <td>Introduction and Chapter 1</td>
   </tr>
   <tr>
-    <td>What Are AR and VR?</td>
-    <td>Chapter 1</td>
-  </tr>
-  <tr>
-    <td>History</td>
+    <td>History of Reality Media</td>
     <td>Chapter 2</td>
   </tr>
   <tr>
