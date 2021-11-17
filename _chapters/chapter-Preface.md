@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Preface: Why Three Books?"
+title:  "Preface: Three Books"
 chapter: ""
 order: 2
 image:
