@@ -1,0 +1,22 @@
+<div class="postArticle-wrapper flexible">
+    <article class="postArticle postArticle--short">
+      {% if include.picture %}
+        {% if include.homepage %}
+          <a href="{{include.homepage }}" target="_blank">
+        {% endif %}
+            <div class="postArticle-image desaturate" style="background-image: url('{{ site.baseurl_book_img }}ch-authors/{{ include.picture }}');">
+          </div>{% if include.homepage %}</a>{% endif %}
+      {% else %}
+        {% if include.homepage %}
+          <a href="{{include.homepage }}" target="_blank">
+        {% endif %}
+        <div class="postArticle-image" style="background-image:url('{{ site.baseurl_book_img }}ch-authors/no-author-pic.png')">
+        </div>{% if include.homepage %}</a>{% endif %}
+      {% endif %}
+        {% if include.homepage %}
+          <a class="postArticle-title" href="{{include.homepage }}" target="_blank">
+        {% endif %}
+        <b>{{ include.name }}</b>{% if include.homepage %}</a>{% endif %}
+    </article>
+    <div class="block-postDetails">{{ include.details }}</div>
+  </div>

@@ -1,0 +1,17 @@
+<div class="postArticle-wrapper">
+    <article class="postArticle postArticle--short">
+      {% if post.image.feature %}
+        <a href="{{site.baseurl}}{{ include.post.url }}">
+          <div class="postArticle-image desaturate" style="background-image:url('{{ include.post.image.feature | prepend: site.baseurl_featured_img }}')">
+          </div>
+        </a>
+      {% else %}
+      <a href="{{site.baseurl}}{{ include.post.url }}">
+        <div class="postArticle-image" style="background-image:url('{{site.baseurl}}/assets/images/logo-black.svg')">
+        </div>
+      </a>
+      {% endif %}
+      <a class="postArticle-title" href="{{site.baseurl}}{{ include.post.url }}">{{ include.post.title }}</a>
+    </article>
+    <div class="block-postMeta">{{ include.post.chapter }}</div>
+  </div>
