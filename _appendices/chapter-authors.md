@@ -37,7 +37,7 @@ The following professionals and students have contributed to the design and impl
 <div class="blockGroup">
     <ul class="blockGroup-list">
         <li class="block w25">
-          {% include authorbox.html picture="jisu.png" name="Jisu Park" details="Jisu Park is a doctoral student in the Digital Media Program at Georgia Tech. Her research examines how  XR technologies can make complex concepts and processes more approachable." %}
+          {% include authorbox.html picture="jisu.png" homepage="https://www.linkedin.com/in/jisup/" name="Jisu Park" details="Jisu Park is a doctoral student in the Digital Media Program at Georgia Tech. Her research examines how  XR technologies can make complex concepts and processes more approachable." %}
         </li>
         <li class="block w25">
           {% include authorbox.html name="Colin Freeman" details="" %}
