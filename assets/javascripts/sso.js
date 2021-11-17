@@ -111,6 +111,52 @@ function updatePageLinks() {
     }
 }
 
+async function resetUserRooms() {
+    let url = "/sso/resetUserRooms/"
+
+    let credentials = window.localStorage.getItem( "__ael_hubs_sso")
+    if (credentials) {
+        credentials = JSON.parse(credentials)
+
+        url += "?email=" + encodeURIComponent(credentials.email) + "&token=" + encodeURIComponent(credentials.token);
+    }
+    const request = {
+        method: "GET",
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    }
+
+    return await fetch(url, request).then(response => {
+        console.log("reset user rooms reply: ", response)
+        if (!response.ok) {
+            switch(response.status) {
+                case 400:  
+                  response.json().then(data => {
+                      console.error("Error calling SSO Server:", data);
+                  });
+                  break;
+
+                case 500:
+                  response.json().then(data => {
+                      console.error("Error calling SSO Server:", data);
+                  });
+                  break;
+            }  
+            return
+        }
+
+        if (response.status == 200) {
+            response.json().then(user => {
+                console.log("reset user rooms succeeded for user " + user)
+            })
+        }
+    }).catch(e => {
+        console.error("Call to SSO Server failed: ", e)
+        return null
+    })
+}
+
 async function getUserData(credentials) {
     let url = "/sso/user/"
     if (credentials) {
@@ -183,6 +229,7 @@ async function updateLoginStatus(newValue) {
 }
 
 window.SSO = {}
+window.SSO.resetUserRooms = resetUserRooms
 
 window.addEventListener('storage', function(e) {
     if (e.key === "__ael_hubs_sso") {
