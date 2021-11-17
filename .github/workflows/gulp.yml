@@ -44,7 +44,7 @@ jobs:
         npm install
         gulp builddeps
 
-    - name: 🔨 install dependencies & build site
+    - name: 🔨 install dependencies & build resources.realitymedia.digital site
       uses: limjh16/jekyll-action-ts@v2
       with:
          enable_cache: true
@@ -56,5 +56,20 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
         branch: gh-pages
+        folder: docs
+        clean-exclude: CNAME
+
+    - name: 🔨 install dependencies & build resources.realitymedia.digital site
+      uses: limjh16/jekyll-action-ts@v2
+      with:
+         enable_cache: true
+         jekyll_src: .
+         gem_src: .
+         custom_opts: --config=_config.yml
+
+    - name: 🚀 deploy
+      uses: JamesIves/github-pages-deploy-action@4.1.4
+      with:
+        branch: realitymedia-pages
         folder: docs
         clean-exclude: CNAME

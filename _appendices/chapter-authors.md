@@ -37,7 +37,7 @@ The following professionals and students have contributed to the design and impl
 <div class="blockGroup">
     <ul class="blockGroup-list">
         <li class="block w25">
-          {% include authorbox.html picture="jisu.png" name="Jisu Park" details="Jisu Park is a doctoral student in the Digital Media Program at Georgia Tech." %}
+          {% include authorbox.html picture="jisu.png" name="Jisu Park" details="Jisu Park is a doctoral student in the Digital Media Program at Georgia Tech. Her research examines how  XR technologies can make complex concepts and processes more approachable." %}
         </li>
         <li class="block w25">
           {% include authorbox.html name="Colin Freeman" details="" %}
@@ -61,7 +61,7 @@ The following professionals and students have contributed to the design and impl
           {% include authorbox.html picture="stephanie.png" name="Stephanie Lee" details="" %}
         </li>
         <li class="block w25">
-          {% include authorbox.html picture="soy.png" name="So-youn Jang" details="" %}
+          {% include authorbox.html picture="soy.png" name="So-youn Jang" details="So-youn Jang is a PhD student in the Department of Communication at Seoul National University in South Korea. Her research lies at the intersection of health communication, social computing and HCl." %}
         </li>
     </ul>
 </div>
