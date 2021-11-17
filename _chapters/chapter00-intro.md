@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What Are Reality Media?"
+title:  "Introduction: What Are Reality Media?"
 chapter: ""
 order: 3
 image:
@@ -25,6 +25,6 @@ We take the term from a legend that grew up around one of the first films shown 
 
 There is the La Ciotat myth and the La Ciotat effect. The myth is the belief that a medium can perfectly imitate reality, and that myth is still with us. The La Ciotat effect describes the more ambivalent reaction that allows us to appreciate the representational power of a medium (film, VR) while realizing that it is still a medium. We describe the La Ciotat effect in several chapters of <i>Reality Media</i>, and we illustrate it in <i>RealityMedia</i>. 
 
-Enter the Gallery through <a class="xrlink" room="0" waypoint="start">this portal</a>.
+Continue by exploring the immersive <a class="xrlink" room="0" waypoint="realitymedia">Reality Media</a> Gallery.
 
 

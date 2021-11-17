@@ -36,7 +36,7 @@ The portal is a metaphor in the printed book, but it is an operating feature of 
 
 *RealityMedia* consists of a set of galleries organized around a rotunda as you see in the diagram below. 
 
-<div class="img img--fullContainer img--20xLeading" style="background-image: url({{ site.baseurl_book_img }}realitymediamap.jpg);"></div>
+<div class="img--fullContainer" style="text-align: center;"><img style="width:80%;" src="{{ site.baseurl_book_img }}ch-preface/Map_transparent.png"></div>
 
 The eight galleries correspond to the ten chapters of the printed book as follows:
 
@@ -79,8 +79,7 @@ The eight galleries correspond to the ten chapters of the printed book as follow
   </tr>
 </table>
 
-
-
 Within each gallery are 3D models, videos, images, and text. In some of the galleries, you will be invited to interact with the models. Other 3D models or videos simply run and invite you to watch. 
 
-Enter the Rotunda <a class="xrlink" room="0" waypoint="start">here</a>.
+
+Enter the <a class="xrlink" room="0" waypoint="onboarding">Onboarding Area</a> to begin with a technical overview and brief tutorial, or go directly to the the <a class="xrlink" room="0" waypoint="start">Rotunda</a> to begin the experience.
