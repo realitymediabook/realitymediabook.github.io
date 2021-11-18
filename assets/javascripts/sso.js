@@ -200,12 +200,12 @@ async function getUserData(credentials) {
         console.error("Call to SSO Server failed: ", e)
         window.SSO.userInfo = null;
         updatePageLinks()
-        return null
     })
 }
 
 async function updateLoginStatus(newValue) {
     let div = document.querySelector('#login-status');
+    div.innerHTML = 'Signing in ...'
     if (!newValue) {
         newValue = window.localStorage.getItem("__ael_hubs_sso")
     }
