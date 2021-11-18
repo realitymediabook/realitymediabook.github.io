@@ -146,11 +146,11 @@ async function resetUserRooms() {
             return
         }
 
-        if (response.status == 200) {
+        //if (response.status == 200) {
             response.json().then(user => {
                 console.log("reset user rooms succeeded for user " + user)
             })
-        }
+        //}
     }).catch(e => {
         console.error("Call to SSO Server failed: ", e)
         return null
@@ -191,13 +191,13 @@ async function getUserData(credentials) {
             return
         }
 
-        if (response.status == 200) {
+      //  if (response.status == 200) {
             response.json().then(user => {
                 window.SSO.userInfo = user
                 window.SSO.credentials = credentials
                 updatePageLinks()
             })
-        }
+       // }
     }).catch(e => {
         console.error("Call to SSO Server failed: ", e)
         window.SSO.userInfo = null;
