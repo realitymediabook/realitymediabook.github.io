@@ -159,6 +159,7 @@
     display: block;
     margin-top: 0.5*$leading;
     font-weight: 300;
+    padding-bottom: 5px;
   }
 
   .postArticle-image {
@@ -211,13 +212,19 @@
     padding-bottom: 10px;
     // color: #ccc;
     font-size: 0.8rem;
+    line-height: 1.2rem;
     // text-transform: uppercase;
+  }
+
+  .w25 .block-postDetails {
+    line-height: 1rem;
+    font-size: 0.75rem;
   }
 
   .postArticle-title,
   .block-postDetails {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
   }
 
 }

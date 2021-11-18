@@ -46,7 +46,7 @@ The following professionals and students have contributed to the design and impl
           {% include authorbox.html name="Alex LaBarre" details="" %}
         </li>
         <li class="block w25">
-          {% include authorbox.html name="Matthew Rossman" details="" %}
+          {% include authorbox.html name="Matthew Rossman" picture="matt.png" details="Matt Rossman is an MS HCI student at Georgia Tech researching features to support communication and remote work on the immersive web." homepage="https://mattrossman.com" %}
         </li>
         <li class="block w25">
           {% include authorbox.html name="Nirui Kang" details="" %}
@@ -58,7 +58,7 @@ The following professionals and students have contributed to the design and impl
           {% include authorbox.html picture="lucy.png" name="Lucy Chen" details="" %}
         </li>
         <li class="block w25">
-          {% include authorbox.html picture="stephanie.png" name="Stephanie Lee" details="" %}
+          {% include authorbox.html picture="stephanie.png" name="Stephanie Lee" details="Stephanie Lee is a masters student in the Human-Computer Interaction program at Georgia Institute of Technology. Her field interests include user centered research, project management, and inclusion in design for neurodiversity." homepage="https://www.linkedin.com/in/stephhlee671/" %}
         </li>
         <li class="block w25">
           {% include authorbox.html picture="soy.png" name="So-youn Jang" details="So-youn Jang is a PhD student in the Department of Communication at Seoul National University in South Korea. Her research lies at the intersection of health communication, social computing and HCl." %}
