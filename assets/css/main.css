@@ -2068,6 +2068,7 @@ body {
   display: block;
   margin-top: 0.75rem;
   font-weight: 300;
+  padding-bottom: 5px;
 }
 .blockGroup-list .postArticle-image {
   background-size: cover;
@@ -2114,11 +2115,16 @@ body {
 .blockGroup-list .block-postDetails {
   padding-bottom: 10px;
   font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+.blockGroup-list .w25 .block-postDetails {
+  line-height: 1rem;
+  font-size: 0.75rem;
 }
 .blockGroup-list .postArticle-title,
 .blockGroup-list .block-postDetails {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 5px;
 }
 
 .desaturate {
