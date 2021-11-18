@@ -40,7 +40,7 @@ The following professionals and students have contributed to the design and impl
           {% include authorbox.html picture="jisu.png" homepage="https://www.linkedin.com/in/jisup/" name="Jisu Park" details="Jisu Park is a third-year Ph.D. student in the Digital Media Program at Georgia Tech with a primary research interest in how AR and VR could be used in informal educational settings." %}
         </li>
         <li class="block w25">
-          {% include authorbox.html name="Colin Freeman" details="" %}
+          {% include authorbox.html name="Colin Freeman" details="Digital media content creator specializing in 3D modeling and content optimization for XR applications." picture="colin.png" %}
         </li>
         <li class="block w25">
           {% include authorbox.html name="Alex LaBarre" details="" %}
@@ -55,7 +55,7 @@ The following professionals and students have contributed to the design and impl
           {% include authorbox.html name="Zach Phillips-Gary" details="" %}
         </li>
         <li class="block w25">
-          {% include authorbox.html picture="lucy.png" name="Lucy Chen" details="" %}
+          {% include authorbox.html picture="lucy.png" name="Lucy Chen" details="Lucy Chen is a M.S. Human-Computer Interaction student at the Georgia Institute of Technology specializing in inclusive design and innovation in tech" homepage="https://www.lucytchen.com/" %}
         </li>
         <li class="block w25">
           {% include authorbox.html picture="stephanie.png" name="Stephanie Lee" details="Stephanie Lee is a masters student in the Human-Computer Interaction program at Georgia Institute of Technology. Her field interests include user centered research, project management, and inclusion in design for neurodiversity." homepage="https://www.linkedin.com/in/stephhlee671/" %}
