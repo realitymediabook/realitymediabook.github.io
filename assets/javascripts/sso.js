@@ -186,6 +186,7 @@ async function getUserData(credentials) {
                   break;
             }  
             window.SSO.userInfo = null;
+            window.SSO.credentials = null
             updatePageLinks()
             return
         }
@@ -193,17 +194,24 @@ async function getUserData(credentials) {
         if (response.status == 200) {
             response.json().then(user => {
                 window.SSO.userInfo = user
+                window.SSO.credentials = credentials
                 updatePageLinks()
             })
         }
     }).catch(e => {
         console.error("Call to SSO Server failed: ", e)
         window.SSO.userInfo = null;
+        window.SSO.credentials = null
         updatePageLinks()
     })
 }
 
 async function updateLoginStatus(newValue) {
+    if (window.SSO.credentials && window.SSO.userInfo && window.SSO.credentials.email === credentials.email && window.SSO.credentials.token === credentials.token) {
+        console.log("Credentials unchanged")
+        return;
+    }
+
     let div = document.querySelector('#login-status');
     div.innerHTML = 'Signing in ...'
     if (!newValue) {
@@ -225,6 +233,7 @@ async function updateLoginStatus(newValue) {
     }
     div.innerHTML = '<a href="/notLoggedIn">Sign in</a>'
     window.SSO.userInfo = null
+    window.SSO.credentials = null
     updatePageLinks()
 }
 
