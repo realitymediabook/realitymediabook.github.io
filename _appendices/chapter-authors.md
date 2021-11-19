@@ -4,7 +4,7 @@ title:  "Authors and Designers"
 chapter: ""
 order: 12
 image:
-  feature: authors-chat.png
+  feature: authors-chat.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker

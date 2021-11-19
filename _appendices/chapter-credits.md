@@ -17,6 +17,8 @@ permalink: /credits/
 <h2>Genres</h2>
 
 
-The banner image for Chapter 10 is <a href="https://www.freestock.com/free-photos/handsome-businessman-vr-goggle-falling-white-797790145">used under license from Freestock.com</a>.
+The banner image for Chapter "The Myths of Total AR and Total VR, and Other Possible Futures" is <a href="https://www.freestock.com/free-photos/handsome-businessman-vr-goggle-falling-white-797790145">used under license from Freestock.com</a>.
 
 The banner image for the Devices page uses a laptop image from <a href="https://www.allwhitebackground.com/laptop.html">HD Wallpapers</a>.
+
+The banner image for the "Authors" page is <a href="https://www.freestock.com/free-photos/unposed-group-creative-business-people-open-413710657">used under license from Freestock.com</a>

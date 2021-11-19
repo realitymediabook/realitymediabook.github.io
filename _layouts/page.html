@@ -23,7 +23,11 @@ layout: default
     </div>
     <div class="section-title is-darkBackgrounded u-tableCell u-verticalAlignMiddle">
       <div class="container">
+        {% if page.url != '/index.html' %}
         <h2>{{ page.title }}</h2>
+        {% else %}
+        <h2 style="text-transform: uppercase;">{{ page.title }}</h2>
+        {% endif %}
         <div class="postMeta-wrapper">
           <ul class="postMeta">
             <li class="postMeta-datetime">
