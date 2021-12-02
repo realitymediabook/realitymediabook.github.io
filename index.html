@@ -16,8 +16,8 @@ permalink: /index.html
          Additional content will be added through the end of 2021 and early 2022.</em></h4>
 
          <p></p>
-      <div style="width:45%; float: right;">
-        <img src="{{ site.baseurl_book_img }}mit-press-image.png" style="width: 100%" >
+      <div class="right-side">
+        <a href="https://mitpress.mit.edu/books/reality-media"><img src="{{ site.baseurl_book_img }}mit-press-image.png" style="width: 100%" ></img></a>
         </div>
 
         <p>
@@ -26,12 +26,10 @@ permalink: /index.html
         inside AR and VR—to inhabit these new reality media.
     </p>
 
-    <p>Each of the 2D Gallery pages on this site has a corresponding immersive 3D Gallery space in the immersive site. You can read any of the gallery pages below by clicking on the
-      appropriate image. These pages provide context for your visit as well as links into the corresponding 3D galleries (the portal symbol <i class="fas fa-vr-cardboard"></i> indicates a link). </p>
+    
 
-      <p>The first Gallery, the Preface, explains the concept behind the project and has links into the starting spaces in the immersive book.</p>
-      <div class="blockGroup">
-        <ul class="blockGroup-list">
+      <div class="blockGroup right-side">
+        <ul style="margin-bottom: 0;" class="blockGroup-list">
           {% assign chapters = site.chapters | sort: "order" %}
           {% for post in chapters %}
               {% if post.frontpagegroup == 0 %}
@@ -42,7 +40,13 @@ permalink: /index.html
             {% endfor %}
         </ul>
     </div>
+    <p>The 2D and 3D sites are organized as a collection of Galleries; in the 2D site, these are pages, and in the 3D site, they are 3D spaces. Each of the 2D Gallery pages on this site has a corresponding immersive 3D Gallery space in the immersive site. The first Gallery, the Preface, explains the concept behind the project and has links into the starting spaces in the immersive book.</p>
 
+    <p>You can read any of the 2D Gallery pages below by clicking on the
+        appropriate image. These pages provide context for your visit as well as links into the corresponding 3D galleries (the portal symbol <i class="fas fa-vr-cardboard"></i> indicates a link into the 3D Gallery). 
+      </p>
+
+  
     <div class="not-logged-in">
         <h4>Creating an Account and Signing In</h4>
         <p>

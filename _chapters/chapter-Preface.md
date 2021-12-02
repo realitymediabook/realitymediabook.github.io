@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Preface: Three Books"
-chapter: ""
+chapter: "Printed, 2D and 3D web sites"
 order: 2
 image:
   feature: book-cover.jpg

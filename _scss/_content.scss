@@ -37,6 +37,15 @@
   padding: 0;
 }
 
+.right-side {
+    width: 50%;
+    float: right;
+    margin-left: 0.5rem;
+
+    @media (max-width: $screen-xs-max) {
+        width: 100%;
+    }
+}
 // Inspired by Squareup.com
 
 .blockGroup-list {
@@ -83,7 +92,7 @@
     .postArticle-image {
        padding-top: 30%;
 
-      @media (max-width: $screen-xs-max) {
+    @media (max-width: $screen-xs-max) {
         padding-top: 50%;
       }
     }
