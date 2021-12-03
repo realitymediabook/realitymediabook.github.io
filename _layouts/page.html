@@ -54,7 +54,8 @@ layout: default
       <div class="content-body">
 
         {{ content }}
-
+        {% include social.html %}
+        <hr>
       </div>
     </div>
     <!-- <hr class="u-clearHr"/>
@@ -62,14 +63,6 @@ layout: default
     <hr/> -->
   </section>
   <footer class="postFooter">
-    {% include social.html %}
-    <div> 
-        <a href="{{ site.baseurl }}/authors-designers">Authors</a> | 
-        <a href="{{ site.baseurl }}/credits">Credits</a> | 
-        <a href="{{ site.baseurl }}/devices">Technical Requirements</a> | 
-        <a href="{{ site.baseurl }}/technical">Implementation Details</a> 
-
-    </div>
     {% include footer.html %}
   </footer>
 </article>
