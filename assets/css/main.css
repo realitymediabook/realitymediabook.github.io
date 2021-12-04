@@ -2252,7 +2252,7 @@ body {
 .section--last {
   position: relative;
   clear: both;
-  padding: 1.5rem 0 1.5rem;
+  padding: 1.5rem 0 3rem;
   background: #fff;
 }
 

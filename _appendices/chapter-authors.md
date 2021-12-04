@@ -52,7 +52,7 @@ The following professionals and students have contributed to the design and impl
           {% include authorbox.html name="Nirui Kang" details="" %}
         </li>
         <li class="block w25">
-          {% include authorbox.html name="Zach Phillips-Gary" details="" %}
+          {% include authorbox.html name="Zach Phillips-Gary" details="Zach Phillips-Gary is a software engineer with interests in HCI,  Computer-Aided Language Learning, and Natural Language Processing. He works for Jahnel Group as a DevOps Engineer and is a part-time graduate student at Georgia Tech." homepage="https://zachphillipsgary.github.io" %}
         </li>
         <li class="block w25">
           {% include authorbox.html picture="lucy.png" name="Lucy Chen" details="Lucy Chen is a M.S. Human-Computer Interaction student at the Georgia Institute of Technology specializing in inclusive design and innovation in tech" homepage="https://www.lucytchen.com/" %}
