@@ -43,13 +43,13 @@ The following professionals and students have contributed to the design and impl
           {% include authorbox.html name="Colin Freeman" details="Digital media content creator specializing in 3D modeling and content optimization for XR applications." picture="colin.png" %}
         </li>
         <li class="block w25">
-          {% include authorbox.html name="Alex LaBarre" details="" %}
+          {% include authorbox.html name="Alex LaBarre" details="3D Artist/2D animator: Character and Environment Modeling, Texturing, and Rigging as well as 2D Traditional Animation. Additional experience in 3D Animation, Concept Design, and Project Management." %}
         </li>
         <li class="block w25">
           {% include authorbox.html name="Matthew Rossman" picture="matt.png" details="Matt Rossman is an MS HCI student at Georgia Tech researching features to support communication and remote work on the immersive web." homepage="https://mattrossman.com" %}
         </li>
         <li class="block w25">
-          {% include authorbox.html name="Nirui Kang" details="" %}
+          {% include authorbox.html name="Nirui Kang" details="Graduate student in Digital Media at Georgia Tech with a prior degree in Architecture. She contributed to the visual and conceptual design of the immersive book as a built (virtual) space." %}
         </li>
         <li class="block w25">
           {% include authorbox.html name="Zach Phillips-Gary" details="Zach Phillips-Gary is a software engineer with interests in HCI,  Computer-Aided Language Learning, and Natural Language Processing. He works for Jahnel Group as a DevOps Engineer and is a part-time graduate student at Georgia Tech." homepage="https://zachphillipsgary.github.io" %}
