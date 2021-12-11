@@ -43,7 +43,7 @@ The following professionals and students have contributed to the design and impl
           {% include authorbox.html name="Colin Freeman" details="Digital media content creator specializing in 3D modeling and content optimization for XR applications." picture="colin.png" %}
         </li>
         <li class="block w25">
-          {% include authorbox.html name="Alex LaBarre" details="3D Artist/2D animator: Character and Environment Modeling, Texturing, and Rigging as well as 2D Traditional Animation. Additional experience in 3D Animation, Concept Design, and Project Management." %}
+          {% include authorbox.html picture="alex.jpg" homepage="https://www.alexlabarre.com" name="Alex LaBarre" details="Alex LaBarre, a graduate of Savannah College of Art & Design, is a 3D Animator and Artist with additional experience in character & environmental modeling, texturing, and rigging." %}
         </li>
         <li class="block w25">
           {% include authorbox.html name="Matthew Rossman" picture="matt.png" details="Matt Rossman is an MS HCI student at Georgia Tech researching features to support communication and remote work on the immersive web." homepage="https://mattrossman.com" %}
