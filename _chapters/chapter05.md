@@ -14,7 +14,7 @@ frontpagegroup: 1
 permalink: /presence/
 ---
 ####Presence
-*Presence* has been an important concept for philosophers as early as Plato and as recent as Heidegger and Derrida. For computer researchers working on VR, the term gained currency with the apperance of the journal *Presence* in 1992. Just as <a href="{{site.baseurl}}graphics-tracking">photorealism</a> had been the goal of computer graphics, presence became the goal of VR. The ideal VR system would lead the user to feel that she was actually in CG world. The VR world would become her reality, but no current VR can deceive its users so completely. A feeling of presence is always accompanied by some residual or recurring awareness of technology. The La Ciotat myth always gives way to the <a href="{{site.baseurl}}/what-are-reality-media">LaCiotat effect</a>. 
+*Presence* has been an important concept for philosophers as early as Plato and as recent as Heidegger and Derrida. For computer researchers working on VR, the term gained currency with the appearance of the journal *Presence* in 1992. Just as <a href="{{site.baseurl}}graphics-tracking">photorealism</a> had been the goal of computer graphics, presence became the goal of VR. The ideal VR system would lead the user to feel that she was actually in CG world. The VR world would become her reality, but no current VR can deceive its users so completely. A feeling of presence is always accompanied by some residual or recurring awareness of technology. The La Ciotat myth always gives way to the <a href="{{site.baseurl}}/what-are-reality-media">LaCiotat effect</a>. 
 
 Computer specialists have offered a variety of definitions of presence, including: 
 
