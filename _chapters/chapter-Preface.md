@@ -78,4 +78,4 @@ The seven galleries correspond to the ten chapters of the printed book as follow
 Within each gallery are 3D models, videos, images, and text. In some of the galleries, you will be invited to interact with the models. Other 3D models or videos simply run and invite you to watch. 
 
 
-Enter the <a class="xrlink" room="0" waypoint="onboarding">Onboarding Area</a> to begin with a technical overview and brief tutorial, or go directly to the the <a class="xrlink" room="0" waypoint="start">Rotunda</a> to begin the experience.
+Enter the <a class="xrlink" room="0" waypoint="onboarding">Arrival Hall</a> to begin with a technical overview and brief tutorial, or go directly to the the <a class="xrlink" room="0" waypoint="start">Rotunda</a> to begin the experience.
