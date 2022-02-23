@@ -1,6 +1,5 @@
 vendor
 node_modules
-Gemfile.lock
 _site
 .DS_Store
 docs
