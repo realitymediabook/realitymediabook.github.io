@@ -1,0 +1,97 @@
+---
+layout: page
+title: Reality Media
+image:
+  feature: realitymedia-title-image.jpg
+bgContrast: dark
+bgGradientOpacity: darker
+syntaxHighlighter: no
+sidebar: false
+permalink: /index-not-logged-in.html
+  
+---
+
+      <h4><em>Development of the Immersive version of the book is behind due to pandemic-related delays, but some spaces are available.
+         Additional content will be added through mid-2022.</em></h4>
+
+         <p></p>
+      <div class="right-side">
+        <a href="https://mitpress.mit.edu/books/reality-media"><img src="{{ site.baseurl_book_img }}mit-press-image.png" style="width: 100%" ></img></a>
+        </div>
+
+        <p>
+       This digital version of <i>Reality Media</i> is a complement to the printed book. The digital version has both 2D and 3D forms.
+       The 2D and 3D sites are organized as a collection of galleries; in the 2D site these are pages, and in the 3D site they are 3D spaces that allow you to get inside AR and VR—to inhabit these new reality media. Each of the 2D gallery pages has a corresponding immersive 3D gallery space.
+    </p>
+ 
+    <hr>
+    <!--Below is the group of image blocks (3 rows/4colums) that link into the gallery web pages and another group below that for 
+    extra information e.g. authors and credits-->
+    <h4>The Galleries</h4>
+    <div style="width:35%; float: right;">
+        <img src="{{ site.baseurl_book_img }}ch-preface/Map_transparent.png" style="width: 100%" >
+        </div>
+    <p>The 3D galleries of <em>RealityMedia</em> are organized around a central rotunda and contains an overview of each immersive gallery along with a portal to each gallery. The rotunda serves as an organizational hub and can be accessed from each of the immersive galleries.</p>
+
+    <p>Links to the 2D galleries of <em>RealityMedia</em> are listed below. These pages provide context for your visit as well as links into the corresponding 3D galleries (the portal symbol <i class="fas fa-vr-cardboard"></i> indicates a link into a 3D gallery). 
+    </p>
+  
+    The Preface explains the concept behind the project.
+
+    <div class="blockGroup">
+      <ul style="margin-bottom: 0;" class="blockGroup-list">
+        {% assign chapters = site.chapters | sort: "order" %}
+        {% for post in chapters %}
+            {% if post.frontpagegroup == 0 %}
+            <li class="block w100">
+              {% include postbox.html post=post %}
+            </li>
+            {% endif %}
+          {% endfor %}
+      </ul>
+    </div>
+
+    <div class="blockGroup">
+        <ul class="blockGroup-list">
+
+            {% assign chapters = site.chapters | sort: "order" %}
+            {% for post in chapters %}
+                {% if post.frontpagegroup == 1 %}
+                <li class="block">
+                    {% include postbox.html post=post %}
+                </li>
+                {% endif %}
+            {% endfor %}
+         </ul>
+    </div>
+    </div>
+    <!-- <h4> Additional information</h4>
+    <div class="blockGroup">
+        <ul class="blockGroup-list">
+    
+            {% assign chapters = site.chapters | sort: "order" %}
+            {% for post in chapters %}
+            {% if post.frontpagegroup == 2 %}
+            <li class="block w25">
+              <div class="postArticle-wrapper">
+                <article class="postArticle postArticle--short">
+                  {% if post.image.feature %}
+                    <a href="{{site.baseurl}}{{ post.url }}">
+                      <div class="postArticle-image desaturate" style="background-image:url('{{ post.image.feature | prepend: site.baseurl_featured_img }}')">
+                      </div>
+                    </a>
+                  {% else %}
+                  <a href="{{site.baseurl}}{{ post.url }}">
+                    <div class="postArticle-image" style="background-image:url('{{site.baseurl}}/assets/images/logo-black.svg')">
+                    </div>
+                  </a>
+                  {% endif %}
+                  <a class="postArticle-title" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+                </article>
+                <div class="block-postMeta">{{ post.chapter }}</div>
+              </div>
+            </li>
+            {% endif %}
+          {% endfor %}
+      </ul>
+        </div> -->
