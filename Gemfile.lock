@@ -55,7 +55,11 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
 
 PLATFORMS
+  universal-darwin-21
   arm64-darwin-21
+  x86_64-darwin-16
+  x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 3.4)
