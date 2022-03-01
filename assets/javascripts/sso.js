@@ -19,11 +19,11 @@ var windowObjectPreviousUrl = null;
 var windowName = "XRHubsWindow"
 
 window.EXopenRequested = function(url) {
-    console.log("followed link " + url)
+    //console.log("followed link " + url)
 }
 
 window.XRopenRequested = function(url) {
-    console.log("followed link " + url)
+    //console.log("followed link " + url)
     // if(windowObjectReference == null || windowObjectReference.closed) {
     //     windowObjectReference = window.open(url, windowName);
     // } else if (windowObjectPreviousUrl != url) {
@@ -128,18 +128,18 @@ async function resetUserRooms() {
     }
 
     return await fetch(url, request).then(response => {
-        console.log("reset user rooms reply: ", response)
+        //console.log("reset user rooms reply: ", response)
         if (!response.ok) {
             switch(response.status) {
                 case 400:  
                   response.json().then(data => {
-                      console.error("Error calling SSO Server:", data);
+                      //console.error("Error calling SSO Server:", data);
                   });
                   break;
 
                 case 500:
                   response.json().then(data => {
-                      console.error("Error calling SSO Server:", data);
+                      //console.error("Error calling SSO Server:", data);
                   });
                   break;
             }  
@@ -148,11 +148,11 @@ async function resetUserRooms() {
 
         //if (response.status == 200) {
             response.json().then(user => {
-                console.log("reset user rooms succeeded for user " + user)
+                //console.log("reset user rooms succeeded for user " + user)
             })
         //}
     }).catch(e => {
-        console.error("Call to SSO Server failed: ", e)
+        //console.error("Call to SSO Server failed: ", e)
         return null
     })
 }
@@ -170,18 +170,18 @@ async function getUserData(credentials) {
     };
 
     return await fetch(url, request).then(response => {
-        console.log("get user info reply: ", response)
+        //console.log("get user info reply: ", response)
         if (!response.ok) {
             switch(response.status) {
                 case 400:  
                   response.json().then(data => {
-                      console.error("Error calling SSO Server:", data);
+                      //console.error("Error calling SSO Server:", data);
                   });
                   break;
 
                 case 500:
                   response.json().then(data => {
-                      console.error("Error calling SSO Server:", data);
+                      //console.error("Error calling SSO Server:", data);
                   });
                   break;
             }  
@@ -199,7 +199,7 @@ async function getUserData(credentials) {
             })
        // }
     }).catch(e => {
-        console.error("Call to SSO Server failed: ", e)
+        //console.error("Call to SSO Server failed: ", e)
         window.SSO.userInfo = null;
         window.SSO.credentials = null
         updatePageLinks()
@@ -208,7 +208,7 @@ async function getUserData(credentials) {
 
 async function updateLoginStatus(newValue) {
     if (window.SSO.credentials && window.SSO.userInfo && window.SSO.credentials.email === credentials.email && window.SSO.credentials.token === credentials.token) {
-        console.log("Credentials unchanged")
+        //console.log("Credentials unchanged")
         return;
     }
 
@@ -246,6 +246,11 @@ window.addEventListener('storage', function(e) {
     }
 });
 
+function pingLoginStatus() {
+    updateLoginStatus()
+    setTimeout(pingLoginStatus, 1000)
+}
+
 function setupLoginStatus() {
     var linkEls = document.getElementsByClassName("xrlink")
     var i;
@@ -276,7 +281,8 @@ function setupLoginStatus() {
             // l.innerHTML = t
         }
     }
-    updateLoginStatus();
+    //updateLoginStatus();
+    pingLoginStatus()
 }
 
 if (document.readyState === 'complete') {
