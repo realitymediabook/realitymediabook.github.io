@@ -206,14 +206,16 @@ async function getUserData(credentials) {
     })
 }
 
-async function updateLoginStatus(newValue) {
+async function updateLoginStatus(newValue, silent) {
     if (window.SSO.credentials && window.SSO.userInfo && window.SSO.credentials.email === credentials.email && window.SSO.credentials.token === credentials.token) {
         //console.log("Credentials unchanged")
         return;
     }
 
     let div = document.querySelector('#login-status');
-    div.innerHTML = 'Signing in ...'
+    if (!silent) {
+        div.innerHTML = 'Signing in ...'
+    }
     if (!newValue) {
         newValue = window.localStorage.getItem("__ael_hubs_sso")
     }
@@ -247,7 +249,7 @@ window.addEventListener('storage', function(e) {
 });
 
 function pingLoginStatus() {
-    updateLoginStatus()
+    updateLoginStatus(null, true)
     setTimeout(pingLoginStatus, 1000)
 }
 
