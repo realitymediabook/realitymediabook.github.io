@@ -248,10 +248,10 @@ window.addEventListener('storage', function(e) {
     }
 });
 
-function pingLoginStatus() {
-    updateLoginStatus(null, true)
-    setTimeout(pingLoginStatus, 1000)
-}
+// function pingLoginStatus() {
+//     updateLoginStatus(null, true)
+//     setTimeout(pingLoginStatus, 1000)
+// }
 
 function setupLoginStatus() {
     var linkEls = document.getElementsByClassName("xrlink")
@@ -283,8 +283,8 @@ function setupLoginStatus() {
             // l.innerHTML = t
         }
     }
-    //updateLoginStatus();
-    pingLoginStatus()
+    updateLoginStatus();
+    //pingLoginStatus()
 }
 
 if (document.readyState === 'complete') {
