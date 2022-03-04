@@ -20,6 +20,7 @@ description:         'How augmented reality and virtual reality are taking their
 url:                 https://realitymedia.digital
 #rss:                 rss feed url
 baseurl:             ''
+baseurl_img:         '/assets/images/'
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_book_img:   '/assets/images/book/'
 baseurl_featured_img: '/assets/images/hero/'
