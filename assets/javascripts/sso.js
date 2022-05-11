@@ -316,7 +316,7 @@ function setupLoginStatus() {
     if (linkEls.length > 0) { 
         for (i=0; i < linkEls.length; i++)  {
             let l = linkEls[i]
-            let t = "<i class='fas fa-vr-cardboard'></i> " 
+            let t = "<i class='fas fa-vr-cardboard'></i>" 
             let inner = l.innerHTML
             if (inner != "") { t = inner + " " + t }
             l.setAttribute("linkText", l.innerHTML)
