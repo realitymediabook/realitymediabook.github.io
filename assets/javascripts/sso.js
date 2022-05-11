@@ -196,6 +196,8 @@ async function getUserData(credentials) {
                 window.SSO.userInfo = user
                 window.SSO.credentials = credentials
                 updatePageLinks()
+                logEvent("page-entered");
+
             })
        // }
     }).catch(e => {
@@ -253,6 +255,67 @@ window.addEventListener('storage', function(e) {
 //     setTimeout(pingLoginStatus, 1000)
 // }
 
+let logEvent = async function (eventName, param1, param2) {
+    const options = {};
+    let id = (window.SSO.userInfo && window.SSO.userInfo && window.SSO.userInfo.user.id) ? window.SSO.userInfo.user.id : null;
+    if (!id) {
+        return;
+    }
+
+    options.headers = new Headers();
+    options.headers.set("Content-Type", "application/json");
+    options.credentials = "include"; // use cookie
+    var url = "https://realitymedia.digital/logging/log/?token=" + 
+        encodeURIComponent(window.SSO.credentials.token)
+        url += "&id=" + encodeURIComponent(id);
+        url += "&event=" + encodeURIComponent(eventName); 
+        url += "&timestamp=" + encodeURIComponent(Date.now()); 
+        url += "&location=" + "";
+        url += "&param1=" + (param1 ? encodeURIComponent(param1) : "");
+        url += "&param2=" + (param2 ? encodeURIComponent(param2) : ""); 
+        url += "&room=" + encodeURIComponent(location.href);
+    console.log("Logging: " + url);
+    // await fetch(url, options)
+    //     .then(response => response.json())
+    //     .then(data => {
+    //         console.log('Log reply:', data.message);
+    // })
+}
+
+let followLinkClick = function (event) {
+    // Get url from the target element (<a>) href attribute
+    var url= "";
+    event.preventDefault();
+
+    if (event.target instanceof HTMLElement) {
+        if (event.target instanceof HTMLAnchorElement) {
+            url = event.target.href;
+            // Prevent default action (e.g. following the link)
+        } else if (event.target instanceof HTMLSpanElement) {
+            let child = event.target.childNodes[0]
+            if (child instanceof HTMLAnchorElement) {
+                url = child.href;;
+            }
+        }
+        logAndFollow(event.target.id, url, event.target.target);
+    }
+}
+
+let logAndFollow = async function (id, url, target) {   
+    await logLink(id, url)
+    if (url.length > 0) {
+        if (target && target.length > 0) {
+            window.open(url, target);
+        } else {
+            window.location.href = url;
+        }
+    }
+}
+
+let logLink = async function (param1, param2) {
+    await logEvent("link-clicked", param1, param2);
+}
+
 function setupLoginStatus() {
     var linkEls = document.getElementsByClassName("xrlink")
     var i;
@@ -272,13 +335,15 @@ function setupLoginStatus() {
     //if (linkEls.length == 0) { return }
     if (linkEls.length > 0) { 
         for (i=0; i < linkEls.length; i++)  {
-            let l = linkEls[i]
+            let l = linkEls[i];
 
-            //let link = l.getAttribute("link")
-            // var text = l.getAttribute("linkText")
+            let inner = l.innerHTML;
+            l.setAttribute("linkText", inner);
 
-            //let t = "<a href='" + link + "' onclick='EXopenRequested(this.href)'>" + text + "</a>"
-            l.setAttribute('onclick','EXopenRequested(this.href)')
+            let link = l.getAttribute("href");
+            l.setAttribute("link", link);
+
+            l.onclick = followLinkClick;
 
             // l.innerHTML = t
         }
