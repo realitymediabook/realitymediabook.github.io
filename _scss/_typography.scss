@@ -77,6 +77,13 @@ ol {
   }
 }
 
+p.centered {  
+  line-height: $leading;
+  font-style: italic;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 blockquote {
   line-height: $leading;
   font-style: italic;
