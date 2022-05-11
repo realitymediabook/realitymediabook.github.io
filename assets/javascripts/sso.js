@@ -284,20 +284,14 @@ let logEvent = async function (eventName, param1, param2) {
 
 let followLinkClick = function (event) {
     // Get url from the target element (<a>) href attribute
-    var url= "";
     event.preventDefault();
 
-    if (event.target instanceof HTMLElement) {
-        if (event.target instanceof HTMLAnchorElement) {
-            url = event.target.href;
-            // Prevent default action (e.g. following the link)
-        } else if (event.target instanceof HTMLSpanElement) {
-            let child = event.target.childNodes[0]
-            if (child instanceof HTMLAnchorElement) {
-                url = child.href;;
-            }
+    let target = event.currentTarget
+    if (target instanceof HTMLElement) {
+        if (target instanceof HTMLAnchorElement) {
+            let url = target.href;
+            logAndFollow(target.id, url, target.target);
         }
-        logAndFollow(event.target.id, url, event.target.target);
     }
 }
 
