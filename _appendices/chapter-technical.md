@@ -30,7 +30,7 @@ Explain that the galleries are grouped into Hubs rooms. These rooms are actually
 
 
 
-The documentation for Mozilla Hubs is available at <a href="https://hubs.mozilla.com/docs" target="blank">in the Hubs user documentation</a>.  
+The documentation for Mozilla Hubs is available at <a class="exlink" href="https://hubs.mozilla.com/docs" target="blank">in the Hubs user documentation</a>.  
 
 ##### The customized Hubs server
 

@@ -22,7 +22,7 @@ In order to enter the immersive 3D galleries yourself, you will need to create a
   <p><span style="color: red;">As you go through these steps, please be sure to keep this tab open so you can return to it when you are done.</span> When you return, you may need to refresh the page for it to show that you are signed on in the menu bar at the top of the screen.</p>
   <h5>Step 1</h5>
   <p>
-    Enter your email on our immersive 3D site <a href="https://xr.realitymedia.digital/signin" target="_blank">xr.realitymedia.digital</a>. 
+    Enter your email on our immersive 3D site <a class="exlink" href="https://xr.realitymedia.digital/signin" target="_blank">xr.realitymedia.digital</a>. 
   </p> 
   <p>
     <img src="{{ site.baseurl_img }}login-emailflow.png" class="center" ></img></a>

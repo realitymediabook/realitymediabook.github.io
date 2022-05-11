@@ -2,20 +2,20 @@
     <article class="postArticle postArticle-short">
       {% if include.picture %}
         {% if include.homepage %}
-          <a href="{{include.homepage }}" target="_blank">
+          <a class="exlink" href="{{include.homepage }}" target="_blank">
         {% endif %}
             <div class="postArticle-image desaturate" style="background-image: url('{{ site.baseurl_book_img }}ch-authors/{{ include.picture }}');">
           </div>{% if include.homepage %}</a>{% endif %}
       {% else %}
         {% if include.homepage %}
-          <a href="{{include.homepage }}" target="_blank">
+          <a class="exlink" href="{{include.homepage }}" target="_blank">
         {% endif %}
         <div class="postArticle-image" style="background-image:url('{{ site.baseurl_book_img }}ch-authors/no-author-pic.png')">
         </div>{% if include.homepage %}</a>{% endif %}
       {% endif %}
         <div class="postArticle-title">
         {% if include.homepage %}
-          <a href="{{include.homepage }}" target="_blank">
+          <a class="exlink" href="{{include.homepage }}" target="_blank">
         {% endif %}
         <b>{{ include.name }}</b>{% if include.homepage %}</a>{% endif %}
         </div> 
