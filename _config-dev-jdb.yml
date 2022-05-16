@@ -3,8 +3,8 @@ url:                 https://jdbolter.github.io
 baseurl:             /realitymediabook-draft.github.io
 destination:      	 ./docs
 exclude:          	 [vendor, ".gitignore", "CONTRIBUTING.md", "LICENSE", "gulpfile.js", "package.json", "package-lock.json", "node_modules", "README.md", "sass", "docs", "old", "Gemfile", "Gemfile.lock"]
-baseurl_posts_img:   '/realitymediabook-draft.github.io/assets/images/posts/'
-baseurl_book_img:   '/realitymediabook-draft.github.io/assets/images/book/'
-baseurl_featured_img: '/realitymediabook-draft.github.io/assets/images/hero/'
-baseurl_featured_thumbnail: '/realitymediabook-draft.github.io/assets/images/thumbnail/'
-baseurl_javascripts: '/realitymediabook-draft.github.io/assets/javascripts/'
+baseurl_posts_img:   '/realitymediabook-draft.github.io/assets/images/posts'
+baseurl_book_img:   '/realitymediabook-draft.github.io/assets/images/book'
+baseurl_featured_img: '/realitymediabook-draft.github.io/assets/images/hero'
+baseurl_featured_thumbnail: '/realitymediabook-draft.github.io/assets/images/thumbnail'
+baseurl_javascripts: '/realitymediabook-draft.github.io/assets/javascripts'

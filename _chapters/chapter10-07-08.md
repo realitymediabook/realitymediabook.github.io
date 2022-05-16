@@ -17,7 +17,7 @@ This gallery on the future(s) of AR and VR corresponds to three chapters in the 
 
 In *Speculative Everything* Anthony Dunne and Fiona Raby suggest three categories for imagining the future, ranging the most likely to the least: the probable, the plausible, and the possible. (For Dunne and Raby, the preferable, is a subset of what is probable and plausible.)
 
-<img class="img img--fullContainer img--16xLeading" src="{{ site.baseurl_book_img }}ch8-futures/future.jpg">
+<img class="img img--fullContainer img--16xLeading" src="{{ site.baseurl_book_img }}/ch8-futures/future.jpg">
 
 Our gallery of the future consists of three rooms housing the three categories in consecutive order. In the room of the <a class="xrlink" room="6" waypoint="probable">Probable</a>, VR headsets become the preferred platform for 3D computer games,and AR applications on smartphones provide hundreds of millions of users with navigation aids. Social media is extended into VR and AR. All of these innovations are now underway. In the room of the <a class="xrlink" room="6" waypoint="plausible">Plausible</a>, VR conferencing takes its place along video-conferencing. AR headsets are worn in public by more and more people. Finally, in the room of the <a class="xrlink" room="6" waypoint="possible">Possible</a>, AR and VR are taken to their limits. The film critic André Breton wrote an essay in 1946 entitled "The Myth of Total Cinema," in which he imagined the ultimate goal of cinema as the perfected representation of the real. In *Reality Media* we apply his phrase to AR and VR. We can appreciate the significance of AR and VR in part through the myths that they generate. 
 

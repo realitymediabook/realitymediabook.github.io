@@ -3,10 +3,10 @@ layout: default
 ---
 <article class="postWrapper">
   <section class="section--first is-darkBackgrounded u-table">
-    <div class="section-backgroundImage" style="background-size: cover; background-image: url('{{ page.image.feature | prepend: site.baseurl_featured_img }}');">
+    <div class="section-backgroundImage" style="background-size: cover; background-image: url('{{ page.image.feature | prepend: "/" | prepend: site.baseurl_featured_img }}');">
 <!-- 
       {% if page.image.feature %}
-        <img class="post-featuredImage" src="{{ page.image.feature | prepend: site.baseurl_featured_img }}" style="
+        <img class="post-featuredImage" src="{{ page.image.feature | prepend: "/" | prepend: site.baseurl_featured_img }}" style="
         {% if page.image.topPosition %}
           top:{{ page.image.topPosition }};
         {% endif %}
@@ -64,7 +64,7 @@ layout: default
         <div class="section-backgroundImage section-backgroundImage--previousPage">
           <img class="post-featuredImage"
           {% if page.next.image.feature %}
-            src="{{ page.next.image.feature | prepend: site.baseurl_featured_img }}"
+            src="{{ page.next.image.feature | prepend: "/" | prepend: site.baseurl_featured_img }}"
           {% endif %}
           style="top:0" alt="">
         <div class="section-gradient

@@ -10,7 +10,7 @@
       <li>
         {% if post.image.feature %}
           <a href="{{site.baseurl}}{{ post.url }}" class="exlink sidebar-recentPosts-image-wrapper">
-            <img src="{{ post.image.feature | prepend: site.baseurl_featured_thumbnail }}" style="" alt="">
+            <img src="{{ post.image.feature | prepend: "/" | prepend: site.baseurl_featured_thumbnail }}" style="" alt="">
           </a>
         {% endif %}
         <a class="exlink" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>

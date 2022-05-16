@@ -2,7 +2,7 @@
     <article class="postArticle postArticle--short">
       {% if post.image.feature %}
         <a class="exlink" href="{{site.baseurl}}{{ include.post.url }}">
-          <div class="postArticle-image desaturate" style="background-image:url('{{ include.post.image.feature | prepend: site.baseurl_featured_img }}')">
+          <div class="postArticle-image desaturate" style="background-image:url('{{ include.post.image.feature | prepend: "/" | prepend: site.baseurl_featured_img }}')">
           </div>
         </a>
       {% else %}

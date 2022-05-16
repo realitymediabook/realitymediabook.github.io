@@ -15,7 +15,7 @@ permalink: /preface/
 ---
 *Reality Media* is a project encompassing three related writing spaces, three technologies for representing ideas: print, the web, and immersive VR and AR. 
  
-* The web site that you are now reading is <a class="exlink" href="{{site.baseurl}}">realitymedia.digital</a>.
+* The web site that you are now reading is <a class="exlink" href="{{site.baseurl}}/">realitymedia.digital</a>.
 * The printed book is <a class="exlink" href="https://mitpress.mit.edu/books/reality-media">*Reality Media: Augmented and Virtual Reality* (MIT Press)</a>.
 * The immersive book is *RealityMedia*. (The computer application has no space in its name.)
 
@@ -36,7 +36,7 @@ The portal is a metaphor in the printed book, but it is an operating feature of 
 
 *RealityMedia* consists of a set of galleries organized around a rotunda as you see in the diagram below. 
 
-<div class="img--fullContainer" style="text-align: center;"><img style="width:80%;" src="{{ site.baseurl_book_img }}ch-preface/Map_transparent.png"></div>
+<div class="img--fullContainer" style="text-align: center;"><img style="width:80%;" src="{{ site.baseurl_book_img }}/ch-preface/Map_transparent.png"></div>
 
 The seven galleries correspond to the ten chapters of the printed book as follows:
 

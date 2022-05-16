@@ -15,7 +15,7 @@ permalink: /index-not-logged-in.html
 </div>
   <p></p>
     <div class="right-side">
-      <a class="exlink" href="https://mitpress.mit.edu/books/reality-media"><img src="{{ site.baseurl_book_img }}mit-press-image.png" style="width: 100%" ></img></a>
+      <a class="exlink" href="https://mitpress.mit.edu/books/reality-media"><img src="{{ site.baseurl_book_img }}/mit-press-image.png" style="width: 100%" ></img></a>
     </div>
 
     <p>
@@ -52,7 +52,7 @@ permalink: /index-not-logged-in.html
 
       <!-- <div style="width:35%; float: right;"> -->
         <div class="right-side">
-        <img src="{{ site.baseurl_book_img }}ch-preface/Map_transparent.png" style="width: 100%" >
+        <img src="{{ site.baseurl_book_img }}/ch-preface/Map_transparent.png" style="width: 100%" >
         </div>
 
       <p>
@@ -99,7 +99,7 @@ permalink: /index-not-logged-in.html
                 <article class="postArticle postArticle--short">
                   {% if post.image.feature %}
                     <a class="exlink" href="{{site.baseurl}}{{ post.url }}">
-                      <div class="postArticle-image desaturate" style="background-image:url('{{ post.image.feature | prepend: site.baseurl_featured_img }}')">
+                      <div class="postArticle-image desaturate" style="background-image:url('{{ post.image.feature | prepend: "/" | prepend: site.baseurl_featured_img }}')">
                       </div>
                     </a>
                   {% else %}

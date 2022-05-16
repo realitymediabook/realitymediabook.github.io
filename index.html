@@ -16,7 +16,7 @@ permalink: /index.html
 </div>
   <p></p>
     <div class="right-side">
-      <a class="exlink" href="https://mitpress.mit.edu/books/reality-media"><img src="{{ site.baseurl_book_img }}mit-press-image.png" style="width: 100%" ></img></a>
+      <a class="exlink" href="https://mitpress.mit.edu/books/reality-media"><img src="{{ site.baseurl_book_img }}/mit-press-image.png" style="width: 100%" ></img></a>
     </div>
 
     <p>
@@ -38,28 +38,28 @@ permalink: /index.html
           Enter your email on our immersive 3D site <a class="exlink" href="https://xr.realitymedia.digital/signin" target="_blank">xr.realitymedia.digital</a>. 
         </p> 
         <p>
-          <img src="{{ site.baseurl_img }}login-emailflow.png" class="center" ></img></a>
+          <img src="{{ site.baseurl_img }}/login-emailflow.png" class="center" ></img></a>
         </p>
         <h5>Step 2</h5>
         <p>
           Check your email for the verification email you should receive.  If you don't see it, be sure to check your Junk Mail folder.
         </p>
         <p>
-          <img src="{{ site.baseurl_img }}login-link.jpeg" class="center"  ></img></a>
+          <img src="{{ site.baseurl_img }}/login-link.jpeg" class="center"  ></img></a>
         </p>
         <h5>Step 3</h5>
         <p>
           When you click on the URL in the email, a new browser window or tab should open and let you know verification is complete. You can close this window or tab.
         </p>
         <p>
-          <img src="{{ site.baseurl_img }}login-verified.png" class="center" ></img></a>
+          <img src="{{ site.baseurl_img }}/login-verified.png" class="center" ></img></a>
         </p>      
         <h5>Step 4</h5>
         <p>
           The window or tab where you entered your email should show that you are signed in to xr.realitymedia.digital.  You can close this window or tab.
         </p>
         <p>
-          <img src="{{ site.baseurl_img }}login-done.png" class="center"  ></img></a>
+          <img src="{{ site.baseurl_img }}/login-done.png" class="center"  ></img></a>
         </p> 
       </div>
       <hr>     
@@ -95,7 +95,7 @@ permalink: /index.html
 
       <!-- <div style="width:35%; float: right;"> -->
         <div class="right-side">
-        <img src="{{ site.baseurl_book_img }}ch-preface/Map_transparent.png" style="width: 100%" >
+        <img src="{{ site.baseurl_book_img }}/ch-preface/Map_transparent.png" style="width: 100%" >
         </div>
 
  <p>
@@ -136,7 +136,7 @@ permalink: /index.html
                 <article class="postArticle postArticle--short">
                   {% if post.image.feature %}
                     <a class="exlink" href="{{site.baseurl}}{{ post.url }}">
-                      <div class="postArticle-image desaturate" style="background-image:url('{{ post.image.feature | prepend: site.baseurl_featured_img }}')">
+                      <div class="postArticle-image desaturate" style="background-image:url('{{ post.image.feature | prepend: "/" | prepend: site.baseurl_featured_img }}')">
                       </div>
                     </a>
                   {% else %}

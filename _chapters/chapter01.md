@@ -21,7 +21,7 @@ As we argue in <i>Reality Media</i>, AR and VR have entered into our media cultu
 
 As early as 1995, Paul Milgram and Fumio Kishino proposed what they called the "virtuality continuum" to illustrate the relationship of VR and AR to "unmediated" reality.
 
-<div class="img img--fullContainer img--6xLeading" style="background-image: url({{ site.baseurl_book_img }}milgram.jpg);"></div>
+<div class="img img--fullContainer img--6xLeading" style="background-image: url({{ site.baseurl_book_img }}/milgram.jpg);"></div>
 
 The spectrum illustrates the principal difference between AR and VR: while VR displays create at complete visual world, AR combines computer-generated objects with our view of the world. VR and AR pursue different strategies to represent reality. VR promises <a class="exlink" href="{{site.baseurl}}/presence"> *presence*</a>, while at least some AR experiences promise to enhance the  <a class="exlink" href="{{site.baseurl}}/presence#aura">*aura*</a> of special places, such cultural heritage sites. 
 

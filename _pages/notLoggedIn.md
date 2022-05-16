@@ -25,28 +25,28 @@ In order to enter the immersive 3D galleries yourself, you will need to create a
     Enter your email on our immersive 3D site <a class="exlink" href="https://xr.realitymedia.digital/signin" target="_blank">xr.realitymedia.digital</a>. 
   </p> 
   <p>
-    <img src="{{ site.baseurl_img }}login-emailflow.png" class="center" ></img></a>
+    <img src="{{ site.baseurl_img }}/login-emailflow.png" class="center" ></img></a>
   </p>
   <h5>Step 2</h5>
   <p>
     Check your email for the verification email you should receive.  If you don't see it, be sure to check your Junk Mail folder.
   </p>
   <p>
-    <img src="{{ site.baseurl_img }}login-link.jpeg" class="center"  ></img></a>
+    <img src="{{ site.baseurl_img }}/login-link.jpeg" class="center"  ></img></a>
   </p>
   <h5>Step 3</h5>
   <p>
     When you click on the URL in the email, a new browser window or tab should open and let you know verification is complete. You can close this window or tab.
   </p>
   <p>
-    <img src="{{ site.baseurl_img }}login-verified.png" class="center" ></img></a>
+    <img src="{{ site.baseurl_img }}/login-verified.png" class="center" ></img></a>
   </p>      
   <h5>Step 4</h5>
   <p>
     The window or tab where you entered your email should show that you are signed in to xr.realitymedia.digital.  You can close this window or tab.
   </p>
   <p>
-    <img src="{{ site.baseurl_img }}login-done.png" class="center"  ></img></a>
+    <img src="{{ site.baseurl_img }}/login-done.png" class="center"  ></img></a>
   </p> 
   <hr>     
 </div>
