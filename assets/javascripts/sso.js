@@ -265,15 +265,17 @@ let logEvent = async function (eventName, param1, param2) {
     options.headers = new Headers();
     options.headers.set("Content-Type", "application/json");
     options.credentials = "include"; // use cookie
-    var url = "https://realitymedia.digital/logging/log/?token=" + 
-        encodeURIComponent(window.SSO.credentials.token)
-        url += "&id=" + encodeURIComponent(id);
-        url += "&event=" + encodeURIComponent(eventName); 
-        url += "&timestamp=" + encodeURIComponent(Date.now()); 
-        url += "&location=" + "";
-        url += "&param1=" + (param1 ? encodeURIComponent(param1) : "");
-        url += "&param2=" + (param2 ? encodeURIComponent(param2) : ""); 
-        url += "&room=" + encodeURIComponent(location.href);
+    var url = "https://realitymedia.digital/logging/log/?token="
+    if (window.SSO.credentials && window.SSO.credentials.token) {
+        url += encodeURIComponent(window.SSO.credentials.token);
+    }
+    url += "&id=" + encodeURIComponent(id);
+    url += "&event=" + encodeURIComponent(eventName); 
+    url += "&timestamp=" + encodeURIComponent(Date.now()); 
+    url += "&location=" + "";
+    url += "&param1=" + (param1 ? encodeURIComponent(param1) : "");
+    url += "&param2=" + (param2 ? encodeURIComponent(param2) : ""); 
+    url += "&room=" + encodeURIComponent(location.href);
     console.log("Logging: " + url);
     // await fetch(url, options)
     //     .then(response => response.json())
