@@ -33,4 +33,4 @@ The rationale for these technologies is that they can provide users with new ser
 Together with the other tracking applications on our phones, a new generation of AR technologies look out at the world as well as back at us as users. They can make the entire urban public space (and potentially even our homes) uncanny, because in a sense the space itself now observes us as we observe it and navigate through it. This gallery attempts to convey the uncanny,living quality of this new public space. 
 
 
-Enter the <a class="xrlink" room="6" waypoint="privacy">Privacy Gallery</a>.
+Enter the <a class="xrlink" room="9" waypoint="privacy">Privacy Gallery</a>.
